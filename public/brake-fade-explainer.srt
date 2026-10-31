@@ -1,0 +1,48 @@
+1
+00:00:00,100 --> 00:00:04,413
+Pernah lewat turunan curam pegunungan dan melihat jalur penyelamat darurat?
+
+2
+00:00:04,363 --> 00:00:08,926
+Kenapa rem motor matic bisa mendadak blong padahal kabelnya nggak putus sama sekali?
+
+3
+00:00:08,925 --> 00:00:13,388
+Ternyata, remnya bukan putus, tapi minyak remnya mendidih!
+
+4
+00:00:13,388 --> 00:00:16,563
+Fenomena mematikan ini disebut Vapor Lock.
+
+5
+00:00:16,563 --> 00:00:22,113
+Saat motor matic meluncur turun tanpa engine brake, kita cenderung menekan rem terus-menerus.
+
+6
+00:00:22,113 --> 00:00:27,801
+Gesekan kampas ke piringan cakram menghasilkan panas ekstrem hingga lebih dari dua ratus derajat Celsius!
+
+7
+00:00:27,800 --> 00:00:32,913
+Panas membara ini menjalar ke kaliper dan membuat minyak rem mendidih menjadi gelembung gas.
+
+8
+00:00:32,913 --> 00:00:39,176
+Karena gas bisa membal dan dimampatkan, tuas rem ditarik mentok tapi kaliper sama sekali tidak mencengkeram roda!
+
+9
+00:00:39,175 --> 00:00:44,975
+Nah, itulah alasan kenapa pengendara matic dilarang keras menahan rem terus-menerus di jalan turunan!
+
+10
+00:00:44,975 --> 00:00:49,263
+Bila gelembung gas memenuhi selang, rem mendadak kosong melompong.
+
+11
+00:00:49,263 --> 00:00:54,713
+Dan itulah alasan kenapa kita wajib kocok rem bergantian depan belakang agar cakram sempat dingin!
+
+12
+00:00:54,713 --> 00:00:58,413
+Jalur turunan mana yang paling bikin rem kalian berasa panas?
+

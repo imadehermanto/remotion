@@ -5,4 +5,5 @@ export * from "./three/EnvironmentStage3D";
 export * from "./three/Gizmos3D";
 export * from "./three/KitchenFridge3D";
 export * from "./three/MicroscopeCutaway3D";
+export * from "./three/MotorMatic3D";
 export * from "./ui/ViralShortsUI";

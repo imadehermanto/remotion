@@ -5,6 +5,7 @@ import { Title } from "./HelloWorld/Title";
 import { VoiceOverDemo } from "./VoiceOverDemo";
 import { FridgeExplainer } from "./FridgeExplainer";
 import { AsphaltPotholeExplainer } from "./AsphaltPotholeExplainer";
+import { BrakeFadeExplainer } from "./BrakeFadeExplainer";
 import { AssetShowcase } from "./AssetShowcase";
 import voiceData from "../public/voice.json";
 
@@ -78,6 +79,15 @@ export const RemotionRoot: React.FC = () => {
         id="AsphaltPotholeExplainer"
         component={AsphaltPotholeExplainer}
         durationInFrames={1620}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+
+      <Composition
+        id="BrakeFadeExplainer"
+        component={BrakeFadeExplainer}
+        durationInFrames={1728}
         fps={30}
         width={1080}
         height={1920}

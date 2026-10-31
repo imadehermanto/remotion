@@ -110,6 +110,10 @@ export const SFX = {
   whip: "assets/sfx/whip.wav",
 } as const;
 
+export const BGM = {
+  schemingWeasel: "assets/audio/bgm-scheming-weasel.mp3",
+} as const;
+
 export const DRACO_DECODER_PATH = "assets/draco/";
 
 /**
@@ -131,5 +135,7 @@ export const BRAND_THEME = {
     sunnyOutdoor: "linear-gradient(180deg, #0284c7 0%, #38bdf8 55%, #bae6fd 100%)",
     rainyOvercast: "linear-gradient(180deg, #334155 0%, #475569 55%, #64748b 100%)",
     microscopeDark: "linear-gradient(180deg, #0f172a 0%, #1e293b 60%, #090d16 100%)",
+    dangerRed: "linear-gradient(180deg, #450a0a 0%, #1c0505 60%, #090d16 100%)",
+    mountainSlope: "linear-gradient(180deg, #1e293b 0%, #334155 45%, #475569 100%)",
   },
 } as const;
