@@ -13,17 +13,17 @@ export const ChargerHeatExplainer: React.FC = () => {
   const shotJoule = storyboard.shots[3];
   const shotSafety = storyboard.shots[4];
 
-  // Dynamic cinematic background: Bright, modern tech studio radial spotlight
+  // Creative architectural background: Warm aesthetic room ambient tone
   let bgGradient =
-    "radial-gradient(ellipse at 50% 36%, #2563eb 0%, #1d4ed8 22%, #0e2448 55%, #070d18 100%)";
+    "radial-gradient(ellipse at 50% 38%, #1f2533 0%, #121620 52%, #080a0f 100%)";
   if (frame >= shotJoule.startFrame && frame < shotJoule.endFrame) {
-    // Thermal heat emission warm studio ambiance
+    // Thermal heat emission warm room ambiance
     bgGradient =
-      "radial-gradient(ellipse at 50% 36%, #b91c1c 0%, #7f1d1d 22%, #2b111b 55%, #080913 100%)";
+      "radial-gradient(ellipse at 50% 38%, #331f22 0%, #1e1319 52%, #09080e 100%)";
   } else if (frame >= shotSafety.startFrame) {
-    // Safety evaluation technical studio ambiance
+    // Safety evaluation cozy tech ambiance
     bgGradient =
-      "radial-gradient(ellipse at 50% 36%, #059669 0%, #047857 22%, #0d2c2d 55%, #071118 100%)";
+      "radial-gradient(ellipse at 50% 38%, #132729 0%, #0d1a1e 52%, #070d10 100%)";
   }
 
   // Audio Timing Manifest derived directly from storyboard.json (SSOT)

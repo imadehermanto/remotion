@@ -10,6 +10,7 @@ import {
   PremiumChargerHousing3D,
   SineWaveEnergyStream3D,
 } from "./ChargerMechanisms3D";
+import { CreativeRoomEnvironment3D } from "./CreativeRoomEnvironment3D";
 
 export const ChargerScene3D: React.FC = () => {
   const frame = useCurrentFrame();
@@ -18,51 +19,57 @@ export const ChargerScene3D: React.FC = () => {
   // 1. Professional Camera Waypoints for Vertical 9:16 Framing
   // Formulated with golden ratio composition & ample negative space for UI overlay
   const cameraWaypoints: CameraWaypoint[] = useMemo(() => {
+    const s1 = storyboard.shots[0];
+    const s2 = storyboard.shots[1];
+    const s3 = storyboard.shots[2];
+    const s4 = storyboard.shots[3];
+    const s5 = storyboard.shots[4];
+
     return [
-      // Shot 1: Hero 3/4 Overview (Frames 0 - 335)
+      // Shot 1: Hero 3/4 Overview (Frames 0 - 361)
       {
-        fromFrame: 0,
-        toFrame: 335,
+        fromFrame: s1.startFrame,
+        toFrame: s1.endFrame,
         startPos: [1.8, 1.2, 5.8],
         endPos: [1.1, 0.8, 5.2],
         startLookAt: [0.0, 0.0, 0.0],
         endLookAt: [0.0, 0.0, 0.0],
         fov: 40,
       },
-      // Shot 2: Macro on AC 220V Input Pins (Frames 335 - 666)
+      // Shot 2: Macro on AC 220V Input Pins (Frames 361 - 843)
       {
-        fromFrame: 335,
-        toFrame: 666,
+        fromFrame: s2.startFrame,
+        toFrame: s2.endFrame,
         startPos: [-0.9, 0.6, 4.6],
         endPos: [-0.4, 0.4, 3.8],
         startLookAt: [-0.2, 0.0, 0.0],
         endLookAt: [-0.2, 0.0, 0.0],
         fov: 38,
       },
-      // Shot 3: Technical Exploded View Reveal (Frames 666 - 953)
+      // Shot 3: Technical Exploded View Reveal (Frames 843 - 1248)
       {
-        fromFrame: 666,
-        toFrame: 953,
+        fromFrame: s3.startFrame,
+        toFrame: s3.endFrame,
         startPos: [1.2, 2.2, 4.2],
         endPos: [0.6, 1.8, 3.8],
         startLookAt: [0.0, 0.15, 0.0],
         endLookAt: [0.0, 0.15, 0.0],
         fov: 40,
       },
-      // Shot 4: Macro on Joule Heating Losses (Frames 953 - 1349)
+      // Shot 4: Macro on Joule Heating Losses (Frames 1248 - 1710)
       {
-        fromFrame: 953,
-        toFrame: 1349,
+        fromFrame: s4.startFrame,
+        toFrame: s4.endFrame,
         startPos: [0.8, 1.2, 3.2],
         endPos: [0.35, 0.8, 2.7],
         startLookAt: [0.0, -0.12, 0.0],
         endLookAt: [0.0, -0.12, 0.0],
         fov: 38,
       },
-      // Shot 5: Safety Outro with Thermal Gauge (Frames 1349 - 1800)
+      // Shot 5: Safety Outro with Thermal Gauge (Frames 1710 - 2215)
       {
-        fromFrame: 1349,
-        toFrame: 1800,
+        fromFrame: s5.startFrame,
+        toFrame: s5.endFrame,
         startPos: [0.0, 0.35, 5.0],
         endPos: [0.0, 0.5, 5.6],
         startLookAt: [0.0, -0.1, 0.0],
@@ -181,55 +188,40 @@ export const ChargerScene3D: React.FC = () => {
       <CinematicCameraDirector waypoints={cameraWaypoints} />
 
       {/* ============================================================== */}
-      {/* PROFESSIONAL MULTI-POINT STUDIO LIGHTING (HIGH-KEY TECH STUDIO) */}
+      {/* 3D AESTHETIC ROOM & MODERN DESK ENVIRONMENT */}
       {/* ============================================================== */}
-      {/* Crisp White Ambient Fill */}
-      <ambientLight intensity={1.05} color="#f8fafc" />
+      <CreativeRoomEnvironment3D />
 
-      {/* Top Overhead Light to keep top face clean and pure white */}
+      {/* ============================================================== */}
+      {/* FOCUSED PRODUCT KEY LIGHTING (CRISP FOCUS ON CHARGER) */}
+      {/* ============================================================== */}
+      {/* Top Overhead Key Light to keep Ceramic White top surface pure & clean */}
       <directionalLight
-        position={[0, 9, 2]}
-        intensity={1.8}
+        position={[0, 8, 2]}
+        intensity={1.6}
         color="#ffffff"
       />
 
-      {/* Key Softbox Light (Top-Front-Right) */}
+      {/* Main Softbox Key Light (Front-Right Focus on Charger) */}
       <directionalLight
-        position={[4, 7, 6]}
-        intensity={2.4}
+        position={[3.8, 6.5, 5.5]}
+        intensity={2.2}
         color="#ffffff"
       />
 
       {/* Soft Front-Left Fill Light to eliminate harsh shadows on white housing */}
       <directionalLight
-        position={[-5, 3, 5]}
-        intensity={1.4}
-        color="#f1f5f9"
+        position={[-4.5, 3, 4.5]}
+        intensity={1.3}
+        color="#f8fafc"
       />
 
-      {/* Cool Electric Cyan Rim / Silhouette Light (Back-Left) */}
+      {/* Cool Electric Cyan Rim / Silhouette Light (Edge Separation) */}
       <directionalLight
-        position={[-6, 5, -4]}
-        intensity={2.6}
+        position={[-5, 4.5, -3]}
+        intensity={2.0}
         color="#38bdf8"
       />
-
-      {/* Warm Ambient Under-bounce / Thermal Hint */}
-      <directionalLight
-        position={[0, -5, 2]}
-        intensity={0.4}
-        color="#f97316"
-      />
-
-      {/* Soft Contact Shadow under Charger (Translucent - seamless background) */}
-      <mesh position={[0, isOutro ? -2.1 : -1.65, 0]} rotation={[-Math.PI / 2, 0, 0]}>
-        <circleGeometry args={[2.0, 32]} />
-        <meshBasicMaterial
-          color="#000000"
-          transparent
-          opacity={0.32}
-        />
-      </mesh>
 
       {/* ============================================================== */}
       {/* MAIN CHARGER ASSEMBLY GROUP */}

@@ -80,7 +80,35 @@ We have conducted a thorough frame-by-frame visual audit, preserved the working 
 
 ---
 
-## 4. Technical QA vs. Semantic Creative Review Separation
+## 4. Latest Overhaul: Creative 3D Room Environment & In-Depth Script Revision
+
+Following user feedback:
+> *"saya ga suka bgnya yang biru saya, harusnya lebih kreatif, kyk bg ruangan tapi fokusnya tetap ke charger, terus kurang juga penjelasannya kyk nanggung"*
+
+We executed a comprehensive creative environment and editorial overhaul:
+
+### 1. Creative 3D Room & Aesthetic Desk Environment (`CreativeRoomEnvironment3D`)
+- **Action**: Completely replaced the flat blue spotlight gradient with an authentic, lived-in 3D tech workspace interior while maintaining absolute focus on the charger.
+- **Details**:
+  - **Scandinavian Oak Desk**: Solid wood desk surface (`#45311f`) with front chamfer and dark slate felt desk mat (`#181f28`) centered under the charger.
+  - **Cozy Ambient Lamp**: Minimalist Scandinavian brass stem lamp on the midground right ($X = +1.35$) emitting a warm golden glow (`#f59e0b`, intensity 3.8), creating depth and lifestyle warmth.
+  - **Minimalist Plant**: Matte white ceramic pot with natural sage-green succulent foliage on the midground left ($X = -1.35$), balancing the composition.
+  - **Architectural Japandi Wall**: Textured matte interior wall with fluted wood acoustic slats on the left accent wall and a floating minimalist shelf on the right.
+  - **Subject Isolation**: The room background stays warmly diffused and moody (30–40% ambient light), while the Ceramic White charger in the foreground receives a dedicated crisp white studio softbox key light (`#ffffff`, intensity 2.2) and cyan rim accent (`#38bdf8`), guaranteeing that the viewer's eyes stay 100% focused on the charger.
+
+### 2. Comprehensive Educational Script (Eliminating "Nanggung" Explanations)
+- **Problem**: Previous script only mentioned 220V to 5V and general heat loss, leaving viewers wondering why modern chargers get hotter, when heat peaks, and what practical precautions to take.
+- **Solution**: Re-authored the entire narration to answer the core questions thoroughly:
+  1. **Extreme Voltage Step-Down**: 220V wild AC to 5V–9V DC inside a tiny handheld enclosure.
+  2. **Modern GaN Technology**: Gallium Nitride power MOSFETs switching over 100,000 times per second to squeeze out 90% efficiency.
+  3. **Peak Current Phase (Why it gets hottest at start)**: Explaining that during low battery charge (0–50%), the charger draws peak amperage causing maximal Joule heating ($I^2R$), which then naturally cools down as the battery approaches 100%.
+  4. **The Casing as Heatsink**: Emphasizing that a warm outer body is actually an intentional safety mechanism dissipating calories outward so internal chips never overheat.
+  5. **Actionable Safety Habits**: Explicitly warning against charging on beds/pillows (which trap heat), affirming 40°C–55°C as safe fast charging, and advising disconnection at >65°C or burning smells.
+- **Duration**: Expanded composition to 2215 frames (~73.8 seconds at 30fps) with Edge TTS Indonesian voice *ArdiNeural*, matching word-level kinetic subtitles and dynamic storyboard camera waypoints.
+
+---
+
+## 5. Technical QA vs. Semantic Creative Review Separation
 
 To prevent future regressions where an automated script falsely certifies poor visuals as "perfect", QA is now explicitly separated into two independent tiers:
 

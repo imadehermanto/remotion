@@ -105,6 +105,7 @@ export const RemotionRoot: React.FC = () => {
         height={1920}
       />
 
+
       <Composition
         id="TouchscreenExplainer"
         component={TouchscreenExplainer}
@@ -117,7 +118,7 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="ChargerHeatExplainer"
         component={ChargerHeatExplainer}
-        durationInFrames={1800}
+        durationInFrames={2215}
         fps={30}
         width={1080}
         height={1920}

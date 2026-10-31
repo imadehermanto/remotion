@@ -22,63 +22,69 @@ export const ChargerUIOverlay: React.FC = () => {
     }));
   }, []);
 
-  // 2. Precision Technical Callouts with Strategic Layout Positioning
+  // 2. Precision Technical Callouts derived directly from Storyboard (SSOT)
   // Placed in negative space away from 3D models to eliminate visual clutter
   const callouts: TechnicalCalloutSpec[] = useMemo(() => {
+    const s1 = storyboard.shots[0];
+    const s2 = storyboard.shots[1];
+    const s3 = storyboard.shots[2];
+    const s4 = storyboard.shots[3];
+    const s5 = storyboard.shots[4];
+
     return [
       // Shot 1: Hero Adapter Callout (below floating charger)
       {
         id: "callout-shot-1",
-        fromFrame: 25,
-        toFrame: 325,
+        fromFrame: s1.startFrame + 25,
+        toFrame: s1.endFrame - 20,
         x: 540,
         y: 1260,
-        label: "ADAPTOR SMARTPHONE",
-        detail: "DISIPASI DAYA",
+        label: s1.textOverlay.calloutLabel,
+        detail: s1.textOverlay.technicalBadge,
         accentColor: "#f97316",
       },
       // Shot 2: AC 220V Input Pin (placed to the left beside prongs)
       {
         id: "callout-shot-2",
-        fromFrame: 355,
-        toFrame: 650,
+        fromFrame: s2.startFrame + 25,
+        toFrame: s2.endFrame - 20,
         x: 360,
         y: 920,
-        label: "INPUT PIN 220V AC",
-        detail: "STEP DOWN TO 5V-9V",
+        label: s2.textOverlay.calloutLabel,
+        detail: s2.textOverlay.technicalBadge,
         accentColor: "#38bdf8",
       },
       // Shot 3: SMPS Switching Anatomy (placed cleanly below exploded PCB)
       {
         id: "callout-shot-3",
-        fromFrame: 690,
-        toFrame: 940,
+        fromFrame: s3.startFrame + 30,
+        toFrame: s3.endFrame - 20,
         x: 540,
         y: 1180,
-        label: "GaN MOSFET SWITCHING",
-        detail: "100.000x / DETIK",
+        label: s3.textOverlay.calloutLabel,
+        detail: s3.textOverlay.technicalBadge,
         accentColor: "#fbbf24",
       },
       // Shot 4: Joule Heating Losses (placed in clean lower-right)
       {
         id: "callout-shot-4",
-        fromFrame: 980,
-        toFrame: 1330,
+        fromFrame: s4.startFrame + 30,
+        toFrame: s4.endFrame - 20,
         x: 540,
         y: 1120,
-        label: "JOULE HEATING LOSSES (I²R)",
-        detail: "EFISIENSI 85-90%",
+        label: s4.textOverlay.calloutLabel,
+        detail: s4.textOverlay.technicalBadge,
         accentColor: "#ef4444",
       },
       // Shot 5: Thermal Safety Threshold (placed below reassembled charger)
       {
         id: "callout-shot-5",
-        fromFrame: 1380,
-        toFrame: 1780,
+        fromFrame: s5.startFrame + 30,
+        toFrame: s5.endFrame - 20,
         x: 540,
         y: 1360,
-        label: "THERMAL DISSIPATION",
-        detail: "SAFETY THRESHOLD",
+        label: s5.textOverlay.calloutLabel,
+        detail: s5.textOverlay.technicalBadge,
         accentColor: "#22c55e",
       },
     ];
