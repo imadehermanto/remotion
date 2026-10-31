@@ -17,7 +17,8 @@ const { fontFamily } = loadFont("normal", {
 });
 
 export interface WordTiming {
-  text: string;
+  word?: string;
+  text?: string;
   startFrame: number;
   endFrame: number;
 }
@@ -330,9 +331,10 @@ export const ViralWordSubtitles: React.FC<{
             ? interpolate(wordPop, [0, 1], [0.92, 1.09])
             : 1.0;
 
+          const label = w.word ?? w.text ?? "";
           const color = isActive
             ? getWordColor
-              ? getWordColor(w.text)
+              ? getWordColor(label)
               : BRAND_THEME.colors.yellowPop
             : isPast
               ? "#ffffff"
@@ -358,7 +360,7 @@ export const ViralWordSubtitles: React.FC<{
                   : "0 6px 14px rgba(0,0,0,0.8)",
               }}
             >
-              {w.text}
+              {label}
             </span>
           );
         })}
@@ -407,4 +409,110 @@ export const SceneSFXLayer: React.FC<{
     </>
   );
 };
+
+/**
+ * 6. Kartu Pemicu Komentar & Debat Penonton (Muncul di 4 Detik Terakhir Video)
+ */
+export const CommentTriggerCard: React.FC<{
+  from: number;
+  to: number;
+  question: string;
+  optionA: string;
+  optionB: string;
+}> = ({ from, to, question, optionA, optionB }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+
+  if (frame < from || frame > to) return null;
+
+  const pop = spring({
+    frame: frame - from,
+    fps,
+    config: { damping: 13, stiffness: 190 },
+  });
+
+  const pulse = 1 + Math.sin((frame - from) * 0.2) * 0.025;
+
+  return (
+    <div
+      style={{
+        position: "absolute",
+        bottom: 360,
+        left: 54,
+        right: 54,
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        transform: `scale(${interpolate(pop, [0, 1], [0.5, 1]) * pulse})`,
+      }}
+    >
+      <div
+        style={{
+          backgroundColor: "#0f172a",
+          border: "6px solid #facc15",
+          borderRadius: 28,
+          padding: "18px 28px",
+          boxShadow: "0 14px 0 #090d16, 0 22px 40px rgba(0,0,0,0.7)",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          gap: 12,
+          width: "100%",
+        }}
+      >
+        <div
+          style={{
+            fontSize: 28,
+            fontWeight: 900,
+            color: "#facc15",
+            textAlign: "center",
+            letterSpacing: "-0.01em",
+          }}
+        >
+          💬 TULIS DI KOMENTAR: {question}
+        </div>
+        <div
+          style={{
+            display: "flex",
+            gap: 18,
+            width: "100%",
+            justifyContent: "center",
+          }}
+        >
+          <div
+            style={{
+              flex: 1,
+              backgroundColor: "#ef4444",
+              color: "#ffffff",
+              border: "4px solid #090d16",
+              borderRadius: 16,
+              padding: "10px 16px",
+              fontSize: 25,
+              fontWeight: 900,
+              textAlign: "center",
+            }}
+          >
+            {optionA}
+          </div>
+          <div
+            style={{
+              flex: 1,
+              backgroundColor: "#38bdf8",
+              color: "#082f49",
+              border: "4px solid #090d16",
+              borderRadius: 16,
+              padding: "10px 16px",
+              fontSize: 25,
+              fontWeight: 900,
+              textAlign: "center",
+            }}
+          >
+            {optionB}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 

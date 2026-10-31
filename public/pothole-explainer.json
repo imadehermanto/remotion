@@ -1,0 +1,1147 @@
+{
+  "voice": "id-ID-ArdiNeural",
+  "text": "Pernah kesel nggak, kenapa setiap masuk musim hujan, jalan aspal yang tadinya mulus tiba-tiba penuh lubang? Padahal aspal itu keras dan tahan air. Tapi ternyata, musuh utama aspal bukanlah air di atasnya, melainkan air yang menyusup ke bawahnya! Pertama, panas matahari dan beban kendaraan bikin retakan kecil di permukaan aspal. Saat hujan turun, air langsung merembes masuk lewat celah itu ke lapisan pondasi di bawah aspal. Kedua, saat ban mobil dan truk berat melindas di atasnya, air yang terjebak di bawah aspal tertekan dan memompa pasir pondasi keluar. Nah, itulah alasan kenapa di bawah aspal jadi kopong tanpa penyangga! Ketiga, karena bawahnya sudah kopong, begitu dilindas kendaraan lagi, aspalnya langsung ambrol jadi lubang besar! Dan itulah alasan kenapa menambal jalan berlubang saat masih basah itu percuma saja, karena tambalannya bakal cepat lepas lagi!",
+  "fps": 30,
+  "totalDurationMs": 53088,
+  "totalDurationFrames": 1593,
+  "sentences": [
+    {
+      "text": "Pernah kesel nggak, kenapa setiap masuk musim hujan, jalan aspal yang tadinya mulus tiba-tiba penuh lubang?",
+      "startMs": 100,
+      "endMs": 6300,
+      "durationMs": 6200,
+      "startFrame": 3,
+      "endFrame": 189
+    },
+    {
+      "text": "Padahal aspal itu keras dan tahan air.",
+      "startMs": 6250,
+      "endMs": 9250,
+      "durationMs": 3000,
+      "startFrame": 188,
+      "endFrame": 278
+    },
+    {
+      "text": "Tapi ternyata, musuh utama aspal bukanlah air di atasnya, melainkan air yang menyusup ke bawahnya!",
+      "startMs": 9250,
+      "endMs": 15588,
+      "durationMs": 6338,
+      "startFrame": 278,
+      "endFrame": 468
+    },
+    {
+      "text": "Pertama, panas matahari dan beban kendaraan bikin retakan kecil di permukaan aspal.",
+      "startMs": 15588,
+      "endMs": 21113,
+      "durationMs": 5525,
+      "startFrame": 468,
+      "endFrame": 633
+    },
+    {
+      "text": "Saat hujan turun, air langsung merembes masuk lewat celah itu ke lapisan pondasi di bawah aspal.",
+      "startMs": 21113,
+      "endMs": 26976,
+      "durationMs": 5863,
+      "startFrame": 633,
+      "endFrame": 809
+    },
+    {
+      "text": "Kedua, saat ban mobil dan truk berat melindas di atasnya, air yang terjebak di bawah aspal tertekan dan memompa pasir pondasi keluar.",
+      "startMs": 26975,
+      "endMs": 34813,
+      "durationMs": 7838,
+      "startFrame": 809,
+      "endFrame": 1044
+    },
+    {
+      "text": "Nah, itulah alasan kenapa di bawah aspal jadi kopong tanpa penyangga!",
+      "startMs": 34813,
+      "endMs": 39363,
+      "durationMs": 4550,
+      "startFrame": 1044,
+      "endFrame": 1181
+    },
+    {
+      "text": "Ketiga, karena bawahnya sudah kopong, begitu dilindas kendaraan lagi, aspalnya langsung ambrol jadi lubang besar!",
+      "startMs": 39363,
+      "endMs": 46663,
+      "durationMs": 7300,
+      "startFrame": 1181,
+      "endFrame": 1400
+    },
+    {
+      "text": "Dan itulah alasan kenapa menambal jalan berlubang saat masih basah itu percuma saja, karena tambalannya bakal cepat lepas lagi!",
+      "startMs": 46663,
+      "endMs": 53876,
+      "durationMs": 7213,
+      "startFrame": 1400,
+      "endFrame": 1616
+    }
+  ],
+  "words": [
+    {
+      "word": "Pernah",
+      "startMs": 113,
+      "endMs": 363,
+      "durationMs": 250,
+      "startFrame": 3,
+      "endFrame": 11
+    },
+    {
+      "word": "kesel",
+      "startMs": 363,
+      "endMs": 601,
+      "durationMs": 238,
+      "startFrame": 11,
+      "endFrame": 18
+    },
+    {
+      "word": "nggak",
+      "startMs": 600,
+      "endMs": 963,
+      "durationMs": 363,
+      "startFrame": 18,
+      "endFrame": 29
+    },
+    {
+      "word": "kenapa",
+      "startMs": 1213,
+      "endMs": 1513,
+      "durationMs": 300,
+      "startFrame": 36,
+      "endFrame": 45
+    },
+    {
+      "word": "setiap",
+      "startMs": 1513,
+      "endMs": 1801,
+      "durationMs": 288,
+      "startFrame": 45,
+      "endFrame": 54
+    },
+    {
+      "word": "masuk",
+      "startMs": 1800,
+      "endMs": 2025,
+      "durationMs": 225,
+      "startFrame": 54,
+      "endFrame": 61
+    },
+    {
+      "word": "musim",
+      "startMs": 2025,
+      "endMs": 2238,
+      "durationMs": 213,
+      "startFrame": 61,
+      "endFrame": 67
+    },
+    {
+      "word": "hujan",
+      "startMs": 2238,
+      "endMs": 2738,
+      "durationMs": 500,
+      "startFrame": 67,
+      "endFrame": 82
+    },
+    {
+      "word": "jalan",
+      "startMs": 3025,
+      "endMs": 3325,
+      "durationMs": 300,
+      "startFrame": 91,
+      "endFrame": 100
+    },
+    {
+      "word": "aspal",
+      "startMs": 3325,
+      "endMs": 3650,
+      "durationMs": 325,
+      "startFrame": 100,
+      "endFrame": 110
+    },
+    {
+      "word": "yang",
+      "startMs": 3650,
+      "endMs": 3775,
+      "durationMs": 125,
+      "startFrame": 110,
+      "endFrame": 113
+    },
+    {
+      "word": "tadinya",
+      "startMs": 3775,
+      "endMs": 4088,
+      "durationMs": 313,
+      "startFrame": 113,
+      "endFrame": 123
+    },
+    {
+      "word": "mulus",
+      "startMs": 4088,
+      "endMs": 4326,
+      "durationMs": 238,
+      "startFrame": 123,
+      "endFrame": 130
+    },
+    {
+      "word": "tiba-tiba",
+      "startMs": 4325,
+      "endMs": 4800,
+      "durationMs": 475,
+      "startFrame": 130,
+      "endFrame": 144
+    },
+    {
+      "word": "penuh",
+      "startMs": 4800,
+      "endMs": 5013,
+      "durationMs": 213,
+      "startFrame": 144,
+      "endFrame": 150
+    },
+    {
+      "word": "lubang",
+      "startMs": 5013,
+      "endMs": 5463,
+      "durationMs": 450,
+      "startFrame": 150,
+      "endFrame": 164
+    },
+    {
+      "word": "Padahal",
+      "startMs": 6300,
+      "endMs": 6700,
+      "durationMs": 400,
+      "startFrame": 189,
+      "endFrame": 201
+    },
+    {
+      "word": "aspal",
+      "startMs": 6700,
+      "endMs": 6975,
+      "durationMs": 275,
+      "startFrame": 201,
+      "endFrame": 209
+    },
+    {
+      "word": "itu",
+      "startMs": 6975,
+      "endMs": 7175,
+      "durationMs": 200,
+      "startFrame": 209,
+      "endFrame": 215
+    },
+    {
+      "word": "keras",
+      "startMs": 7175,
+      "endMs": 7513,
+      "durationMs": 338,
+      "startFrame": 215,
+      "endFrame": 225
+    },
+    {
+      "word": "dan",
+      "startMs": 7513,
+      "endMs": 7701,
+      "durationMs": 188,
+      "startFrame": 225,
+      "endFrame": 231
+    },
+    {
+      "word": "tahan",
+      "startMs": 7700,
+      "endMs": 7950,
+      "durationMs": 250,
+      "startFrame": 231,
+      "endFrame": 239
+    },
+    {
+      "word": "air",
+      "startMs": 7950,
+      "endMs": 8438,
+      "durationMs": 488,
+      "startFrame": 239,
+      "endFrame": 253
+    },
+    {
+      "word": "Tapi",
+      "startMs": 9288,
+      "endMs": 9488,
+      "durationMs": 200,
+      "startFrame": 279,
+      "endFrame": 285
+    },
+    {
+      "word": "ternyata",
+      "startMs": 9488,
+      "endMs": 10176,
+      "durationMs": 688,
+      "startFrame": 285,
+      "endFrame": 305
+    },
+    {
+      "word": "musuh",
+      "startMs": 10463,
+      "endMs": 10763,
+      "durationMs": 300,
+      "startFrame": 314,
+      "endFrame": 323
+    },
+    {
+      "word": "utama",
+      "startMs": 10763,
+      "endMs": 11026,
+      "durationMs": 263,
+      "startFrame": 323,
+      "endFrame": 331
+    },
+    {
+      "word": "aspal",
+      "startMs": 11025,
+      "endMs": 11288,
+      "durationMs": 263,
+      "startFrame": 331,
+      "endFrame": 339
+    },
+    {
+      "word": "bukanlah",
+      "startMs": 11288,
+      "endMs": 11638,
+      "durationMs": 350,
+      "startFrame": 339,
+      "endFrame": 349
+    },
+    {
+      "word": "air",
+      "startMs": 11638,
+      "endMs": 11913,
+      "durationMs": 275,
+      "startFrame": 349,
+      "endFrame": 357
+    },
+    {
+      "word": "di",
+      "startMs": 11913,
+      "endMs": 12001,
+      "durationMs": 88,
+      "startFrame": 357,
+      "endFrame": 360
+    },
+    {
+      "word": "atasnya",
+      "startMs": 12000,
+      "endMs": 12650,
+      "durationMs": 650,
+      "startFrame": 360,
+      "endFrame": 380
+    },
+    {
+      "word": "melainkan",
+      "startMs": 12938,
+      "endMs": 13338,
+      "durationMs": 400,
+      "startFrame": 388,
+      "endFrame": 400
+    },
+    {
+      "word": "air",
+      "startMs": 13338,
+      "endMs": 13638,
+      "durationMs": 300,
+      "startFrame": 400,
+      "endFrame": 409
+    },
+    {
+      "word": "yang",
+      "startMs": 13638,
+      "endMs": 13763,
+      "durationMs": 125,
+      "startFrame": 409,
+      "endFrame": 413
+    },
+    {
+      "word": "menyusup",
+      "startMs": 13763,
+      "endMs": 14101,
+      "durationMs": 338,
+      "startFrame": 413,
+      "endFrame": 423
+    },
+    {
+      "word": "ke",
+      "startMs": 14100,
+      "endMs": 14163,
+      "durationMs": 63,
+      "startFrame": 423,
+      "endFrame": 425
+    },
+    {
+      "word": "bawahnya",
+      "startMs": 14163,
+      "endMs": 14801,
+      "durationMs": 638,
+      "startFrame": 425,
+      "endFrame": 444
+    },
+    {
+      "word": "Pertama",
+      "startMs": 15650,
+      "endMs": 16288,
+      "durationMs": 638,
+      "startFrame": 470,
+      "endFrame": 489
+    },
+    {
+      "word": "panas",
+      "startMs": 16625,
+      "endMs": 16925,
+      "durationMs": 300,
+      "startFrame": 499,
+      "endFrame": 508
+    },
+    {
+      "word": "matahari",
+      "startMs": 16925,
+      "endMs": 17350,
+      "durationMs": 425,
+      "startFrame": 508,
+      "endFrame": 521
+    },
+    {
+      "word": "dan",
+      "startMs": 17350,
+      "endMs": 17500,
+      "durationMs": 150,
+      "startFrame": 521,
+      "endFrame": 525
+    },
+    {
+      "word": "beban",
+      "startMs": 17500,
+      "endMs": 17763,
+      "durationMs": 263,
+      "startFrame": 525,
+      "endFrame": 533
+    },
+    {
+      "word": "kendaraan",
+      "startMs": 17763,
+      "endMs": 18201,
+      "durationMs": 438,
+      "startFrame": 533,
+      "endFrame": 546
+    },
+    {
+      "word": "bikin",
+      "startMs": 18200,
+      "endMs": 18475,
+      "durationMs": 275,
+      "startFrame": 546,
+      "endFrame": 554
+    },
+    {
+      "word": "retakan",
+      "startMs": 18475,
+      "endMs": 18825,
+      "durationMs": 350,
+      "startFrame": 554,
+      "endFrame": 565
+    },
+    {
+      "word": "kecil",
+      "startMs": 18825,
+      "endMs": 19163,
+      "durationMs": 338,
+      "startFrame": 565,
+      "endFrame": 575
+    },
+    {
+      "word": "di",
+      "startMs": 19163,
+      "endMs": 19251,
+      "durationMs": 88,
+      "startFrame": 575,
+      "endFrame": 578
+    },
+    {
+      "word": "permukaan",
+      "startMs": 19250,
+      "endMs": 19725,
+      "durationMs": 475,
+      "startFrame": 578,
+      "endFrame": 592
+    },
+    {
+      "word": "aspal",
+      "startMs": 19725,
+      "endMs": 20325,
+      "durationMs": 600,
+      "startFrame": 592,
+      "endFrame": 610
+    },
+    {
+      "word": "Saat",
+      "startMs": 21175,
+      "endMs": 21450,
+      "durationMs": 275,
+      "startFrame": 635,
+      "endFrame": 644
+    },
+    {
+      "word": "hujan",
+      "startMs": 21450,
+      "endMs": 21725,
+      "durationMs": 275,
+      "startFrame": 644,
+      "endFrame": 652
+    },
+    {
+      "word": "turun",
+      "startMs": 21725,
+      "endMs": 22200,
+      "durationMs": 475,
+      "startFrame": 652,
+      "endFrame": 666
+    },
+    {
+      "word": "air",
+      "startMs": 22500,
+      "endMs": 22763,
+      "durationMs": 263,
+      "startFrame": 675,
+      "endFrame": 683
+    },
+    {
+      "word": "langsung",
+      "startMs": 22763,
+      "endMs": 23088,
+      "durationMs": 325,
+      "startFrame": 683,
+      "endFrame": 693
+    },
+    {
+      "word": "merembes",
+      "startMs": 23088,
+      "endMs": 23438,
+      "durationMs": 350,
+      "startFrame": 693,
+      "endFrame": 703
+    },
+    {
+      "word": "masuk",
+      "startMs": 23438,
+      "endMs": 23751,
+      "durationMs": 313,
+      "startFrame": 703,
+      "endFrame": 713
+    },
+    {
+      "word": "lewat",
+      "startMs": 23750,
+      "endMs": 23950,
+      "durationMs": 200,
+      "startFrame": 713,
+      "endFrame": 719
+    },
+    {
+      "word": "celah",
+      "startMs": 23950,
+      "endMs": 24113,
+      "durationMs": 163,
+      "startFrame": 719,
+      "endFrame": 723
+    },
+    {
+      "word": "itu",
+      "startMs": 24113,
+      "endMs": 24363,
+      "durationMs": 250,
+      "startFrame": 723,
+      "endFrame": 731
+    },
+    {
+      "word": "ke",
+      "startMs": 24363,
+      "endMs": 24451,
+      "durationMs": 88,
+      "startFrame": 731,
+      "endFrame": 734
+    },
+    {
+      "word": "lapisan",
+      "startMs": 24450,
+      "endMs": 24800,
+      "durationMs": 350,
+      "startFrame": 734,
+      "endFrame": 744
+    },
+    {
+      "word": "pondasi",
+      "startMs": 24800,
+      "endMs": 25263,
+      "durationMs": 463,
+      "startFrame": 744,
+      "endFrame": 758
+    },
+    {
+      "word": "di",
+      "startMs": 25263,
+      "endMs": 25363,
+      "durationMs": 100,
+      "startFrame": 758,
+      "endFrame": 761
+    },
+    {
+      "word": "bawah",
+      "startMs": 25363,
+      "endMs": 25601,
+      "durationMs": 238,
+      "startFrame": 761,
+      "endFrame": 768
+    },
+    {
+      "word": "aspal",
+      "startMs": 25600,
+      "endMs": 26188,
+      "durationMs": 588,
+      "startFrame": 768,
+      "endFrame": 786
+    },
+    {
+      "word": "Kedua",
+      "startMs": 27038,
+      "endMs": 27588,
+      "durationMs": 550,
+      "startFrame": 811,
+      "endFrame": 828
+    },
+    {
+      "word": "saat",
+      "startMs": 27850,
+      "endMs": 28138,
+      "durationMs": 288,
+      "startFrame": 836,
+      "endFrame": 844
+    },
+    {
+      "word": "ban",
+      "startMs": 28138,
+      "endMs": 28288,
+      "durationMs": 150,
+      "startFrame": 844,
+      "endFrame": 849
+    },
+    {
+      "word": "mobil",
+      "startMs": 28288,
+      "endMs": 28613,
+      "durationMs": 325,
+      "startFrame": 849,
+      "endFrame": 858
+    },
+    {
+      "word": "dan",
+      "startMs": 28613,
+      "endMs": 28788,
+      "durationMs": 175,
+      "startFrame": 858,
+      "endFrame": 864
+    },
+    {
+      "word": "truk",
+      "startMs": 28788,
+      "endMs": 28938,
+      "durationMs": 150,
+      "startFrame": 864,
+      "endFrame": 868
+    },
+    {
+      "word": "berat",
+      "startMs": 28938,
+      "endMs": 29138,
+      "durationMs": 200,
+      "startFrame": 868,
+      "endFrame": 874
+    },
+    {
+      "word": "melindas",
+      "startMs": 29138,
+      "endMs": 29488,
+      "durationMs": 350,
+      "startFrame": 874,
+      "endFrame": 885
+    },
+    {
+      "word": "di",
+      "startMs": 29488,
+      "endMs": 29563,
+      "durationMs": 75,
+      "startFrame": 885,
+      "endFrame": 887
+    },
+    {
+      "word": "atasnya",
+      "startMs": 29563,
+      "endMs": 30201,
+      "durationMs": 638,
+      "startFrame": 887,
+      "endFrame": 906
+    },
+    {
+      "word": "air",
+      "startMs": 30475,
+      "endMs": 30738,
+      "durationMs": 263,
+      "startFrame": 914,
+      "endFrame": 922
+    },
+    {
+      "word": "yang",
+      "startMs": 30738,
+      "endMs": 30851,
+      "durationMs": 113,
+      "startFrame": 922,
+      "endFrame": 926
+    },
+    {
+      "word": "terjebak",
+      "startMs": 30850,
+      "endMs": 31263,
+      "durationMs": 413,
+      "startFrame": 926,
+      "endFrame": 938
+    },
+    {
+      "word": "di",
+      "startMs": 31263,
+      "endMs": 31351,
+      "durationMs": 88,
+      "startFrame": 938,
+      "endFrame": 941
+    },
+    {
+      "word": "bawah",
+      "startMs": 31350,
+      "endMs": 31575,
+      "durationMs": 225,
+      "startFrame": 941,
+      "endFrame": 947
+    },
+    {
+      "word": "aspal",
+      "startMs": 31575,
+      "endMs": 31850,
+      "durationMs": 275,
+      "startFrame": 947,
+      "endFrame": 956
+    },
+    {
+      "word": "tertekan",
+      "startMs": 31850,
+      "endMs": 32313,
+      "durationMs": 463,
+      "startFrame": 956,
+      "endFrame": 969
+    },
+    {
+      "word": "dan",
+      "startMs": 32313,
+      "endMs": 32463,
+      "durationMs": 150,
+      "startFrame": 969,
+      "endFrame": 974
+    },
+    {
+      "word": "memompa",
+      "startMs": 32463,
+      "endMs": 32813,
+      "durationMs": 350,
+      "startFrame": 974,
+      "endFrame": 984
+    },
+    {
+      "word": "pasir",
+      "startMs": 32813,
+      "endMs": 33126,
+      "durationMs": 313,
+      "startFrame": 984,
+      "endFrame": 994
+    },
+    {
+      "word": "pondasi",
+      "startMs": 33125,
+      "endMs": 33513,
+      "durationMs": 388,
+      "startFrame": 994,
+      "endFrame": 1005
+    },
+    {
+      "word": "keluar",
+      "startMs": 33513,
+      "endMs": 34026,
+      "durationMs": 513,
+      "startFrame": 1005,
+      "endFrame": 1021
+    },
+    {
+      "word": "Nah",
+      "startMs": 34863,
+      "endMs": 35338,
+      "durationMs": 475,
+      "startFrame": 1046,
+      "endFrame": 1060
+    },
+    {
+      "word": "itulah",
+      "startMs": 35588,
+      "endMs": 35888,
+      "durationMs": 300,
+      "startFrame": 1068,
+      "endFrame": 1077
+    },
+    {
+      "word": "alasan",
+      "startMs": 35888,
+      "endMs": 36226,
+      "durationMs": 338,
+      "startFrame": 1077,
+      "endFrame": 1087
+    },
+    {
+      "word": "kenapa",
+      "startMs": 36225,
+      "endMs": 36513,
+      "durationMs": 288,
+      "startFrame": 1087,
+      "endFrame": 1095
+    },
+    {
+      "word": "di",
+      "startMs": 36513,
+      "endMs": 36601,
+      "durationMs": 88,
+      "startFrame": 1095,
+      "endFrame": 1098
+    },
+    {
+      "word": "bawah",
+      "startMs": 36600,
+      "endMs": 36813,
+      "durationMs": 213,
+      "startFrame": 1098,
+      "endFrame": 1104
+    },
+    {
+      "word": "aspal",
+      "startMs": 36813,
+      "endMs": 37163,
+      "durationMs": 350,
+      "startFrame": 1104,
+      "endFrame": 1115
+    },
+    {
+      "word": "jadi",
+      "startMs": 37163,
+      "endMs": 37351,
+      "durationMs": 188,
+      "startFrame": 1115,
+      "endFrame": 1121
+    },
+    {
+      "word": "kopong",
+      "startMs": 37350,
+      "endMs": 37675,
+      "durationMs": 325,
+      "startFrame": 1121,
+      "endFrame": 1130
+    },
+    {
+      "word": "tanpa",
+      "startMs": 37675,
+      "endMs": 37925,
+      "durationMs": 250,
+      "startFrame": 1130,
+      "endFrame": 1138
+    },
+    {
+      "word": "penyangga",
+      "startMs": 37925,
+      "endMs": 38550,
+      "durationMs": 625,
+      "startFrame": 1138,
+      "endFrame": 1157
+    },
+    {
+      "word": "Ketiga",
+      "startMs": 39388,
+      "endMs": 40051,
+      "durationMs": 663,
+      "startFrame": 1182,
+      "endFrame": 1202
+    },
+    {
+      "word": "karena",
+      "startMs": 40325,
+      "endMs": 40600,
+      "durationMs": 275,
+      "startFrame": 1210,
+      "endFrame": 1218
+    },
+    {
+      "word": "bawahnya",
+      "startMs": 40600,
+      "endMs": 40975,
+      "durationMs": 375,
+      "startFrame": 1218,
+      "endFrame": 1229
+    },
+    {
+      "word": "sudah",
+      "startMs": 40975,
+      "endMs": 41200,
+      "durationMs": 225,
+      "startFrame": 1229,
+      "endFrame": 1236
+    },
+    {
+      "word": "kopong",
+      "startMs": 41200,
+      "endMs": 41713,
+      "durationMs": 513,
+      "startFrame": 1236,
+      "endFrame": 1251
+    },
+    {
+      "word": "begitu",
+      "startMs": 41988,
+      "endMs": 42338,
+      "durationMs": 350,
+      "startFrame": 1260,
+      "endFrame": 1270
+    },
+    {
+      "word": "dilindas",
+      "startMs": 42338,
+      "endMs": 42713,
+      "durationMs": 375,
+      "startFrame": 1270,
+      "endFrame": 1281
+    },
+    {
+      "word": "kendaraan",
+      "startMs": 42713,
+      "endMs": 43076,
+      "durationMs": 363,
+      "startFrame": 1281,
+      "endFrame": 1292
+    },
+    {
+      "word": "lagi",
+      "startMs": 43075,
+      "endMs": 43575,
+      "durationMs": 500,
+      "startFrame": 1292,
+      "endFrame": 1307
+    },
+    {
+      "word": "aspalnya",
+      "startMs": 43863,
+      "endMs": 44338,
+      "durationMs": 475,
+      "startFrame": 1316,
+      "endFrame": 1330
+    },
+    {
+      "word": "langsung",
+      "startMs": 44338,
+      "endMs": 44626,
+      "durationMs": 288,
+      "startFrame": 1330,
+      "endFrame": 1339
+    },
+    {
+      "word": "ambrol",
+      "startMs": 44625,
+      "endMs": 44938,
+      "durationMs": 313,
+      "startFrame": 1339,
+      "endFrame": 1348
+    },
+    {
+      "word": "jadi",
+      "startMs": 44938,
+      "endMs": 45126,
+      "durationMs": 188,
+      "startFrame": 1348,
+      "endFrame": 1354
+    },
+    {
+      "word": "lubang",
+      "startMs": 45125,
+      "endMs": 45363,
+      "durationMs": 238,
+      "startFrame": 1354,
+      "endFrame": 1361
+    },
+    {
+      "word": "besar",
+      "startMs": 45363,
+      "endMs": 45851,
+      "durationMs": 488,
+      "startFrame": 1361,
+      "endFrame": 1376
+    },
+    {
+      "word": "Dan",
+      "startMs": 46700,
+      "endMs": 46888,
+      "durationMs": 188,
+      "startFrame": 1401,
+      "endFrame": 1407
+    },
+    {
+      "word": "itulah",
+      "startMs": 46888,
+      "endMs": 47238,
+      "durationMs": 350,
+      "startFrame": 1407,
+      "endFrame": 1417
+    },
+    {
+      "word": "alasan",
+      "startMs": 47238,
+      "endMs": 47601,
+      "durationMs": 363,
+      "startFrame": 1417,
+      "endFrame": 1428
+    },
+    {
+      "word": "kenapa",
+      "startMs": 47600,
+      "endMs": 47863,
+      "durationMs": 263,
+      "startFrame": 1428,
+      "endFrame": 1436
+    },
+    {
+      "word": "menambal",
+      "startMs": 47863,
+      "endMs": 48238,
+      "durationMs": 375,
+      "startFrame": 1436,
+      "endFrame": 1447
+    },
+    {
+      "word": "jalan",
+      "startMs": 48238,
+      "endMs": 48488,
+      "durationMs": 250,
+      "startFrame": 1447,
+      "endFrame": 1455
+    },
+    {
+      "word": "berlubang",
+      "startMs": 48488,
+      "endMs": 48951,
+      "durationMs": 463,
+      "startFrame": 1455,
+      "endFrame": 1469
+    },
+    {
+      "word": "saat",
+      "startMs": 48950,
+      "endMs": 49188,
+      "durationMs": 238,
+      "startFrame": 1469,
+      "endFrame": 1476
+    },
+    {
+      "word": "masih",
+      "startMs": 49188,
+      "endMs": 49426,
+      "durationMs": 238,
+      "startFrame": 1476,
+      "endFrame": 1483
+    },
+    {
+      "word": "basah",
+      "startMs": 49425,
+      "endMs": 49688,
+      "durationMs": 263,
+      "startFrame": 1483,
+      "endFrame": 1491
+    },
+    {
+      "word": "itu",
+      "startMs": 49688,
+      "endMs": 49863,
+      "durationMs": 175,
+      "startFrame": 1491,
+      "endFrame": 1496
+    },
+    {
+      "word": "percuma",
+      "startMs": 49863,
+      "endMs": 50188,
+      "durationMs": 325,
+      "startFrame": 1496,
+      "endFrame": 1506
+    },
+    {
+      "word": "saja",
+      "startMs": 50188,
+      "endMs": 50776,
+      "durationMs": 588,
+      "startFrame": 1506,
+      "endFrame": 1523
+    },
+    {
+      "word": "karena",
+      "startMs": 51050,
+      "endMs": 51325,
+      "durationMs": 275,
+      "startFrame": 1532,
+      "endFrame": 1540
+    },
+    {
+      "word": "tambalannya",
+      "startMs": 51325,
+      "endMs": 51850,
+      "durationMs": 525,
+      "startFrame": 1540,
+      "endFrame": 1556
+    },
+    {
+      "word": "bakal",
+      "startMs": 51850,
+      "endMs": 52100,
+      "durationMs": 250,
+      "startFrame": 1556,
+      "endFrame": 1563
+    },
+    {
+      "word": "cepat",
+      "startMs": 52100,
+      "endMs": 52350,
+      "durationMs": 250,
+      "startFrame": 1563,
+      "endFrame": 1571
+    },
+    {
+      "word": "lepas",
+      "startMs": 52350,
+      "endMs": 52613,
+      "durationMs": 263,
+      "startFrame": 1571,
+      "endFrame": 1578
+    },
+    {
+      "word": "lagi",
+      "startMs": 52613,
+      "endMs": 53088,
+      "durationMs": 475,
+      "startFrame": 1578,
+      "endFrame": 1593
+    }
+  ]
+}
