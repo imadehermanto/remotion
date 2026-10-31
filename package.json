@@ -43,8 +43,11 @@
     "upgrade": "remotion upgrade",
     "lint": "eslint src && tsc",
     "voice": "node scripts/generate-voice.mjs",
+    "sfx": "node scripts/generate-sfx.mjs",
     "assets": "node scripts/assets3d.mjs",
-    "gltf": "npx gltfjsx"
+    "gltf": "npx gltfjsx",
+    "qa": "node scripts/qa-engine.mjs",
+    "pipeline": "node scripts/pipeline-runner.mjs"
   },
   "allowScripts": {
     "esbuild": false

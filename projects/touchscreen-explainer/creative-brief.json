@@ -1,0 +1,21 @@
+{
+  "projectId": "touchscreen-explainer",
+  "title": "Cara Kerja Layar Sentuh Smartphone",
+  "targetAudience": "Pengguna smartphone & pencinta sains teknologi di Instagram Reels / Shorts",
+  "targetDurationSeconds": 52,
+  "narrativeStructure": "StepByStepMechanism",
+  "visualStyle": "CinematicTechnicalExplainer",
+  "artDirection": {
+    "lighting": "MacroTechnicalLighting",
+    "backdrop": "Deep Slate to Navy Gradient (#090d16 -> #0f172a)",
+    "accentColor": "#00f2fe (Electric Cyan) & #f59e0b (Amber Driving Line)",
+    "typography": "Modern clean sans with high contrast, safe-zone compliant, no thick cartoon strokes"
+  },
+  "keyDeliverables": [
+    "3D exploded view layer smartphone (Cover Glass, ITO X Grid, Dielectric, ITO Y Grid, OLED Display)",
+    "Simulasi garis medan listrik elektrostatik",
+    "Jari manusia 3D yang menyerap muatan dan memicu penurunan kapasitansi",
+    "Mikroprosesor controller yang membaca matriks koordinat X,Y"
+  ]
+}
+

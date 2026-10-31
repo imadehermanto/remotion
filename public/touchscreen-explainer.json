@@ -1,0 +1,1171 @@
+{
+  "voice": "id-ID-ArdiNeural",
+  "text": "Pernah mikir nggak, kenapa layar smartphone cuma bereaksi saat disentuh jari, tapi sama sekali nggak merespons kalau disentuh pakai kuku atau sarung tangan tebal? Ternyata, rahasianya ada pada medan listrik mikroskopis di bawah kaca layar. Tepat di bawah lapisan kaca pelindung, terdapat kisi-kisi elektroda transparan yang sangat tipis berbahan Indium Tin Oxide. Kisi-kisi ini disusun bersilangan membentuk sumbu X dan Y. Saat HP menyala, arus listrik mengalir di persimpangannya, menciptakan medan muatan elektrostatis yang stabil dan tak terlihat. Nah, tubuh manusia adalah konduktor listrik alami. Saat ujung jari kita mendekat, kulit kita menyerap sebagian kecil muatan listrik tersebut, mendistorsi medan elektrostatik tepat di titik sentuh. Mikrokontroler mendeteksi penurunan kapasitansi ini ratusan kali per detik dan langsung memetakan koordinat sentuhanmu. Dan itulah kenapa kuku atau plastik gagal: mereka adalah isolator yang tidak bisa menyerap muatan listrik layar!",
+  "fps": 30,
+  "totalDurationMs": 56651,
+  "totalDurationFrames": 1700,
+  "sentences": [
+    {
+      "text": "Pernah mikir nggak, kenapa layar smartphone cuma bereaksi saat disentuh jari, tapi sama sekali nggak merespons kalau disentuh pakai kuku atau sarung tangan tebal?",
+      "startMs": 100,
+      "endMs": 8363,
+      "durationMs": 8263,
+      "startFrame": 3,
+      "endFrame": 251
+    },
+    {
+      "text": "Ternyata, rahasianya ada pada medan listrik mikroskopis di bawah kaca layar.",
+      "startMs": 8313,
+      "endMs": 13563,
+      "durationMs": 5250,
+      "startFrame": 249,
+      "endFrame": 407
+    },
+    {
+      "text": "Tepat di bawah lapisan kaca pelindung, terdapat kisi-kisi elektroda transparan yang sangat tipis berbahan Indium Tin Oxide.",
+      "startMs": 13563,
+      "endMs": 20388,
+      "durationMs": 6825,
+      "startFrame": 407,
+      "endFrame": 612
+    },
+    {
+      "text": "Kisi-kisi ini disusun bersilangan membentuk sumbu X dan Y.",
+      "startMs": 20388,
+      "endMs": 24526,
+      "durationMs": 4138,
+      "startFrame": 612,
+      "endFrame": 736
+    },
+    {
+      "text": "Saat HP menyala, arus listrik mengalir di persimpangannya, menciptakan medan muatan elektrostatis yang stabil dan tak terlihat.",
+      "startMs": 24525,
+      "endMs": 32363,
+      "durationMs": 7838,
+      "startFrame": 736,
+      "endFrame": 971
+    },
+    {
+      "text": "Nah, tubuh manusia adalah konduktor listrik alami.",
+      "startMs": 32363,
+      "endMs": 36301,
+      "durationMs": 3938,
+      "startFrame": 971,
+      "endFrame": 1089
+    },
+    {
+      "text": "Saat ujung jari kita mendekat, kulit kita menyerap sebagian kecil muatan listrik tersebut, mendistorsi medan elektrostatik tepat di titik sentuh.",
+      "startMs": 36300,
+      "endMs": 44400,
+      "durationMs": 8100,
+      "startFrame": 1089,
+      "endFrame": 1332
+    },
+    {
+      "text": "Mikrokontroler mendeteksi penurunan kapasitansi ini ratusan kali per detik dan langsung memetakan koordinat sentuhanmu.",
+      "startMs": 44400,
+      "endMs": 51075,
+      "durationMs": 6675,
+      "startFrame": 1332,
+      "endFrame": 1532
+    },
+    {
+      "text": "Dan itulah kenapa kuku atau plastik gagal: mereka adalah isolator yang tidak bisa menyerap muatan listrik layar!",
+      "startMs": 51075,
+      "endMs": 57438,
+      "durationMs": 6363,
+      "startFrame": 1532,
+      "endFrame": 1723
+    }
+  ],
+  "words": [
+    {
+      "word": "Pernah",
+      "startMs": 113,
+      "endMs": 338,
+      "durationMs": 225,
+      "startFrame": 3,
+      "endFrame": 10
+    },
+    {
+      "word": "mikir",
+      "startMs": 338,
+      "endMs": 576,
+      "durationMs": 238,
+      "startFrame": 10,
+      "endFrame": 17
+    },
+    {
+      "word": "nggak",
+      "startMs": 575,
+      "endMs": 963,
+      "durationMs": 388,
+      "startFrame": 17,
+      "endFrame": 29
+    },
+    {
+      "word": "kenapa",
+      "startMs": 1213,
+      "endMs": 1501,
+      "durationMs": 288,
+      "startFrame": 36,
+      "endFrame": 45
+    },
+    {
+      "word": "layar",
+      "startMs": 1500,
+      "endMs": 1713,
+      "durationMs": 213,
+      "startFrame": 45,
+      "endFrame": 51
+    },
+    {
+      "word": "smartphone",
+      "startMs": 1713,
+      "endMs": 2176,
+      "durationMs": 463,
+      "startFrame": 51,
+      "endFrame": 65
+    },
+    {
+      "word": "cuma",
+      "startMs": 2175,
+      "endMs": 2375,
+      "durationMs": 200,
+      "startFrame": 65,
+      "endFrame": 71
+    },
+    {
+      "word": "bereaksi",
+      "startMs": 2375,
+      "endMs": 2763,
+      "durationMs": 388,
+      "startFrame": 71,
+      "endFrame": 83
+    },
+    {
+      "word": "saat",
+      "startMs": 2763,
+      "endMs": 2976,
+      "durationMs": 213,
+      "startFrame": 83,
+      "endFrame": 89
+    },
+    {
+      "word": "disentuh",
+      "startMs": 2975,
+      "endMs": 3300,
+      "durationMs": 325,
+      "startFrame": 89,
+      "endFrame": 99
+    },
+    {
+      "word": "jari",
+      "startMs": 3300,
+      "endMs": 3788,
+      "durationMs": 488,
+      "startFrame": 99,
+      "endFrame": 114
+    },
+    {
+      "word": "tapi",
+      "startMs": 4075,
+      "endMs": 4325,
+      "durationMs": 250,
+      "startFrame": 122,
+      "endFrame": 130
+    },
+    {
+      "word": "sama",
+      "startMs": 4325,
+      "endMs": 4525,
+      "durationMs": 200,
+      "startFrame": 130,
+      "endFrame": 136
+    },
+    {
+      "word": "sekali",
+      "startMs": 4525,
+      "endMs": 4825,
+      "durationMs": 300,
+      "startFrame": 136,
+      "endFrame": 145
+    },
+    {
+      "word": "nggak",
+      "startMs": 4825,
+      "endMs": 4950,
+      "durationMs": 125,
+      "startFrame": 145,
+      "endFrame": 149
+    },
+    {
+      "word": "merespons",
+      "startMs": 4950,
+      "endMs": 5438,
+      "durationMs": 488,
+      "startFrame": 149,
+      "endFrame": 163
+    },
+    {
+      "word": "kalau",
+      "startMs": 5438,
+      "endMs": 5601,
+      "durationMs": 163,
+      "startFrame": 163,
+      "endFrame": 168
+    },
+    {
+      "word": "disentuh",
+      "startMs": 5600,
+      "endMs": 5950,
+      "durationMs": 350,
+      "startFrame": 168,
+      "endFrame": 179
+    },
+    {
+      "word": "pakai",
+      "startMs": 5950,
+      "endMs": 6163,
+      "durationMs": 213,
+      "startFrame": 179,
+      "endFrame": 185
+    },
+    {
+      "word": "kuku",
+      "startMs": 6163,
+      "endMs": 6451,
+      "durationMs": 288,
+      "startFrame": 185,
+      "endFrame": 194
+    },
+    {
+      "word": "atau",
+      "startMs": 6450,
+      "endMs": 6625,
+      "durationMs": 175,
+      "startFrame": 194,
+      "endFrame": 199
+    },
+    {
+      "word": "sarung",
+      "startMs": 6625,
+      "endMs": 6875,
+      "durationMs": 250,
+      "startFrame": 199,
+      "endFrame": 206
+    },
+    {
+      "word": "tangan",
+      "startMs": 6875,
+      "endMs": 7075,
+      "durationMs": 200,
+      "startFrame": 206,
+      "endFrame": 212
+    },
+    {
+      "word": "tebal",
+      "startMs": 7075,
+      "endMs": 7525,
+      "durationMs": 450,
+      "startFrame": 212,
+      "endFrame": 226
+    },
+    {
+      "word": "Ternyata",
+      "startMs": 8363,
+      "endMs": 9076,
+      "durationMs": 713,
+      "startFrame": 251,
+      "endFrame": 272
+    },
+    {
+      "word": "rahasianya",
+      "startMs": 9413,
+      "endMs": 9988,
+      "durationMs": 575,
+      "startFrame": 282,
+      "endFrame": 300
+    },
+    {
+      "word": "ada",
+      "startMs": 9988,
+      "endMs": 10163,
+      "durationMs": 175,
+      "startFrame": 300,
+      "endFrame": 305
+    },
+    {
+      "word": "pada",
+      "startMs": 10163,
+      "endMs": 10338,
+      "durationMs": 175,
+      "startFrame": 305,
+      "endFrame": 310
+    },
+    {
+      "word": "medan",
+      "startMs": 10338,
+      "endMs": 10576,
+      "durationMs": 238,
+      "startFrame": 310,
+      "endFrame": 317
+    },
+    {
+      "word": "listrik",
+      "startMs": 10575,
+      "endMs": 10913,
+      "durationMs": 338,
+      "startFrame": 317,
+      "endFrame": 327
+    },
+    {
+      "word": "mikroskopis",
+      "startMs": 10913,
+      "endMs": 11601,
+      "durationMs": 688,
+      "startFrame": 327,
+      "endFrame": 348
+    },
+    {
+      "word": "di",
+      "startMs": 11600,
+      "endMs": 11700,
+      "durationMs": 100,
+      "startFrame": 348,
+      "endFrame": 351
+    },
+    {
+      "word": "bawah",
+      "startMs": 11700,
+      "endMs": 11988,
+      "durationMs": 288,
+      "startFrame": 351,
+      "endFrame": 360
+    },
+    {
+      "word": "kaca",
+      "startMs": 11988,
+      "endMs": 12238,
+      "durationMs": 250,
+      "startFrame": 360,
+      "endFrame": 367
+    },
+    {
+      "word": "layar",
+      "startMs": 12238,
+      "endMs": 12751,
+      "durationMs": 513,
+      "startFrame": 367,
+      "endFrame": 383
+    },
+    {
+      "word": "Tepat",
+      "startMs": 13600,
+      "endMs": 13863,
+      "durationMs": 263,
+      "startFrame": 408,
+      "endFrame": 416
+    },
+    {
+      "word": "di",
+      "startMs": 13863,
+      "endMs": 13951,
+      "durationMs": 88,
+      "startFrame": 416,
+      "endFrame": 419
+    },
+    {
+      "word": "bawah",
+      "startMs": 13950,
+      "endMs": 14188,
+      "durationMs": 238,
+      "startFrame": 419,
+      "endFrame": 426
+    },
+    {
+      "word": "lapisan",
+      "startMs": 14188,
+      "endMs": 14576,
+      "durationMs": 388,
+      "startFrame": 426,
+      "endFrame": 437
+    },
+    {
+      "word": "kaca",
+      "startMs": 14575,
+      "endMs": 14800,
+      "durationMs": 225,
+      "startFrame": 437,
+      "endFrame": 444
+    },
+    {
+      "word": "pelindung",
+      "startMs": 14800,
+      "endMs": 15350,
+      "durationMs": 550,
+      "startFrame": 444,
+      "endFrame": 461
+    },
+    {
+      "word": "terdapat",
+      "startMs": 15663,
+      "endMs": 16051,
+      "durationMs": 388,
+      "startFrame": 470,
+      "endFrame": 482
+    },
+    {
+      "word": "kisi-kisi",
+      "startMs": 16050,
+      "endMs": 16488,
+      "durationMs": 438,
+      "startFrame": 482,
+      "endFrame": 495
+    },
+    {
+      "word": "elektroda",
+      "startMs": 16488,
+      "endMs": 16876,
+      "durationMs": 388,
+      "startFrame": 495,
+      "endFrame": 506
+    },
+    {
+      "word": "transparan",
+      "startMs": 16875,
+      "endMs": 17438,
+      "durationMs": 563,
+      "startFrame": 506,
+      "endFrame": 523
+    },
+    {
+      "word": "yang",
+      "startMs": 17438,
+      "endMs": 17576,
+      "durationMs": 138,
+      "startFrame": 523,
+      "endFrame": 527
+    },
+    {
+      "word": "sangat",
+      "startMs": 17575,
+      "endMs": 17825,
+      "durationMs": 250,
+      "startFrame": 527,
+      "endFrame": 535
+    },
+    {
+      "word": "tipis",
+      "startMs": 17825,
+      "endMs": 18125,
+      "durationMs": 300,
+      "startFrame": 535,
+      "endFrame": 544
+    },
+    {
+      "word": "berbahan",
+      "startMs": 18125,
+      "endMs": 18488,
+      "durationMs": 363,
+      "startFrame": 544,
+      "endFrame": 555
+    },
+    {
+      "word": "Indium",
+      "startMs": 18488,
+      "endMs": 18838,
+      "durationMs": 350,
+      "startFrame": 555,
+      "endFrame": 565
+    },
+    {
+      "word": "Tin",
+      "startMs": 18838,
+      "endMs": 19001,
+      "durationMs": 163,
+      "startFrame": 565,
+      "endFrame": 570
+    },
+    {
+      "word": "Oxide",
+      "startMs": 19000,
+      "endMs": 19600,
+      "durationMs": 600,
+      "startFrame": 570,
+      "endFrame": 588
+    },
+    {
+      "word": "Kisi-kisi",
+      "startMs": 20438,
+      "endMs": 20913,
+      "durationMs": 475,
+      "startFrame": 613,
+      "endFrame": 627
+    },
+    {
+      "word": "ini",
+      "startMs": 20913,
+      "endMs": 21163,
+      "durationMs": 250,
+      "startFrame": 627,
+      "endFrame": 635
+    },
+    {
+      "word": "disusun",
+      "startMs": 21163,
+      "endMs": 21563,
+      "durationMs": 400,
+      "startFrame": 635,
+      "endFrame": 647
+    },
+    {
+      "word": "bersilangan",
+      "startMs": 21563,
+      "endMs": 22076,
+      "durationMs": 513,
+      "startFrame": 647,
+      "endFrame": 662
+    },
+    {
+      "word": "membentuk",
+      "startMs": 22075,
+      "endMs": 22450,
+      "durationMs": 375,
+      "startFrame": 662,
+      "endFrame": 674
+    },
+    {
+      "word": "sumbu",
+      "startMs": 22450,
+      "endMs": 22750,
+      "durationMs": 300,
+      "startFrame": 674,
+      "endFrame": 683
+    },
+    {
+      "word": "X",
+      "startMs": 22750,
+      "endMs": 23088,
+      "durationMs": 338,
+      "startFrame": 683,
+      "endFrame": 693
+    },
+    {
+      "word": "dan",
+      "startMs": 23088,
+      "endMs": 23326,
+      "durationMs": 238,
+      "startFrame": 693,
+      "endFrame": 700
+    },
+    {
+      "word": "Y",
+      "startMs": 23325,
+      "endMs": 23713,
+      "durationMs": 388,
+      "startFrame": 700,
+      "endFrame": 711
+    },
+    {
+      "word": "Saat",
+      "startMs": 24563,
+      "endMs": 24838,
+      "durationMs": 275,
+      "startFrame": 737,
+      "endFrame": 745
+    },
+    {
+      "word": "HP",
+      "startMs": 24838,
+      "endMs": 25063,
+      "durationMs": 225,
+      "startFrame": 745,
+      "endFrame": 752
+    },
+    {
+      "word": "menyala",
+      "startMs": 25063,
+      "endMs": 25676,
+      "durationMs": 613,
+      "startFrame": 752,
+      "endFrame": 770
+    },
+    {
+      "word": "arus",
+      "startMs": 25963,
+      "endMs": 26238,
+      "durationMs": 275,
+      "startFrame": 779,
+      "endFrame": 787
+    },
+    {
+      "word": "listrik",
+      "startMs": 26238,
+      "endMs": 26551,
+      "durationMs": 313,
+      "startFrame": 787,
+      "endFrame": 797
+    },
+    {
+      "word": "mengalir",
+      "startMs": 26550,
+      "endMs": 26900,
+      "durationMs": 350,
+      "startFrame": 797,
+      "endFrame": 807
+    },
+    {
+      "word": "di",
+      "startMs": 26900,
+      "endMs": 26988,
+      "durationMs": 88,
+      "startFrame": 807,
+      "endFrame": 810
+    },
+    {
+      "word": "persimpangannya",
+      "startMs": 26988,
+      "endMs": 27876,
+      "durationMs": 888,
+      "startFrame": 810,
+      "endFrame": 836
+    },
+    {
+      "word": "menciptakan",
+      "startMs": 28163,
+      "endMs": 28726,
+      "durationMs": 563,
+      "startFrame": 845,
+      "endFrame": 862
+    },
+    {
+      "word": "medan",
+      "startMs": 28725,
+      "endMs": 28963,
+      "durationMs": 238,
+      "startFrame": 862,
+      "endFrame": 869
+    },
+    {
+      "word": "muatan",
+      "startMs": 28963,
+      "endMs": 29238,
+      "durationMs": 275,
+      "startFrame": 869,
+      "endFrame": 877
+    },
+    {
+      "word": "elektrostatis",
+      "startMs": 29238,
+      "endMs": 29988,
+      "durationMs": 750,
+      "startFrame": 877,
+      "endFrame": 900
+    },
+    {
+      "word": "yang",
+      "startMs": 29988,
+      "endMs": 30113,
+      "durationMs": 125,
+      "startFrame": 900,
+      "endFrame": 903
+    },
+    {
+      "word": "stabil",
+      "startMs": 30113,
+      "endMs": 30601,
+      "durationMs": 488,
+      "startFrame": 903,
+      "endFrame": 918
+    },
+    {
+      "word": "dan",
+      "startMs": 30600,
+      "endMs": 30825,
+      "durationMs": 225,
+      "startFrame": 918,
+      "endFrame": 925
+    },
+    {
+      "word": "tak",
+      "startMs": 30825,
+      "endMs": 30988,
+      "durationMs": 163,
+      "startFrame": 925,
+      "endFrame": 930
+    },
+    {
+      "word": "terlihat",
+      "startMs": 30988,
+      "endMs": 31576,
+      "durationMs": 588,
+      "startFrame": 930,
+      "endFrame": 947
+    },
+    {
+      "word": "Nah",
+      "startMs": 32413,
+      "endMs": 32913,
+      "durationMs": 500,
+      "startFrame": 972,
+      "endFrame": 987
+    },
+    {
+      "word": "tubuh",
+      "startMs": 33150,
+      "endMs": 33400,
+      "durationMs": 250,
+      "startFrame": 995,
+      "endFrame": 1002
+    },
+    {
+      "word": "manusia",
+      "startMs": 33400,
+      "endMs": 33838,
+      "durationMs": 438,
+      "startFrame": 1002,
+      "endFrame": 1015
+    },
+    {
+      "word": "adalah",
+      "startMs": 33838,
+      "endMs": 34126,
+      "durationMs": 288,
+      "startFrame": 1015,
+      "endFrame": 1024
+    },
+    {
+      "word": "konduktor",
+      "startMs": 34125,
+      "endMs": 34563,
+      "durationMs": 438,
+      "startFrame": 1024,
+      "endFrame": 1037
+    },
+    {
+      "word": "listrik",
+      "startMs": 34563,
+      "endMs": 34938,
+      "durationMs": 375,
+      "startFrame": 1037,
+      "endFrame": 1048
+    },
+    {
+      "word": "alami",
+      "startMs": 34938,
+      "endMs": 35476,
+      "durationMs": 538,
+      "startFrame": 1048,
+      "endFrame": 1064
+    },
+    {
+      "word": "Saat",
+      "startMs": 36325,
+      "endMs": 36600,
+      "durationMs": 275,
+      "startFrame": 1090,
+      "endFrame": 1098
+    },
+    {
+      "word": "ujung",
+      "startMs": 36600,
+      "endMs": 36888,
+      "durationMs": 288,
+      "startFrame": 1098,
+      "endFrame": 1107
+    },
+    {
+      "word": "jari",
+      "startMs": 36888,
+      "endMs": 37051,
+      "durationMs": 163,
+      "startFrame": 1107,
+      "endFrame": 1112
+    },
+    {
+      "word": "kita",
+      "startMs": 37050,
+      "endMs": 37225,
+      "durationMs": 175,
+      "startFrame": 1112,
+      "endFrame": 1117
+    },
+    {
+      "word": "mendekat",
+      "startMs": 37225,
+      "endMs": 37788,
+      "durationMs": 563,
+      "startFrame": 1117,
+      "endFrame": 1134
+    },
+    {
+      "word": "kulit",
+      "startMs": 38075,
+      "endMs": 38313,
+      "durationMs": 238,
+      "startFrame": 1142,
+      "endFrame": 1149
+    },
+    {
+      "word": "kita",
+      "startMs": 38313,
+      "endMs": 38501,
+      "durationMs": 188,
+      "startFrame": 1149,
+      "endFrame": 1155
+    },
+    {
+      "word": "menyerap",
+      "startMs": 38500,
+      "endMs": 38800,
+      "durationMs": 300,
+      "startFrame": 1155,
+      "endFrame": 1164
+    },
+    {
+      "word": "sebagian",
+      "startMs": 38800,
+      "endMs": 39213,
+      "durationMs": 413,
+      "startFrame": 1164,
+      "endFrame": 1176
+    },
+    {
+      "word": "kecil",
+      "startMs": 39213,
+      "endMs": 39476,
+      "durationMs": 263,
+      "startFrame": 1176,
+      "endFrame": 1184
+    },
+    {
+      "word": "muatan",
+      "startMs": 39475,
+      "endMs": 39800,
+      "durationMs": 325,
+      "startFrame": 1184,
+      "endFrame": 1194
+    },
+    {
+      "word": "listrik",
+      "startMs": 39800,
+      "endMs": 40088,
+      "durationMs": 288,
+      "startFrame": 1194,
+      "endFrame": 1203
+    },
+    {
+      "word": "tersebut",
+      "startMs": 40088,
+      "endMs": 40663,
+      "durationMs": 575,
+      "startFrame": 1203,
+      "endFrame": 1220
+    },
+    {
+      "word": "mendistorsi",
+      "startMs": 40950,
+      "endMs": 41525,
+      "durationMs": 575,
+      "startFrame": 1229,
+      "endFrame": 1246
+    },
+    {
+      "word": "medan",
+      "startMs": 41525,
+      "endMs": 41775,
+      "durationMs": 250,
+      "startFrame": 1246,
+      "endFrame": 1253
+    },
+    {
+      "word": "elektrostatik",
+      "startMs": 41775,
+      "endMs": 42438,
+      "durationMs": 663,
+      "startFrame": 1253,
+      "endFrame": 1273
+    },
+    {
+      "word": "tepat",
+      "startMs": 42438,
+      "endMs": 42751,
+      "durationMs": 313,
+      "startFrame": 1273,
+      "endFrame": 1283
+    },
+    {
+      "word": "di",
+      "startMs": 42750,
+      "endMs": 42838,
+      "durationMs": 88,
+      "startFrame": 1283,
+      "endFrame": 1285
+    },
+    {
+      "word": "titik",
+      "startMs": 42838,
+      "endMs": 43088,
+      "durationMs": 250,
+      "startFrame": 1285,
+      "endFrame": 1293
+    },
+    {
+      "word": "sentuh",
+      "startMs": 43088,
+      "endMs": 43613,
+      "durationMs": 525,
+      "startFrame": 1293,
+      "endFrame": 1308
+    },
+    {
+      "word": "Mikrokontroler",
+      "startMs": 44450,
+      "endMs": 45225,
+      "durationMs": 775,
+      "startFrame": 1334,
+      "endFrame": 1357
+    },
+    {
+      "word": "mendeteksi",
+      "startMs": 45225,
+      "endMs": 45688,
+      "durationMs": 463,
+      "startFrame": 1357,
+      "endFrame": 1371
+    },
+    {
+      "word": "penurunan",
+      "startMs": 45688,
+      "endMs": 46126,
+      "durationMs": 438,
+      "startFrame": 1371,
+      "endFrame": 1384
+    },
+    {
+      "word": "kapasitansi",
+      "startMs": 46125,
+      "endMs": 46725,
+      "durationMs": 600,
+      "startFrame": 1384,
+      "endFrame": 1402
+    },
+    {
+      "word": "ini",
+      "startMs": 46725,
+      "endMs": 46988,
+      "durationMs": 263,
+      "startFrame": 1402,
+      "endFrame": 1410
+    },
+    {
+      "word": "ratusan",
+      "startMs": 46988,
+      "endMs": 47388,
+      "durationMs": 400,
+      "startFrame": 1410,
+      "endFrame": 1422
+    },
+    {
+      "word": "kali",
+      "startMs": 47388,
+      "endMs": 47588,
+      "durationMs": 200,
+      "startFrame": 1422,
+      "endFrame": 1428
+    },
+    {
+      "word": "per",
+      "startMs": 47588,
+      "endMs": 47713,
+      "durationMs": 125,
+      "startFrame": 1428,
+      "endFrame": 1431
+    },
+    {
+      "word": "detik",
+      "startMs": 47713,
+      "endMs": 48101,
+      "durationMs": 388,
+      "startFrame": 1431,
+      "endFrame": 1443
+    },
+    {
+      "word": "dan",
+      "startMs": 48100,
+      "endMs": 48275,
+      "durationMs": 175,
+      "startFrame": 1443,
+      "endFrame": 1448
+    },
+    {
+      "word": "langsung",
+      "startMs": 48275,
+      "endMs": 48613,
+      "durationMs": 338,
+      "startFrame": 1448,
+      "endFrame": 1458
+    },
+    {
+      "word": "memetakan",
+      "startMs": 48613,
+      "endMs": 49088,
+      "durationMs": 475,
+      "startFrame": 1458,
+      "endFrame": 1473
+    },
+    {
+      "word": "koordinat",
+      "startMs": 49088,
+      "endMs": 49551,
+      "durationMs": 463,
+      "startFrame": 1473,
+      "endFrame": 1487
+    },
+    {
+      "word": "sentuhanmu",
+      "startMs": 49550,
+      "endMs": 50263,
+      "durationMs": 713,
+      "startFrame": 1487,
+      "endFrame": 1508
+    },
+    {
+      "word": "Dan",
+      "startMs": 51113,
+      "endMs": 51301,
+      "durationMs": 188,
+      "startFrame": 1533,
+      "endFrame": 1539
+    },
+    {
+      "word": "itulah",
+      "startMs": 51300,
+      "endMs": 51625,
+      "durationMs": 325,
+      "startFrame": 1539,
+      "endFrame": 1549
+    },
+    {
+      "word": "kenapa",
+      "startMs": 51625,
+      "endMs": 51913,
+      "durationMs": 288,
+      "startFrame": 1549,
+      "endFrame": 1557
+    },
+    {
+      "word": "kuku",
+      "startMs": 51913,
+      "endMs": 52188,
+      "durationMs": 275,
+      "startFrame": 1557,
+      "endFrame": 1566
+    },
+    {
+      "word": "atau",
+      "startMs": 52188,
+      "endMs": 52376,
+      "durationMs": 188,
+      "startFrame": 1566,
+      "endFrame": 1571
+    },
+    {
+      "word": "plastik",
+      "startMs": 52375,
+      "endMs": 52713,
+      "durationMs": 338,
+      "startFrame": 1571,
+      "endFrame": 1581
+    },
+    {
+      "word": "gagal",
+      "startMs": 52713,
+      "endMs": 53301,
+      "durationMs": 588,
+      "startFrame": 1581,
+      "endFrame": 1599
+    },
+    {
+      "word": "mereka",
+      "startMs": 53575,
+      "endMs": 53888,
+      "durationMs": 313,
+      "startFrame": 1607,
+      "endFrame": 1617
+    },
+    {
+      "word": "adalah",
+      "startMs": 53888,
+      "endMs": 54138,
+      "durationMs": 250,
+      "startFrame": 1617,
+      "endFrame": 1624
+    },
+    {
+      "word": "isolator",
+      "startMs": 54138,
+      "endMs": 54613,
+      "durationMs": 475,
+      "startFrame": 1624,
+      "endFrame": 1638
+    },
+    {
+      "word": "yang",
+      "startMs": 54613,
+      "endMs": 54738,
+      "durationMs": 125,
+      "startFrame": 1638,
+      "endFrame": 1642
+    },
+    {
+      "word": "tidak",
+      "startMs": 54738,
+      "endMs": 54926,
+      "durationMs": 188,
+      "startFrame": 1642,
+      "endFrame": 1648
+    },
+    {
+      "word": "bisa",
+      "startMs": 54925,
+      "endMs": 55163,
+      "durationMs": 238,
+      "startFrame": 1648,
+      "endFrame": 1655
+    },
+    {
+      "word": "menyerap",
+      "startMs": 55163,
+      "endMs": 55476,
+      "durationMs": 313,
+      "startFrame": 1655,
+      "endFrame": 1664
+    },
+    {
+      "word": "muatan",
+      "startMs": 55475,
+      "endMs": 55800,
+      "durationMs": 325,
+      "startFrame": 1664,
+      "endFrame": 1674
+    },
+    {
+      "word": "listrik",
+      "startMs": 55800,
+      "endMs": 56113,
+      "durationMs": 313,
+      "startFrame": 1674,
+      "endFrame": 1683
+    },
+    {
+      "word": "layar",
+      "startMs": 56113,
+      "endMs": 56651,
+      "durationMs": 538,
+      "startFrame": 1683,
+      "endFrame": 1700
+    }
+  ]
+}

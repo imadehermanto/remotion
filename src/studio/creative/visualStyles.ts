@@ -1,0 +1,113 @@
+import { VisualStyleSpec } from "../schemas/qa";
+
+export const VISUAL_STYLES: Record<string, VisualStyleSpec> = {
+  CinematicTechnicalExplainer: {
+    styleId: "CinematicTechnicalExplainer",
+    name: "Cinematic Technical Explainer",
+    description: "Gaya visual teknologi mutakhir dengan pencahayaan dramatis, material PBR realistis, aksen cyan/amber, dan tipografi modern yang bersih.",
+    colorPalette: {
+      primary: "#0f172a", // deep navy slate
+      secondary: "#1e293b",
+      accent: "#38bdf8", // electric cyan
+      backgroundGradStart: "#090d16",
+      backgroundGradEnd: "#0f172a",
+      textPrimary: "#f8fafc",
+      textSecondary: "#94a3b8",
+      glowOrLaser: "#00f2fe",
+    },
+    typography: {
+      fontFamily: "Montserrat",
+      headingWeight: "800",
+      bodyWeight: "600",
+      subtitleStyle: "MinimalModern",
+      maxCharsPerLine: 26,
+    },
+    lightingRigDefault: "StudioMacroLighting",
+    materialsPreference: "PBR: Brushed aluminum, optical glass, silicon substrate, emissive circuit traces",
+    contrastLevel: "high",
+    cameraConventions: "Smooth dolly, slow macro tracking, focus pulls, no jitter",
+    compositionGuidelines: "Subject occupies 60-70% of safe height; generous negative space; clean overlay hierarchy without oversized stickers",
+  },
+  MinimalistProductVisualization: {
+    styleId: "MinimalistProductVisualization",
+    name: "Minimalist Product Visualization",
+    description: "Estetika studio industri premium ala Apple/Dyson: latar belakang studio neutral, softbox lembut, tipografi elegan dan fokus penuh pada keindahan detail produk.",
+    colorPalette: {
+      primary: "#111827",
+      secondary: "#1f2937",
+      accent: "#e2e8f0",
+      backgroundGradStart: "#1e293b",
+      backgroundGradEnd: "#0f172a",
+      textPrimary: "#ffffff",
+      textSecondary: "#94a3b8",
+      glowOrLaser: "#60a5fa",
+    },
+    typography: {
+      fontFamily: "Montserrat",
+      headingWeight: "700",
+      bodyWeight: "500",
+      subtitleStyle: "EditorialClean",
+      maxCharsPerLine: 30,
+    },
+    lightingRigDefault: "StudioSoftboxLighting",
+    materialsPreference: "PBR: Anodized matte aluminum, sapphire glass, soft rubber",
+    contrastLevel: "medium",
+    cameraConventions: "Slow orbit around hero axis, elegant macro pan",
+    compositionGuidelines: "Hero object centered in safe zone, minimal UI badges, pristine margins",
+  },
+  EducationalCutaway: {
+    styleId: "EducationalCutaway",
+    name: "Educational Cutaway Visualization",
+    description: "Penampang irisan teknis transparan untuk menjelaskan mekanisme tersembunyi di balik dinding atau casing.",
+    colorPalette: {
+      primary: "#0b1329",
+      secondary: "#1c2b4e",
+      accent: "#f59e0b", // warm amber for heat/current
+      backgroundGradStart: "#070b16",
+      backgroundGradEnd: "#111c38",
+      textPrimary: "#f8fafc",
+      textSecondary: "#93c5fd",
+      glowOrLaser: "#fbbf24",
+    },
+    typography: {
+      fontFamily: "Montserrat",
+      headingWeight: "800",
+      bodyWeight: "600",
+      subtitleStyle: "HighContrastPill",
+      maxCharsPerLine: 28,
+    },
+    lightingRigDefault: "DramaticLaboratoryLighting",
+    materialsPreference: "PBR: Transparent dielectric casing, colored internal components, metallic gears",
+    contrastLevel: "high",
+    cameraConventions: "Cutaway transition, exploded view reveal, lock-on mechanism center",
+    compositionGuidelines: "Clearly delineate outer casing vs internal core with depth of field or cut planes",
+  },
+  MacroMechanical: {
+    styleId: "MacroMechanical",
+    name: "Macro Mechanical Visualization",
+    description: "Visualisasi makroskopis ekstrem: gesekan molekuler, partikel panas, gelombang mikro, dan medan induksi.",
+    colorPalette: {
+      primary: "#180d0d",
+      secondary: "#2c1515",
+      accent: "#ef4444", // intense heat red
+      backgroundGradStart: "#140a0a",
+      backgroundGradEnd: "#230f0f",
+      textPrimary: "#ffffff",
+      textSecondary: "#fca5a5",
+      glowOrLaser: "#ff3b30",
+    },
+    typography: {
+      fontFamily: "Montserrat",
+      headingWeight: "900",
+      bodyWeight: "600",
+      subtitleStyle: "KineticPop",
+      maxCharsPerLine: 24,
+    },
+    lightingRigDefault: "DramaticMechanicalLighting",
+    materialsPreference: "PBR: Hot cast iron, glowing thermals, vapor particles",
+    contrastLevel: "high",
+    cameraConventions: "Intense macro push-in, shallow depth of field feel",
+    compositionGuidelines: "High visual impact at the center, dramatic color contrast against dark backdrop",
+  },
+};
+

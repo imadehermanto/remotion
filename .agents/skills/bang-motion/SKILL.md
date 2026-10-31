@@ -12,6 +12,10 @@ metadata:
 
 # Bang Motion — motion graphic web yang bukan PPT
 
+> [!NOTE]
+> **CATATAN REPO REMOTION STUDIO V2**: Proyek ini berbasis **Remotion + Three.js / React Three Fiber**. Prinsip gerak (easing, non-PPT feel, timing, secondary motion) dari skill ini adalah referensi artistik universal yang sangat bernilai. Namun untuk pipeline produksi, rendering MP4, dan penulisan kode komponen video, selalu gunakan arsitektur Remotion V2 (`src/studio/`) dan `SOP-PRODUKSI-VIDEO.md`.
+
+
 **v1.19.0 · by [Bang Tutorial](https://youtube.com/bangtutorial) · MIT.** Riwayat perubahan di `CHANGELOG.md`;
 cara pasang di `README.md`.
 

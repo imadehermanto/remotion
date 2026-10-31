@@ -1,0 +1,36 @@
+1
+00:00:00,100 --> 00:00:08,363
+Pernah mikir nggak, kenapa layar smartphone cuma bereaksi saat disentuh jari, tapi sama sekali nggak merespons kalau disentuh pakai kuku atau sarung tangan tebal?
+
+2
+00:00:08,313 --> 00:00:13,563
+Ternyata, rahasianya ada pada medan listrik mikroskopis di bawah kaca layar.
+
+3
+00:00:13,563 --> 00:00:20,388
+Tepat di bawah lapisan kaca pelindung, terdapat kisi-kisi elektroda transparan yang sangat tipis berbahan Indium Tin Oxide.
+
+4
+00:00:20,388 --> 00:00:24,526
+Kisi-kisi ini disusun bersilangan membentuk sumbu X dan Y.
+
+5
+00:00:24,525 --> 00:00:32,363
+Saat HP menyala, arus listrik mengalir di persimpangannya, menciptakan medan muatan elektrostatis yang stabil dan tak terlihat.
+
+6
+00:00:32,363 --> 00:00:36,301
+Nah, tubuh manusia adalah konduktor listrik alami.
+
+7
+00:00:36,300 --> 00:00:44,400
+Saat ujung jari kita mendekat, kulit kita menyerap sebagian kecil muatan listrik tersebut, mendistorsi medan elektrostatik tepat di titik sentuh.
+
+8
+00:00:44,400 --> 00:00:51,075
+Mikrokontroler mendeteksi penurunan kapasitansi ini ratusan kali per detik dan langsung memetakan koordinat sentuhanmu.
+
+9
+00:00:51,075 --> 00:00:57,438
+Dan itulah kenapa kuku atau plastik gagal: mereka adalah isolator yang tidak bisa menyerap muatan listrik layar!
+

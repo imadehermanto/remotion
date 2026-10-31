@@ -1,9 +1,10 @@
 ---
-description: Aturan wajib produksi video 3D Explainer (SOP Channel How Come? / Wait, Really!? Style)
+description: Aturan wajib produksi video 3D Explainer Remotion AI Reels Studio V2
 ---
 
 Setiap kali user meminta ide video baru atau meminta dibuatkan/dieditkan video explainer di proyek Remotion ini:
-1. Wajib membaca dan mematuhi `SOP-PRODUKSI-VIDEO.md` serta skill `.agents/skills/viral-3d-explainer/SKILL.md`.
-2. Gunakan pustaka aset terpusat di `src/assets/` (`MODELS`, `BRAND_THEME`, `Asset3D`, `ChunkyArrow3D`, `Thermometer3D`, `WoodenFloorStage3D`, `IndonesianAlleyStage3D`, `CharacterWorker3D`, `MicroscopeCrossSection3D`, `ViralHeadlineBanner`, `FloatingBadgePills`, `RedFocusRings`, `ViralWordSubtitles`, `CommentTriggerCard`, `SceneSFXLayer`).
-3. Gunakan tempo bicara normal (`0%` speed-up) saat menjalankan `npm run voice`, berikan jeda 5-8 detik per adegan, sertakan minimal 2 fakta *"Itulah alasan kenapa..."*, selipkan 1 visual Easter Egg 3D di latar belakang, dan tampilkan `<CommentTriggerCard />` di akhir video.
-
+1. Wajib mematuhi SOP Studio V2 di `SOP-PRODUKSI-VIDEO.md`.
+2. Gunakan alur kerja modular Studio V2: Riset Ilmiah → Naskah Narasi → Audio Voice-Over → Storyboard → Scene Three.js Deterministik → QA Engine.
+3. Gunakan modul pencahayaan, material, kamera, dan tipografi modern dari `src/studio/` (`CinematicCameraDirector`, `MacroTechnicalLighting`, `StudioSoftboxLighting`, `StudioHeadline`, `StudioKineticSubtitles`).
+4. Bebas memilih dari 9 struktur narasi (StepByStepMechanism, InsideTheMachine, ProblemMechanismSolution, dll) dan 4 gaya visual resmi. Jangan memaksakan formula klise atau kartu komentar bila tidak relevan.
+5. Verifikasi kualitas dengan `npm run lint` dan `npm run qa -- -c <NamaComposition>`.

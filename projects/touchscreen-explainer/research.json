@@ -1,0 +1,38 @@
+{
+  "topic": "Cara Kerja Layar Sentuh Smartphone (Projected Capacitive Touchscreen)",
+  "coreEducationalQuestion": "Mengapa layar smartphone hanya merespons sentuhan kulit jari atau stylus khusus, tetapi tidak bereaksi terhadap kuku atau sarung tangan tebal?",
+  "scientificPrinciples": [
+    "Kapasitansi elektrik (kemampuan menyimpan muatan elektrostatik)",
+    "Indium Tin Oxide (ITO) - elektroda transparan konduktif",
+    "Mutual Capacitance Grid (persimpangan elektroda baris X dan kolom Y)",
+    "Konduktivitas bioelektrik tubuh manusia (kandungan ion dan air)",
+    "Pengukuran perubahan delta kapasitansi dan interpolasi koordinat mikrokontroler"
+  ],
+  "confirmedFacts": [
+    "Layar smartphone modern menggunakan Projected Capacitive Touchscreen (PCAP), bukan resistive touchscreen seperti perangkat GPS kuno.",
+    "Elektroda transparan ITO ditata dalam pola berlian atau grid ortogonal pada kaca ultra tipis.",
+    "Saat disentuh jari, tubuh manusia menyerap sebagian muatan elektrostatis lokal, menyebabkan penurunan kapasitansi lokal sebesar 1-5%.",
+    "Kuku tersusun dari keratin mati dan tidak mengandung cukup air bebas atau elektrolit untuk menyerap muatan listrik yang terdeteksi."
+  ],
+  "commonMisconceptions": [
+    "Mitos: Layar HP bekerja mendeteksi panas tubuh (SALAH: layar bekerja murni mendeteksi medan listrik kapasitif, bukan inframerah atau suhu).",
+    "Mitos: Layar bekerja karena ditekan fisik (SALAH: itu teknologi resistif lama yang membutuhkan penekanan mekanis dua layer fleksibel)."
+  ],
+  "analogies": [
+    "Grid sensor seperti jaring pengaman tak terlihat berisi muatan listrik seimbang; saat jari manusia mendekat, jari bertindak seperti spons listrik kecil yang menyedot muatan di titik persimpangan tersebut."
+  ],
+  "citationsAndSources": [
+    {
+      "title": "Projected Capacitive Touch Technology Overview",
+      "source": "IEEE Transactions on Consumer Electronics",
+      "notes": "Menjelaskan arsitektur mutual capacitance dan scanning frekuensi sinyal drive line."
+    },
+    {
+      "title": "Human Body Capacitance and Impedance in Touch Sensing",
+      "source": "Journal of Applied Physics",
+      "notes": "Data rata-rata kapasitansi tubuh manusia (100-200 pF) terhadap ground."
+    }
+  ],
+  "technicalVerificationNotes": "Semua visualisasi harus membedakan secara tegas antara medan listrik stabil sebelum disentuh (panah medan tegak lurus seimbang) dan distorsi medan saat disentuh jari (garis medan melengkung ke arah jari)."
+}
+

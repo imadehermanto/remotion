@@ -1,0 +1,165 @@
+{
+  "projectId": "touchscreen-explainer",
+  "fps": 30,
+  "totalFrames": 1700,
+  "shots": [
+    {
+      "shotId": "shot-01-hero-intro",
+      "shotIndex": 1,
+      "startFrame": 0,
+      "endFrame": 251,
+      "durationFrames": 251,
+      "scenePurpose": "Hook: Tampilan premium smartphone melayang di studio gelap; perbandingan sentuhan kuku vs jari.",
+      "narrationSegment": "Pernah mikir nggak, kenapa layar smartphone cuma bereaksi saat disentuh jari, tapi sama sekali nggak merespons kalau disentuh pakai kuku atau sarung tangan tebal?",
+      "keyVisualAction": "Smartphone 3D berputar halus ke sudut 3/4 dengan garis kisi-kisi cyan futuristik di permukaannya.",
+      "subjectAndEnvironment": "Smartphone modern dengan bezel tipis, studio slate gelap dengan softbox atas dan rim cyan.",
+      "cameraShotType": "Medium Close-Up 3/4 Angle",
+      "cameraMovement": "OrbitReveal",
+      "cameraConfig": {
+        "startPos": [-0.6, 0.4, 5.2],
+        "endPos": [0.3, 0.1, 4.6],
+        "startLookAt": [0, 0, 0],
+        "endLookAt": [0, 0, 0],
+        "fov": 42
+      },
+      "primaryAnimation": "Rotasi bodi ponsel dan munculnya denyut grid di permukaan layar.",
+      "lightingRig": "MacroTechnicalLighting",
+      "textOverlay": {
+        "headline": "KENAPA LAYAR HP CUMA BISA DISENTUH JARI?",
+        "subheadline": "RAHASIA MEDAN LISTRIK KAPASITIF"
+      },
+      "soundEffects": [
+        { "cue": "intro_swoosh", "triggerFrameOffset": 5, "soundFile": "assets/sfx/swoosh.wav", "volume": 0.3 }
+      ],
+      "requiredAssets": ["SmartphoneFrame3D"],
+      "transitionStrategy": "Cutaway Zoom In"
+    },
+    {
+      "shotId": "shot-02-cutaway-layers",
+      "shotIndex": 2,
+      "startFrame": 251,
+      "endFrame": 612,
+      "durationFrames": 361,
+      "scenePurpose": "Bedah irisan teknis: Kaca pelindung terangkat memisahkan elektroda transparan Indium Tin Oxide (ITO).",
+      "narrationSegment": "Ternyata, rahasianya ada pada medan listrik mikroskopis di bawah kaca layar. Tepat di bawah lapisan kaca pelindung, terdapat kisi-kisi elektroda transparan yang sangat tipis berbahan Indium Tin Oxide.",
+      "keyVisualAction": "Exploded view vertikal: Cover glass naik ke atas, menampilkan kisi-kisi elektroda ITO emas dan sian bersilangan.",
+      "subjectAndEnvironment": "Penampang 5 lapis: Cover Glass, Driving Line (X), Dielectric Spacer, Sensing Line (Y), OLED Display.",
+      "cameraShotType": "Exploded View Isometric Perspective",
+      "cameraMovement": "ExplodedViewReveal",
+      "cameraConfig": {
+        "startPos": [0.2, 1.2, 4.8],
+        "endPos": [0.6, 1.6, 4.2],
+        "startLookAt": [0, 0.2, 0],
+        "endLookAt": [0, 0.4, 0],
+        "fov": 40
+      },
+      "primaryAnimation": "Pemisahan lapisan (exploded translation sepanjang sumbu Z) dengan label teknis.",
+      "lightingRig": "MacroTechnicalLighting",
+      "textOverlay": {
+        "headline": "ANATOMI LAYAR KAPASITIF",
+        "subheadline": "INDIUM TIN OXIDE (ITO) TRANSPARAN",
+        "technicalBadge": "TEBAL ELEKTRODA < 100 NANOMETER"
+      },
+      "soundEffects": [
+        { "cue": "cutaway_pop", "triggerFrameOffset": 10, "soundFile": "assets/sfx/pop.wav", "volume": 0.35 }
+      ],
+      "requiredAssets": ["CapacitiveSensorGrid3D"],
+      "transitionStrategy": "Smooth Macro Pan"
+    },
+    {
+      "shotId": "shot-03-electrostatic-field",
+      "shotIndex": 3,
+      "startFrame": 612,
+      "endFrame": 971,
+      "durationFrames": 359,
+      "scenePurpose": "Visualisasi sains medan elektrostatik: Muatan listrik mengalir seimbang di antara persimpangan X dan Y.",
+      "narrationSegment": "Kisi-kisi ini disusun bersilangan membentuk sumbu X dan Y. Saat HP menyala, arus listrik mengalir di persimpangannya, menciptakan medan muatan elektrostatis yang stabil dan tak terlihat.",
+      "keyVisualAction": "Pemandangan makro dekat persimpangan grid; partikel listrik sian dan amber berdenyut dalam keharmonisan sempurna.",
+      "subjectAndEnvironment": "Persimpangan matriks kapasitansi mutual dengan partikel elektron berpendar.",
+      "cameraShotType": "Extreme Macro Top-Down Tilt",
+      "cameraMovement": "MacroPushIn",
+      "cameraConfig": {
+        "startPos": [0.1, 0.4, 3.6],
+        "endPos": [-0.1, 0.2, 3.0],
+        "startLookAt": [0, 0.1, 0],
+        "endLookAt": [0, 0.1, 0],
+        "fov": 38
+      },
+      "primaryAnimation": "Denyut frekuensi bolak-balik medan listrik dan aliran elektron.",
+      "lightingRig": "MacroTechnicalLighting",
+      "textOverlay": {
+        "headline": "MEDAN ELEKTROSTATIK STABIL",
+        "subheadline": "MUTUAL CAPACITANCE MATRIX"
+      },
+      "soundEffects": [
+        { "cue": "riser_tension", "triggerFrameOffset": 20, "soundFile": "assets/sfx/riser.wav", "volume": 0.25 }
+      ],
+      "requiredAssets": ["ElectricFieldArc3D"],
+      "transitionStrategy": "Direct Action Cut"
+    },
+    {
+      "shotId": "shot-04-touch-interaction",
+      "shotIndex": 4,
+      "startFrame": 971,
+      "endFrame": 1320,
+      "durationFrames": 349,
+      "scenePurpose": "Klimaks visual: Jari konduktif manusia menyentuh layar, menyerap muatan dan mendistorsi medan listrik.",
+      "narrationSegment": "Nah, tubuh manusia adalah konduktor listrik alami. Saat ujung jari kita mendekat, kulit kita menyerap sebagian kecil muatan listrik tersebut, mendistorsi medan elektrostatik tepat di titik sentuh.",
+      "keyVisualAction": "Jari 3D menyentuh permukaan kaca; gelombang energi melingkar memancar dan garis medan listrik membengkok ke kulit jari.",
+      "subjectAndEnvironment": "Model jari manusia, kaca pelindung, dan riak delta kapasitansi bercahaya terang.",
+      "cameraShotType": "Cinematic 3/4 Action Shot",
+      "cameraMovement": "TrackingShot",
+      "cameraConfig": {
+        "startPos": [0.4, 0.6, 3.4],
+        "endPos": [0.2, 0.3, 3.1],
+        "startLookAt": [0, 0, 0.1],
+        "endLookAt": [0, 0, 0.1],
+        "fov": 42
+      },
+      "primaryAnimation": "Pendarahan muatan (charge draining) ke jari manusia secara visual.",
+      "lightingRig": "MacroTechnicalLighting",
+      "textOverlay": {
+        "headline": "DISTORSI MEDAN LISTRIK",
+        "subheadline": "KAPASITANSI TURUN DI TITIK SENTUH",
+        "technicalBadge": "DELTA C = -3.8%"
+      },
+      "soundEffects": [
+        { "cue": "touch_impact", "triggerFrameOffset": 15, "soundFile": "assets/sfx/impact.wav", "volume": 0.4 }
+      ],
+      "requiredAssets": ["HumanTouchFinger3D", "ChargeFlowParticles3D"],
+      "transitionStrategy": "Smooth Dolly Out"
+    },
+    {
+      "shotId": "shot-05-controller-outro",
+      "shotIndex": 5,
+      "startFrame": 1320,
+      "endFrame": 1700,
+      "durationFrames": 380,
+      "scenePurpose": "Resolusi & Takeaway: Mikrokontroler memetakan koordinat; penjelasan mengapa kuku atau bahan isolator gagal.",
+      "narrationSegment": "Mikrokontroler mendeteksi penurunan kapasitansi ini ratusan kali per detik dan langsung memetakan koordinat sentuhanmu. Dan itulah kenapa kuku atau plastik gagal: mereka adalah isolator yang tidak bisa menyerap muatan listrik layar!",
+      "keyVisualAction": "Peta koordinat X/Y terkunci pada titik sentuh dengan crosshair holografik; kamera zoom out ke tampilan smartphone utuh.",
+      "subjectAndEnvironment": "Smartphone lengkap dengan antarmuka sentuh responsif dan grafik koordinat.",
+      "cameraShotType": "Full Overview Outro",
+      "cameraMovement": "DollyOut",
+      "cameraConfig": {
+        "startPos": [0.1, 0.2, 3.8],
+        "endPos": [0.0, 0.0, 5.4],
+        "startLookAt": [0, 0, 0],
+        "endLookAt": [0, 0, 0],
+        "fov": 45
+      },
+      "primaryAnimation": "Kunci koordinat grid (X=540, Y=960) dan zoom out stabil.",
+      "lightingRig": "StudioSoftboxLighting",
+      "textOverlay": {
+        "headline": "KOORDINAT TERKUNCI (X, Y)",
+        "subheadline": "KUKU & PLASTIK = ISOLATOR TANPA MUATAN"
+      },
+      "soundEffects": [
+        { "cue": "outro_ding", "triggerFrameOffset": 10, "soundFile": "assets/sfx/ding.wav", "volume": 0.3 }
+      ],
+      "requiredAssets": ["SmartphoneFrame3D"],
+      "transitionStrategy": "Fade to Black"
+    }
+  ]
+}
+

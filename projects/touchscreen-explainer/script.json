@@ -1,0 +1,53 @@
+{
+  "projectId": "touchscreen-explainer",
+  "title": "Rahasia di Balik Layar Sentuh Smartphone",
+  "targetVoice": "id-ID-ArdiNeural",
+  "hook": "Pernah mikir nggak, kenapa layar smartphone cuma bereaksi saat disentuh jari, tapi sama sekali nggak merespons kalau disentuh pakai kuku atau sarung tangan tebal?",
+  "sections": [
+    {
+      "id": "sec-1-hook",
+      "title": "Hook Misteri Kuku vs Jari",
+      "narrationText": "Pernah mikir nggak, kenapa layar smartphone cuma bereaksi saat disentuh jari, tapi sama sekali nggak merespons kalau disentuh pakai kuku atau sarung tangan tebal?",
+      "estimatedSeconds": 9,
+      "targetMood": "Penasaran & Tajam",
+      "visualCue": "Smartphone 3D berputar anggun di studio gelap dengan laser grid melayang di atas layarnya."
+    },
+    {
+      "id": "sec-2-cutaway",
+      "title": "Anatomi Layer Kaca & Elektroda ITO",
+      "narrationText": "Ternyata, rahasianya ada pada medan listrik mikroskopis di bawah kaca layar. Tepat di bawah lapisan kaca pelindung, terdapat kisi-kisi elektroda transparan yang sangat tipis berbahan Indium Tin Oxide.",
+      "estimatedSeconds": 11,
+      "targetMood": "Teknis & Mengagumkan",
+      "visualCue": "Exploded cutaway reveal: Kaca luar terangkat, mengungkap kisi-kisi elektroda emas sumbu X dan sian sumbu Y."
+    },
+    {
+      "id": "sec-3-capacitance",
+      "title": "Medan Listrik Elektrostatik Stabil",
+      "narrationText": "Kisi-kisi ini disusun bersilangan membentuk sumbu X dan Y. Saat HP menyala, arus listrik mengalir di persimpangannya, menciptakan medan muatan elektrostatis yang stabil dan tak terlihat.",
+      "estimatedSeconds": 10,
+      "targetMood": "Presisi & Ilmiah",
+      "visualCue": "Garis medan listrik sian tegak lurus menghubungkan elektroda, berdenyut lembut dengan partikel muatan."
+    },
+    {
+      "id": "sec-4-touch",
+      "title": "Jari Sebagai Konduktor Penjerap Muatan",
+      "narrationText": "Nah, tubuh manusia adalah konduktor listrik alami. Saat ujung jari kita mendekat, kulit kita menyerap sebagian kecil muatan listrik tersebut, mendistorsi medan elektrostatik tepat di titik sentuh.",
+      "estimatedSeconds": 11,
+      "targetMood": "Klimaks Visual Interaktif",
+      "visualCue": "Model jari manusia 3D menyentuh kaca, gelombang lingkaran energi memancar, dan garis medan listrik membengkok ke jari."
+    },
+    {
+      "id": "sec-5-controller",
+      "title": "Sensor Controller & Alasan Kuku Gagal",
+      "narrationText": "Mikrokontroler mendeteksi penurunan kapasitansi ini ratusan kali per detik dan langsung memetakan koordinat sentuhanmu. Dan itulah kenapa kuku atau plastik gagal: mereka adalah isolator yang tidak bisa menyerap muatan listrik layar!",
+      "estimatedSeconds": 12,
+      "targetMood": "Pemahaman Utuh & Puas",
+      "visualCue": "Garis koordinat X dan Y terkunci pada titik sentuh dengan pembacaan delta muatan, kamera macro kembali ke tampilan utuh smartphone."
+    }
+  ],
+  "fullNarrationText": "Pernah mikir nggak, kenapa layar smartphone cuma bereaksi saat disentuh jari, tapi sama sekali nggak merespons kalau disentuh pakai kuku atau sarung tangan tebal? Ternyata, rahasianya ada pada medan listrik mikroskopis di bawah kaca layar. Tepat di bawah lapisan kaca pelindung, terdapat kisi-kisi elektroda transparan yang sangat tipis berbahan Indium Tin Oxide. Kisi-kisi ini disusun bersilangan membentuk sumbu X dan Y. Saat HP menyala, arus listrik mengalir di persimpangannya, menciptakan medan muatan elektrostatis yang stabil dan tak terlihat. Nah, tubuh manusia adalah konduktor listrik alami. Saat ujung jari kita mendekat, kulit kita menyerap sebagian kecil muatan listrik tersebut, mendistorsi medan elektrostatik tepat di titik sentuh. Mikrokontroler mendeteksi penurunan kapasitansi ini ratusan kali per detik dan langsung memetakan koordinat sentuhanmu. Dan itulah kenapa kuku atau plastik gagal: mereka adalah isolator yang tidak bisa menyerap muatan listrik layar!",
+  "estimatedTotalWords": 139,
+  "estimatedDurationSeconds": 53,
+  "closingTakeaway": "Layar sentuh bekerja bukan dengan tekanan atau panas, melainkan dengan menyerap sebagian medan listrik kapasitif melalui konduktivitas tubuh manusia."
+}
+

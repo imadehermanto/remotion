@@ -1,38 +1,20 @@
 ---
 name: viral-3d-explainer
-description: SOP dan standar wajib untuk membuat video 3D explainer vertikal (9:16, 1080x1920, 30fps) bergaya "How Come?" (@howcomeidyt) dan "Wait, Really!?" di Remotion menggunakan pustaka aset terpusat `src/assets/`. Aktifkan skill ini setiap kali user meminta ide video baru, meminta dibuatkan video explainer baru, atau memodifikasi video explainer yang ada.
+description: Standar produksi video explainer vertikal 3D (9:16, 1080x1920, 30fps) di Remotion AI Reels Studio V2 menggunakan arsitektur modular, Three.js / React Three Fiber, dan pencahayaan sinematik.
 ---
 
-# Skill: Viral 3D Explainer (SOP Channel)
+# Skill: Remotion 3D Explainer Studio V2
 
-Setiap kali kamu membuat atau mengedit video explainer di workspace ini, kamu **WAJIB** mematuhi seluruh SOP di bawah ini (lihat juga `SOP-PRODUKSI-VIDEO.md`):
+Gunakan skill ini untuk memproduksi video edukasi 3D Instagram Reels & YouTube Shorts berkualitas tinggi.
 
-## 1. Struktur Naskah 6 Babak & Tempo Normal
-1. **Generate Voice-Over dengan Kecepatan Normal (`0%`)**:
-   - Jalankan `npm run voice -- -v ardi -o <slug-video> -t "<naskah>"` tanpa flag `-r` agar ritme bicara tenang, jelas, dan tidak terburu-buru.
-2. **Wajib Memuat Konsep *"Itulah Alasan Kenapa..."***:
-   - Naskah harus menjawab rasa penasaran sehari-hari dan menyertakan minimal **2 kalimat fakta aplikatif**:
-     - Di tengah video: *"Nah, itulah alasan kenapa [fakta sehari-hari 1]!"*
-     - Di akhir video: *"Dan itulah alasan kenapa [tips/pantangan sehari-hari 2]!"*
-3. **Tempo Visual Tenang (Durasi 45–60 detik / 1350–1800 frame @ 30fps)**:
-   - Setiap adegan kamera diberi durasi 5–8 detik.
-   - Kecepatan aliran partikel/gerakan mekanis harus lembut (`frame * 0.003` s/d `0.02`).
+## 1. Alur Produksi Modular
+1. **Riset & Narasi**: Buat naskah edukatif berbasis fakta sains akurat (bahasa Indonesia natural).
+2. **Audio Voice-Over**: Generate audio dengan `npm run voice -- -v ardi -o <slug> -t "<naskah>"` untuk mendapatkan file audio dan metadata word alignment (`public/<slug>.json`).
+3. **Storyboard & Kamera**: Rancang pergerakan kamera sinematik (`CinematicCameraDirector`) dan pencahayaan (`MacroTechnicalLighting`, `StudioSoftboxLighting`).
+4. **Visual Elements**: Gunakan tipografi modern aman safe-zone (`StudioHeadline`, `StudioKineticSubtitles`) serta material PBR (`src/studio/materials/PBRMaterials.tsx`).
+5. **Quality Assurance**: Jalankan `npm run qa -- -c <CompositionName>` untuk menghasilkan contact sheet keyframe dan memverifikasi kualitas komposisi visual.
 
-## 2. Wajib Menggunakan Shared Asset Library (`src/assets/`)
-Jangan membuat ulang komponen UI atau model dasar dari nol. Impor langsung dari `src/assets`:
-- `MODELS`, `BRAND_THEME`, `SFX` (`src/assets/catalog.ts`)
-- `<Asset3D />` (`src/assets/three/Asset3D.tsx`) — bila butuh model baru, cari & unduh dulu dengan `npm run assets -- search <kata>` lalu `npm run assets -- add <nama>`.
-- `<ChunkyArrow3D />`, `<Thermometer3D />`, `<WoodenFloorStage3D />` (`src/assets/three/Gizmos3D.tsx`)
-- `<IndonesianAlleyStage3D />`, `<ConcreteMixer3D />`, `<WaterStream3D />`, `<RainParticles3D />` (`src/assets/three/EnvironmentStage3D.tsx`)
-- `<CharacterWorker3D />` (`src/assets/three/CharacterWorker3D.tsx`)
-- `<MicroscopeCrossSection3D />` (`src/assets/three/MicroscopeCutaway3D.tsx`)
-- `<ViralShortsOverlayContainer />`, `<ViralHeadlineBanner />`, `<FloatingBadgePills />`, `<RedFocusRings />`, `<ViralWordSubtitles />`, `<CommentTriggerCard />`, `<SceneSFXLayer />` (`src/assets/ui/ViralShortsUI.tsx`)
-
-## 3. Strategi Engagement (Like, Komen, Follow)
-- **Visual Easter Egg**: Selalu letakkan minimal 1 detail unik/lucu di latar belakang 3D (misal: `MODELS.characters.dog` atau `MODELS.characters.bunny` di teras/pinggir jalan) agar penonton salfok dan berkomentar.
-- **Comment Trigger Card**: Di 4 detik terakhir video, tampilkan `<CommentTriggerCard />` berisi pertanyaan dua kubu atau pertanyaan daerah penonton.
-
-## 4. Verifikasi Wajib
-- Dilarang memakai `useFrame()` dari `@react-three/fiber` atau CSS `transition`.
-- Jalankan `npm run lint` hingga 0 error, dan cek visual dengan `npx remotion still` (lalu hapus file PNG sementara setelah dicek).
-
+## 2. Fleksibilitas Kreatif
+- Bebas memilih dari 9 struktur narasi sesuai topik (StepByStepMechanism, InsideTheMachine, ProblemMechanismSolution, MysteryReveal, dsb).
+- Dilarang memaksakan kartu kuis komentar atau stiker kartun berlebih pada konten teknis/ilmiah serius.
+- Selalu utamakan kejelasan visual mekanisme 3D di area Hero Zone (`Y: 540–1300px`).
