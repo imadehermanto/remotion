@@ -13,7 +13,7 @@ import { z } from "zod";
 type AudioWord = z.infer<typeof AudioAlignmentWordSchema>;
 
 const { fontFamily } = loadFont("normal", {
-  weights: ["600", "700", "800", "900"],
+  weights: ["700", "800"],
   subsets: ["latin"],
 });
 

@@ -70,7 +70,13 @@ async function main() {
 
   let textToSpeak = options.text;
   if (!textToSpeak && options.file) {
-    textToSpeak = fs.readFileSync(path.resolve(options.file), "utf-8");
+    const raw = fs.readFileSync(path.resolve(options.file), "utf-8");
+    try {
+      const parsed = JSON.parse(raw);
+      textToSpeak = parsed.fullNarrationText || parsed.text || raw;
+    } catch {
+      textToSpeak = raw;
+    }
   }
 
   if (!textToSpeak) {
@@ -150,10 +156,26 @@ async function main() {
     }
   });
 
-  await new Promise((resolve, reject) => {
-    writeAudio.on("finish", resolve);
-    writeAudio.on("error", reject);
-  });
+  await Promise.all([
+    new Promise((resolve, reject) => {
+      audioStream.once("error", (e) => {
+        writeAudio.destroy();
+        reject(e);
+      });
+      writeAudio.once("close", () => {
+        if (writeAudio.bytesWritten > 0) {
+          resolve();
+        } else {
+          reject(new Error("No audio data written"));
+        }
+      });
+      writeAudio.once("error", reject);
+    }),
+    new Promise((resolve, reject) => {
+      metadataStream.once("close", resolve);
+      metadataStream.once("error", reject);
+    }),
+  ]);
 
   // Calculate total audio duration from words / sentences
   const lastItem = words[words.length - 1] || sentences[sentences.length - 1];

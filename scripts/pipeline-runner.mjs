@@ -57,6 +57,9 @@ function parseArgs() {
     const a = args[i];
     if (a === "status" || a === "run" || a === "init" || a === "resume" || a === "help") {
       options.command = a;
+      if (args[i + 1] && !args[i + 1].startsWith("-")) {
+        options.project = sanitizeId(args[++i]);
+      }
     } else if (a === "--project" || a === "-p") {
       options.project = sanitizeId(args[++i]);
     } else if (a === "--composition" || a === "-c") {
@@ -313,7 +316,14 @@ const stageHandlers = {
 
     execFileSync(
       "npx",
-      ["remotion", "render", comp, outFile],
+      [
+        "remotion",
+        "render",
+        comp,
+        outFile,
+        "--concurrency=2",
+        "--timeout=120000",
+      ],
       { cwd: rootDir, env, stdio: "inherit" }
     );
 
@@ -352,7 +362,11 @@ Options:
   }
 
   const projectId = opts.project || "touchscreen-explainer";
-  const composition = opts.composition || "TouchscreenExplainer";
+  const defaultComp = projectId
+    .split("-")
+    .map((s) => s.charAt(0).toUpperCase() + s.slice(1))
+    .join("");
+  const composition = opts.composition || defaultComp;
 
   if (opts.command === "status") {
     const paths = getProjectPaths(projectId);

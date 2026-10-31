@@ -1,0 +1,90 @@
+{
+  "id": "charger-heat-explainer",
+  "title": "Kenapa Charger HP Bisa Panas Saat Digunakan?",
+  "topic": "Prinsip konversi daya AC ke DC, efisiensi SMPS, dan disipasi panas termodinamika pada charger smartphone",
+  "targetDurationSeconds": 60,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "language": "id-ID",
+  "narrativeStructure": "StepByStepMechanism",
+  "visualStyle": "CinematicTechnicalExplainer",
+  "createdAt": "2026-10-31T09:30:00.000Z",
+  "updatedAt": "2026-10-31T10:38:39.088Z",
+  "currentStage": "render",
+  "stages": {
+    "init": {
+      "status": "completed",
+      "completedAt": "2026-10-31T09:30:00.000Z",
+      "updatedAt": "2026-10-31T10:38:01.670Z",
+      "dir": "projects/charger-heat-explainer"
+    },
+    "research": {
+      "status": "completed",
+      "completedAt": "2026-10-31T09:31:00.000Z",
+      "summary": "Riset fisika konversi daya 220V AC ke DC 5-9V, rugi-rugi I²R, dan batas aman suhu 40-55°C.",
+      "artifactPath": "projects/charger-heat-explainer/research.json",
+      "updatedAt": "2026-10-31T10:38:01.670Z",
+      "principlesCount": 6
+    },
+    "brief": {
+      "status": "completed",
+      "completedAt": "2026-10-31T09:32:00.000Z",
+      "summary": "Creative brief CinematicTechnicalExplainer 60s vertikal 9:16.",
+      "artifactPath": "projects/charger-heat-explainer/creative-brief.json",
+      "updatedAt": "2026-10-31T10:38:01.671Z",
+      "visualStyle": "CinematicTechnicalExplainer",
+      "narrativeStructure": "StepByStepMechanism"
+    },
+    "script": {
+      "status": "completed",
+      "completedAt": "2026-10-31T09:33:00.000Z",
+      "summary": "Naskah narasi Indonesia 146 kata terverifikasi secara ilmiah.",
+      "artifactPath": "projects/charger-heat-explainer/script.json",
+      "updatedAt": "2026-10-31T10:38:01.672Z",
+      "wordsCount": 146
+    },
+    "voice": {
+      "status": "completed",
+      "completedAt": "2026-10-31T09:35:00.000Z",
+      "summary": "Voice-over Edge TTS ArdiNeural 59.8s dihasilkan.",
+      "artifactPath": "public/charger-heat-explainer.mp3",
+      "updatedAt": "2026-10-31T10:38:02.921Z",
+      "audioPath": "public/charger-heat-explainer.mp3",
+      "metadataPath": "public/charger-heat-explainer.json"
+    },
+    "storyboard": {
+      "status": "completed",
+      "completedAt": "2026-10-31T09:34:00.000Z",
+      "summary": "5 Shot sequence dengan durasi total 1800 frame sinkron narasi audio.",
+      "artifactPath": "projects/charger-heat-explainer/storyboard.json",
+      "updatedAt": "2026-10-31T10:38:02.923Z",
+      "shotsCount": 5,
+      "totalFrames": 1800
+    },
+    "scene": {
+      "status": "completed",
+      "updatedAt": "2026-10-31T10:38:07.348Z",
+      "composition": "ChargerHeatExplainer",
+      "file": "src/ChargerHeatExplainer.tsx"
+    },
+    "keyframes": {
+      "status": "completed",
+      "completedAt": "2026-10-31T09:35:06.629Z",
+      "contactSheet": "out/qa/ChargerHeatExplainer/contact-sheet.png",
+      "updatedAt": "2026-10-31T10:38:39.087Z"
+    },
+    "qa": {
+      "status": "completed",
+      "completedAt": "2026-10-31T09:35:06.629Z",
+      "report": "out/qa/ChargerHeatExplainer/qa-report.json",
+      "updatedAt": "2026-10-31T10:38:39.087Z",
+      "reportPath": "out/qa/ChargerHeatExplainer/qa-report.json"
+    },
+    "render": {
+      "status": "running",
+      "updatedAt": "2026-10-31T10:38:39.088Z",
+      "error": "Command failed: npx remotion render ChargerHeatExplainer /Users/imadehermanto/remotion/out/ChargerHeatExplainer.mp4"
+    }
+  }
+}

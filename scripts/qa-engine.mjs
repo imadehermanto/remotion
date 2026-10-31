@@ -128,6 +128,20 @@ function runAssetIntegrityQA(compositionId) {
       bgm: "public/assets/audio/bgm-scheming-weasel.mp3",
       sfx: ["public/assets/sfx/swoosh.wav", "public/assets/sfx/ding.wav"],
     },
+    ChargerHeatExplainer: {
+      audio: "public/charger-heat-explainer.mp3",
+      json: "public/charger-heat-explainer.json",
+      srt: "public/charger-heat-explainer.srt",
+      bgm: "public/assets/audio/bgm-scheming-weasel.mp3",
+      sfx: [
+        "public/assets/sfx/whoosh.wav",
+        "public/assets/sfx/impact.wav",
+        "public/assets/sfx/switch.wav",
+        "public/assets/sfx/riser.wav",
+        "public/assets/sfx/ding.wav",
+      ],
+      storyboard: "projects/charger-heat-explainer/storyboard.json",
+    },
   };
 
   const assetSet = knownAssets[compositionId];
@@ -176,6 +190,7 @@ function runTimelineAudioSyncQA(compositionId) {
     TouchscreenExplainer: { audio: "public/touchscreen-explainer.mp3", targetFrames: 1728, fps: 30 },
     BrakeFadeExplainer: { audio: "public/brake-fade-explainer.mp3", targetFrames: 1728, fps: 30 },
     BrakeFadeExplainerV2: { audio: "public/brake-fade-explainer.mp3", targetFrames: 1754, fps: 30 },
+    ChargerHeatExplainer: { audio: "public/charger-heat-explainer.mp3", targetFrames: 1800, fps: 30 },
   };
 
   const spec = audioMap[compositionId];

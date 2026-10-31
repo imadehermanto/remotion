@@ -1,0 +1,53 @@
+{
+  "projectId": "charger-heat-explainer",
+  "title": "Rahasia Mengapa Charger HP Terasa Panas",
+  "targetVoice": "id-ID-ArdiNeural",
+  "hook": "Pernah merasa cemas saat memegang kepala charger HP yang terasa hangat atau bahkan cukup panas saat dipakai?",
+  "sections": [
+    {
+      "id": "sec-1-hook",
+      "title": "Hook Fenomena Panas di Tangan",
+      "narrationText": "Pernah merasa cemas saat memegang kepala charger HP yang terasa hangat atau bahkan cukup panas saat dipakai? Tenang, ini bukan berarti chargermu rusak, melainkan hukum fisika yang sedang bekerja!",
+      "estimatedSeconds": 10,
+      "targetMood": "Menenangkan & Mengundang Rasa Ingin Tahu",
+      "visualCue": "Adaptor charger 3D berputar anggun di studio gelap, gelombang pendaran panas tipis menyelimuti bodinya."
+    },
+    {
+      "id": "sec-2-voltage-drop",
+      "title": "Konversi 220V AC ke 5V-9V DC",
+      "narrationText": "Listrik dari stopkontak dinding memiliki tegangan tinggi 220 volt arus bolak-balik. Sementara baterai smartphone kita hanya membutuhkan tegangan searah sekitar 5 hingga 9 volt.",
+      "estimatedSeconds": 10,
+      "targetMood": "Teknis & Komparatif",
+      "visualCue": "Kamera zoom in ke pin steker adaptor, memperlihatkan lonjakan gelombang sinus listrik 220V biru yang masuk."
+    },
+    {
+      "id": "sec-3-smps-switching",
+      "title": "Anatomi Trafo & Transistor Switching",
+      "narrationText": "Di dalam adaptor sekecil ini, terdapat transformator mikro dan transistor sakelar super cepat yang memutus arus ratusan ribu kali per detik untuk memangkas voltase secara efisien.",
+      "estimatedSeconds": 11,
+      "targetMood": "Kagum & Detail Mikroskopis",
+      "visualCue": "Casing luar membelah vertikal (exploded cutaway) mengungkap trafo kumparan tembaga berpendar dan chip switching GaN di atas papan PCB hijau."
+    },
+    {
+      "id": "sec-4-joule-losses",
+      "title": "Hukum Termodinamika & Disipasi Termal",
+      "narrationText": "Namun, tidak ada konversi energi di dunia yang efisiensinya seratus persen. Sekitar 10 hingga 15 persen energi niscaya terbuang menjadi panas akibat hambatan listrik alami pada komponen tembaga dan semikonduktor.",
+      "estimatedSeconds": 12,
+      "targetMood": "Ilmiah & Membuka Pikiran",
+      "visualCue": "Partikel kalor inframerah oranye dan merah terpancar dari kumparan trafo dan chip, mengalir keluar ke pelat peredam panas."
+    },
+    {
+      "id": "sec-5-safety-outro",
+      "title": "Batas Suhu Aman vs Indikator Bahaya",
+      "narrationText": "Panas di bodi luar justru membuktikan adaptor berhasil membuang kalor agar chip internal tidak meleleh. Suhu 40 hingga 55 derajat Celsius adalah normal saat fast charging, tapi jika tercium bau gosong dan tembus 65 derajat, segera cabut!",
+      "estimatedSeconds": 12,
+      "targetMood": "Edukasi Praktis & Waspada",
+      "visualCue": "Grafik termometer digital 3D menunjukkan zona aman hijau-oranye 45°C vs zona bahaya merah >65°C, kamera zoom out kembali ke charger utuh."
+    }
+  ],
+  "fullNarrationText": "Pernah merasa cemas saat memegang kepala charger HP yang terasa hangat atau bahkan cukup panas saat dipakai? Tenang, ini bukan berarti chargermu rusak, melainkan hukum fisika yang sedang bekerja! Listrik dari stopkontak dinding memiliki tegangan tinggi 220 volt arus bolak-balik. Sementara baterai smartphone kita hanya membutuhkan tegangan searah sekitar 5 hingga 9 volt. Di dalam adaptor sekecil ini, terdapat transformator mikro dan transistor sakelar super cepat yang memutus arus ratusan ribu kali per detik untuk memangkas voltase secara efisien. Namun, tidak ada konversi energi di dunia yang efisiensinya seratus persen. Sekitar 10 hingga 15 persen energi niscaya terbuang menjadi panas akibat hambatan listrik alami pada komponen tembaga dan semikonduktor. Panas di bodi luar justru membuktikan adaptor berhasil membuang kalor agar chip internal tidak meleleh. Suhu 40 hingga 55 derajat Celsius adalah normal saat fast charging, tapi jika tercium bau gosong dan tembus 65 derajat, segera cabut!",
+  "estimatedTotalWords": 146,
+  "estimatedDurationSeconds": 55,
+  "closingTakeaway": "Panas pada charger adalah hasil alami disipasi energi konversi daya, normal pada kisaran 40°C - 55°C selama fast charging."
+}
+

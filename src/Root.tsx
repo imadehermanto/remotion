@@ -8,6 +8,7 @@ import { AsphaltPotholeExplainer } from "./AsphaltPotholeExplainer";
 import { BrakeFadeExplainer } from "./BrakeFadeExplainer";
 import { BrakeFadeExplainerV2 } from "./BrakeFadeExplainerV2";
 import { TouchscreenExplainer } from "./TouchscreenExplainer";
+import { ChargerHeatExplainer } from "./ChargerHeatExplainer";
 import { AssetShowcase } from "./AssetShowcase";
 import voiceData from "../public/voice.json";
 
@@ -108,6 +109,15 @@ export const RemotionRoot: React.FC = () => {
         id="TouchscreenExplainer"
         component={TouchscreenExplainer}
         durationInFrames={1728}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+
+      <Composition
+        id="ChargerHeatExplainer"
+        component={ChargerHeatExplainer}
+        durationInFrames={1800}
         fps={30}
         width={1080}
         height={1920}

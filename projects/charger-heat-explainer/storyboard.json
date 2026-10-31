@@ -1,0 +1,217 @@
+{
+  "projectId": "charger-heat-explainer",
+  "fps": 30,
+  "totalFrames": 1800,
+  "shots": [
+    {
+      "shotId": "shot-1-hero-intro",
+      "shotIndex": 0,
+      "startFrame": 0,
+      "endFrame": 335,
+      "durationFrames": 335,
+      "scenePurpose": "Memperkenalkan subjek charger smartphone dalam atmosfer studio gelap dengan aura termal halus untuk memancing rasa ingin tahu penonton.",
+      "narrationSegment": "Pernah merasa cemas saat memegang kepala charger HP yang terasa hangat atau bahkan cukup panas saat dipakai? Tenang, ini bukan berarti chargermu rusak, melainkan hukum fisika yang sedang bekerja!",
+      "keyVisualAction": "Kepala charger 3D matte black melayang dan berputar pelan dengan aksen pendaran termal inframerah lembut.",
+      "subjectAndEnvironment": "Charger body melayang di pusat viewport dengan pencahayaan studio softbox dan rim light cyan-amber.",
+      "cameraShotType": "Medium Close Up",
+      "cameraMovement": "OrbitReveal",
+      "cameraConfig": {
+        "startPos": [0.0, 1.5, 6.0],
+        "endPos": [1.2, 0.8, 4.5],
+        "startLookAt": [0.0, 0.0, 0.0],
+        "endLookAt": [0.0, 0.0, 0.0],
+        "fov": 45
+      },
+      "primaryAnimation": "Rotasi halus charger dan pendaran gradient suhu termal dari bodi.",
+      "secondaryAnimation": "Fluktuasi ambient rim lighting.",
+      "lightingRig": "StudioSoftboxLighting",
+      "textOverlay": {
+        "headline": "KENAPA CHARGER PANAS?",
+        "subheadline": "Bukan Rusak, Ini Fisika!",
+        "technicalBadge": "DISIPASI DAYA",
+        "calloutLabel": "ADAPTOR SMARTPHONE"
+      },
+      "soundEffects": [
+        {
+          "cue": "intro-whoosh",
+          "triggerFrameOffset": 5,
+          "soundFile": "assets/sfx/whoosh.wav",
+          "volume": 0.4
+        }
+      ],
+      "requiredAssets": [
+        "public/charger-heat-explainer.mp3",
+        "public/assets/sfx/whoosh.wav"
+      ],
+      "transitionStrategy": "cut"
+    },
+    {
+      "shotId": "shot-2-voltage-drop",
+      "shotIndex": 1,
+      "startFrame": 335,
+      "endFrame": 666,
+      "durationFrames": 331,
+      "scenePurpose": "Menjelaskan jurang perbedaan tegangan 220V AC input dari PLN menuju output DC 5V-9V baterai.",
+      "narrationSegment": "Listrik dari stopkontak dinding memiliki tegangan tinggi 220 volt arus bolak-balik. Sementara baterai smartphone kita hanya membutuhkan tegangan searah sekitar 5 hingga 9 volt.",
+      "keyVisualAction": "Zoom in ke pin steker adaptor; aliran energi gelombang sinus biru 220V berfluktuasi intensitasnya.",
+      "subjectAndEnvironment": "Pin steker logam nikel charger dengan berkas gelombang listrik bolak-balik.",
+      "cameraShotType": "Macro Push In",
+      "cameraMovement": "MacroPushIn",
+      "cameraConfig": {
+        "startPos": [1.2, 0.8, 4.5],
+        "endPos": [-0.5, 0.2, 2.8],
+        "startLookAt": [0.0, 0.0, 0.0],
+        "endLookAt": [0.0, 0.0, 0.0],
+        "fov": 42
+      },
+      "primaryAnimation": "Pulsasi gelombang sinus AC 220V tegangan tinggi merambat ke pin.",
+      "secondaryAnimation": "Indikator skala voltase tegangan turun drastis.",
+      "lightingRig": "MacroTechnicalLighting",
+      "textOverlay": {
+        "headline": "220V AC → 5V-9V DC",
+        "subheadline": "Penurunan Tegangan Masif",
+        "technicalBadge": "STEP DOWN",
+        "calloutLabel": "INPUT PIN 220V AC"
+      },
+      "soundEffects": [
+        {
+          "cue": "voltage-impact",
+          "triggerFrameOffset": 10,
+          "soundFile": "assets/sfx/impact.wav",
+          "volume": 0.45
+        }
+      ],
+      "requiredAssets": [
+        "public/charger-heat-explainer.mp3",
+        "public/assets/sfx/impact.wav"
+      ],
+      "transitionStrategy": "cut"
+    },
+    {
+      "shotId": "shot-3-exploded-smps",
+      "shotIndex": 2,
+      "startFrame": 666,
+      "endFrame": 953,
+      "durationFrames": 287,
+      "scenePurpose": "Mengungkap isi komponen internal adaptor SMPS (Switch Mode Power Supply) dengan efek exploded view mikroskopis.",
+      "narrationSegment": "Di dalam adaptor sekecil ini, terdapat transformator mikro dan transistor sakelar super cepat yang memutus arus ratusan ribu kali per detik untuk memangkas voltase secara efisien.",
+      "keyVisualAction": "Casing luar membuka secara aksial (exploded view), memperlihatkan PCB hijau, trafo kumparan tembaga, dan chip GaN MOSFET.",
+      "subjectAndEnvironment": "Komponen internal charger melayang terurai di ruang teknis studio.",
+      "cameraShotType": "Exploded Technical View",
+      "cameraMovement": "ExplodedViewReveal",
+      "cameraConfig": {
+        "startPos": [-0.5, 0.2, 2.8],
+        "endPos": [0.0, 0.0, 3.8],
+        "startLookAt": [0.0, 0.0, 0.0],
+        "endLookAt": [0.0, 0.0, 0.0],
+        "fov": 45
+      },
+      "primaryAnimation": "Pemisahan casing luar dan pulsasi switching chip semikonduktor berkecepatan tinggi.",
+      "secondaryAnimation": "Pendaran fluks magnetik pada transformator ferit mikro.",
+      "lightingRig": "DramaticLaboratoryLighting",
+      "textOverlay": {
+        "headline": "ANATOMI CHARGER SMPS",
+        "subheadline": "Trafo Mikro & Transistor GaN",
+        "technicalBadge": "SWITCHING FREQUENCY",
+        "calloutLabel": "100.000x / DETIK"
+      },
+      "soundEffects": [
+        {
+          "cue": "explode-switch",
+          "triggerFrameOffset": 10,
+          "soundFile": "assets/sfx/switch.wav",
+          "volume": 0.5
+        }
+      ],
+      "requiredAssets": [
+        "public/charger-heat-explainer.mp3",
+        "public/assets/sfx/switch.wav"
+      ],
+      "transitionStrategy": "cut"
+    },
+    {
+      "shotId": "shot-4-joule-losses",
+      "shotIndex": 3,
+      "startFrame": 953,
+      "endFrame": 1349,
+      "durationFrames": 396,
+      "scenePurpose": "Menjelaskan disipasi energi 10-15% menjadi panas akibat hambatan kawat tembaga dan hambatan dalam semikonduktor (Joule Heating I²R).",
+      "narrationSegment": "Namun, tidak ada konversi energi di dunia yang efisiensinya seratus persen. Sekitar 10 hingga 15 persen energi niscaya terbuang menjadi panas akibat hambatan listrik alami pada komponen tembaga dan semikonduktor.",
+      "keyVisualAction": "Kumparan trafo dan chip GaN berpijar merah oranye membara; partikel termal terpancar ke pelat penyerap panas.",
+      "subjectAndEnvironment": "Papan sirkuit dengan aliran kalor termal intensif.",
+      "cameraShotType": "Extreme Macro Thermal",
+      "cameraMovement": "MacroPushIn",
+      "cameraConfig": {
+        "startPos": [0.0, 0.0, 3.8],
+        "endPos": [0.3, 0.4, 2.2],
+        "startLookAt": [0.0, 0.0, 0.0],
+        "endLookAt": [0.0, 0.0, 0.0],
+        "fov": 40
+      },
+      "primaryAnimation": "Pancaran partikel panas oranye menyebar ke heatsink dan bodi charger.",
+      "secondaryAnimation": "Gradasi warna komponen berubah dari dingin ke panas membara.",
+      "lightingRig": "MacroTechnicalLighting",
+      "textOverlay": {
+        "headline": "HUKUM TERMODINAMIKA",
+        "subheadline": "10-15% Terbuang Jadi Panas (I²R)",
+        "technicalBadge": "EFISIENSI 85-90%",
+        "calloutLabel": "JOULE HEATING LOSSES"
+      },
+      "soundEffects": [
+        {
+          "cue": "heat-riser",
+          "triggerFrameOffset": 15,
+          "soundFile": "assets/sfx/riser.wav",
+          "volume": 0.4
+        }
+      ],
+      "requiredAssets": [
+        "public/charger-heat-explainer.mp3",
+        "public/assets/sfx/riser.wav"
+      ],
+      "transitionStrategy": "cut"
+    },
+    {
+      "shotId": "shot-5-safety-outro",
+      "shotIndex": 4,
+      "startFrame": 1349,
+      "endFrame": 1800,
+      "durationFrames": 451,
+      "scenePurpose": "Memberikan panduan praktis suhu aman (40°C - 55°C) versus bahaya (>65°C / bau gosong) saat charger menyerap & membuang panas.",
+      "narrationSegment": "Panas di bodi luar justru membuktikan adaptor berhasil membuang kalor agar chip internal tidak meleleh. Suhu 40 hingga 55 derajat Celsius adalah normal saat fast charging, tapi jika tercium bau gosong dan tembus 65 derajat, segera cabut!",
+      "keyVisualAction": "Casing kembali menyatu; termometer visual 3D menampilkan rentang suhu aman hijau-kuning vs zona bahaya merah dengan sinyal peringatan.",
+      "subjectAndEnvironment": "Adaptor charger utuh dengan grafis termometer dan ring status suhu.",
+      "cameraShotType": "Full Overview Outro",
+      "cameraMovement": "DollyOut",
+      "cameraConfig": {
+        "startPos": [0.3, 0.4, 2.2],
+        "endPos": [0.0, 1.2, 5.2],
+        "startLookAt": [0.0, 0.0, 0.0],
+        "endLookAt": [0.0, 0.0, 0.0],
+        "fov": 45
+      },
+      "primaryAnimation": "Casing menutup rapat, jarum indikator termal naik ke area 45-50°C (zona normal aman), lalu memberi visualisasi batas 65°C.",
+      "secondaryAnimation": "Rotasi pelan hero charger sebagai penutup elegan.",
+      "lightingRig": "StudioSoftboxLighting",
+      "textOverlay": {
+        "headline": "40°C - 55°C: AMAN & NORMAL",
+        "subheadline": "> 65°C atau Bau Gosong: Cabut!",
+        "technicalBadge": "SAFETY THRESHOLD",
+        "calloutLabel": "THERMAL DISSIPATION"
+      },
+      "soundEffects": [
+        {
+          "cue": "safety-ding",
+          "triggerFrameOffset": 20,
+          "soundFile": "assets/sfx/ding.wav",
+          "volume": 0.5
+        }
+      ],
+      "requiredAssets": [
+        "public/charger-heat-explainer.mp3",
+        "public/assets/sfx/ding.wav"
+      ],
+      "transitionStrategy": "cut"
+    }
+  ]
+}

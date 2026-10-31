@@ -1,0 +1,21 @@
+{
+  "projectId": "charger-heat-explainer",
+  "title": "Kenapa Charger HP Bisa Panas Saat Digunakan?",
+  "targetAudience": "Pengguna smartphone umum, penggemar gadget & sains sehari-hari",
+  "targetDurationSeconds": 50,
+  "narrativeStructure": "StepByStepMechanism",
+  "visualStyle": "CinematicTechnicalExplainer",
+  "artDirection": {
+    "lighting": "MacroTechnicalLighting",
+    "backdrop": "Deep Slate Navy (#090d16 -> #0f172a)",
+    "accentColor": "#f59e0b (Amber Thermal & Copper Coil) & #38bdf8 (Electric Blue Voltage)",
+    "typography": "Modern clean sans with high contrast, safe-zone compliant, zero cartoon borders"
+  },
+  "keyDeliverables": [
+    "3D model kepala charger adaptor dengan pin steker dan port USB-C",
+    "Exploded cutaway reveal: Casing polikarbonat terbelah mengungkap PCB, trafo tembaga, kapasitor filter, dan chip MOSFET switching",
+    "Visualisasi arus AC 220V dikonversi menjadi DC dan rugi daya termal (Joule heating) memancarkan gelombang inframerah",
+    "Penjelasan batas suhu normal (40°C - 55°C) vs indikator bahaya (> 65°C)"
+  ]
+}
+
