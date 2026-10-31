@@ -1,6 +1,7 @@
 import { ThreeCanvas } from "@remotion/three";
-import React from "react";
+import React, { useMemo } from "react";
 import { interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
+import storyboard from "../../projects/touchscreen-explainer/storyboard.json";
 import { CameraWaypoint, CinematicCameraDirector } from "../studio/cameras/CinematicCamera";
 import { MacroTechnicalLighting, StudioSoftboxLighting } from "../studio/lighting/LightingRigs";
 import {
@@ -19,69 +20,35 @@ export const TouchscreenScene3D: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps, width, height } = useVideoConfig();
 
-  // Waypoints derived directly from storyboard.json
-  const cameraWaypoints: CameraWaypoint[] = [
-    // Shot 1: Hero Intro (0 - 251)
-    {
-      fromFrame: 0,
-      toFrame: 251,
-      startPos: [-0.6, 0.4, 5.2],
-      endPos: [0.3, 0.1, 4.6],
-      startLookAt: [0, 0, 0],
-      endLookAt: [0, 0, 0],
-      fov: 42,
-    },
-    // Shot 2: Exploded Layers Cutaway (251 - 612)
-    {
-      fromFrame: 251,
-      toFrame: 612,
-      startPos: [0.2, 1.0, 4.8],
-      endPos: [0.5, 1.4, 4.2],
-      startLookAt: [0, 0.2, 0],
-      endLookAt: [0, 0.3, 0],
-      fov: 40,
-    },
-    // Shot 3: Electrostatic Field Macro (612 - 971)
-    {
-      fromFrame: 612,
-      toFrame: 971,
-      startPos: [0.1, 0.3, 3.6],
-      endPos: [-0.1, 0.1, 2.9],
-      startLookAt: [0, 0.1, 0],
-      endLookAt: [0, 0.1, 0],
-      fov: 38,
-    },
-    // Shot 4: Touch Interaction Climax (971 - 1320)
-    {
-      fromFrame: 971,
-      toFrame: 1320,
-      startPos: [0.3, 0.5, 3.3],
-      endPos: [0.15, 0.25, 3.0],
-      startLookAt: [0, 0, 0.1],
-      endLookAt: [0, 0, 0.1],
-      fov: 42,
-    },
-    // Shot 5: Controller & Outro (1320 - 1700)
-    {
-      fromFrame: 1320,
-      toFrame: 1700,
-      startPos: [0.1, 0.2, 3.6],
-      endPos: [0.0, 0.0, 5.4],
-      startLookAt: [0, 0, 0],
-      endLookAt: [0, 0, 0],
-      fov: 45,
-    },
-  ];
+  // 1. Camera Waypoints derived strictly from storyboard.json (SSOT)
+  const cameraWaypoints: CameraWaypoint[] = useMemo(() => {
+    return storyboard.shots.map((shot) => ({
+      fromFrame: shot.startFrame,
+      toFrame: shot.endFrame,
+      startPos: shot.cameraConfig.startPos as [number, number, number],
+      endPos: shot.cameraConfig.endPos as [number, number, number],
+      startLookAt: shot.cameraConfig.startLookAt as [number, number, number],
+      endLookAt: shot.cameraConfig.endLookAt as [number, number, number],
+      fov: shot.cameraConfig.fov,
+    }));
+  }, []);
 
-  // Exploded View Layer Separation (Starts in Shot 2, merges back in Shot 5)
+  // 2. Shot Boundaries from Storyboard (No hardcoded duplicated numbers)
+  const shotIntro = storyboard.shots[0];
+  const shotCutaway = storyboard.shots[1];
+  const shotField = storyboard.shots[2];
+  const shotTouch = storyboard.shots[3];
+  const shotOutro = storyboard.shots[4];
+
+  // 3. Exploded View Layer Separation (Derived from Cutaway shot to Outro shot)
   const explodeProgress = spring({
-    frame: frame - 251,
+    frame: frame - shotCutaway.startFrame,
     fps,
     config: { damping: 14, stiffness: 120 },
   });
 
   const collapseProgress = spring({
-    frame: frame - 1320,
+    frame: frame - shotOutro.startFrame,
     fps,
     config: { damping: 14, stiffness: 120 },
   });
@@ -93,13 +60,17 @@ export const TouchscreenScene3D: React.FC = () => {
     { extrapolateLeft: "clamp", extrapolateRight: "clamp" }
   );
 
-  // Finger Animation (Approaches in Shot 4, frame 971 - 1320)
-  const isTouchActive = frame >= 1020 && frame < 1320;
+  // 4. Finger Animation during Touch Shot
+  const touchStartFrame = shotTouch.startFrame + 40;
+  const touchEndFrame = shotTouch.endFrame;
+  const isTouchActive = frame >= touchStartFrame && frame < touchEndFrame;
+
   const fingerApproach = spring({
-    frame: frame - 980,
+    frame: frame - shotTouch.startFrame,
     fps,
     config: { damping: 12, stiffness: 140 },
   });
+
   const fingerY = interpolate(fingerApproach, [0, 1], [2.2, 0.28], {
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
@@ -109,17 +80,19 @@ export const TouchscreenScene3D: React.FC = () => {
     extrapolateRight: "clamp",
   });
 
-  // Touch intensity for ripple/particles
+  // 5. Touch intensity for delta capacitance visual wave
   const touchIntensity = isTouchActive
-    ? interpolate(frame, [1020, 1060, 1280, 1320], [0, 1, 1, 0], {
-        extrapolateLeft: "clamp",
-        extrapolateRight: "clamp",
-      })
+    ? interpolate(
+        frame,
+        [touchStartFrame, touchStartFrame + 30, touchEndFrame - 40, touchEndFrame],
+        [0, 1, 1, 0],
+        { extrapolateLeft: "clamp", extrapolateRight: "clamp" }
+      )
     : 0;
 
-  // Phone chassis slight wobble/tilt in Shot 1
-  const phoneTiltX = frame < 251 ? Math.sin(frame * 0.02) * 0.1 : 0.05;
-  const phoneTiltY = frame < 251 ? (frame * 0.008) % (Math.PI * 2) - 0.2 : 0.1;
+  // Phone chassis subtle 3D rotation in Hero Intro shot
+  const phoneTiltX = frame < shotIntro.endFrame ? Math.sin(frame * 0.02) * 0.1 : 0.05;
+  const phoneTiltY = frame < shotIntro.endFrame ? (frame * 0.008) % (Math.PI * 2) - 0.2 : 0.1;
 
   return (
     <ThreeCanvas
@@ -130,11 +103,11 @@ export const TouchscreenScene3D: React.FC = () => {
         inset: 0,
       }}
     >
-      {/* 1. Cinematic Camera Director */}
+      {/* 1. Cinematic Camera Director driven by Storyboard Waypoints */}
       <CinematicCameraDirector waypoints={cameraWaypoints} />
 
       {/* 2. Reusable Studio Lighting Rig */}
-      {frame >= 1320 ? (
+      {frame >= shotOutro.startFrame ? (
         <StudioSoftboxLighting intensity={1.1} />
       ) : (
         <MacroTechnicalLighting intensity={1.3} />
@@ -178,8 +151,8 @@ export const TouchscreenScene3D: React.FC = () => {
           <OpticalGlassMaterial opacity={0.4} />
         </mesh>
 
-        {/* 6. Human Touch Finger (Appears in Shot 4) */}
-        {frame >= 970 && frame < 1350 && (
+        {/* 6. Human Touch Finger (Active during Shot 4) */}
+        {frame >= shotTouch.startFrame && frame < shotTouch.endFrame + 30 && (
           <HumanTouchFinger3D
             position={[0.12, fingerY, fingerZ + explodeZ]}
             isPressed={isTouchActive}
@@ -195,7 +168,7 @@ export const TouchscreenScene3D: React.FC = () => {
         />
 
         {/* 8. Electrostatic Field Arcs (Shot 3 & 4) */}
-        {frame >= 612 && frame < 1320 && (
+        {frame >= shotField.startFrame && frame < shotTouch.endFrame && (
           <group position={[0, 0, explodeZ * 0.5]}>
             <ElectricFieldArc3D
               fromPos={[-0.4, 0.2, 0.03]}
@@ -216,7 +189,7 @@ export const TouchscreenScene3D: React.FC = () => {
         )}
 
         {/* 9. Holographic Crosshair Coordinates (Shot 5) */}
-        {frame >= 1320 && frame < 1620 && (
+        {frame >= shotOutro.startFrame && frame < shotOutro.endFrame - 80 && (
           <group position={[0.12, 0.1, 0.08]}>
             <mesh>
               <ringGeometry args={[0.22, 0.25, 32]} />

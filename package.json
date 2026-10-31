@@ -47,7 +47,8 @@
     "assets": "node scripts/assets3d.mjs",
     "gltf": "npx gltfjsx",
     "qa": "node scripts/qa-engine.mjs",
-    "pipeline": "node scripts/pipeline-runner.mjs"
+    "pipeline": "node scripts/pipeline-runner.mjs",
+    "test": "node --test tests/studio.test.mjs"
   },
   "allowScripts": {
     "esbuild": false

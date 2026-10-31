@@ -1,0 +1,74 @@
+{
+  "id": "touchscreen-explainer",
+  "title": "touchscreen-explainer",
+  "topic": "touchscreen-explainer",
+  "targetDurationSeconds": 52,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "language": "id-ID",
+  "narrativeStructure": "StepByStepMechanism",
+  "visualStyle": "CinematicTechnicalExplainer",
+  "createdAt": "2026-10-31T09:11:49.292Z",
+  "updatedAt": "2026-10-31T09:12:38.759Z",
+  "currentStage": "render",
+  "stages": {
+    "init": {
+      "status": "completed",
+      "updatedAt": "2026-10-31T09:11:49.298Z",
+      "dir": "projects/touchscreen-explainer"
+    },
+    "research": {
+      "status": "completed",
+      "updatedAt": "2026-10-31T09:11:49.298Z",
+      "principlesCount": 6,
+      "artifactPath": "projects/touchscreen-explainer/research.json"
+    },
+    "brief": {
+      "status": "completed",
+      "updatedAt": "2026-10-31T09:11:49.299Z",
+      "visualStyle": "CinematicTechnicalExplainer",
+      "narrativeStructure": "StepByStepMechanism",
+      "artifactPath": "projects/touchscreen-explainer/creative-brief.json"
+    },
+    "script": {
+      "status": "completed",
+      "updatedAt": "2026-10-31T09:11:49.301Z",
+      "wordsCount": 136,
+      "artifactPath": "projects/touchscreen-explainer/script.json"
+    },
+    "voice": {
+      "status": "completed",
+      "updatedAt": "2026-10-31T09:11:50.985Z",
+      "audioPath": "public/touchscreen-explainer.mp3",
+      "metadataPath": "public/touchscreen-explainer.json"
+    },
+    "storyboard": {
+      "status": "completed",
+      "updatedAt": "2026-10-31T09:11:50.986Z",
+      "shotsCount": 5,
+      "totalFrames": 1728,
+      "artifactPath": "projects/touchscreen-explainer/storyboard.json"
+    },
+    "scene": {
+      "status": "completed",
+      "updatedAt": "2026-10-31T09:11:55.127Z",
+      "composition": "TouchscreenExplainer",
+      "file": "src/TouchscreenExplainer.tsx"
+    },
+    "keyframes": {
+      "status": "completed",
+      "updatedAt": "2026-10-31T09:12:38.758Z",
+      "contactSheet": "out/qa/TouchscreenExplainer/contact-sheet.png"
+    },
+    "qa": {
+      "status": "completed",
+      "updatedAt": "2026-10-31T09:12:38.759Z",
+      "reportPath": "out/qa/TouchscreenExplainer/qa-report.json"
+    },
+    "render": {
+      "status": "running",
+      "updatedAt": "2026-10-31T09:12:38.759Z"
+    }
+  }
+}

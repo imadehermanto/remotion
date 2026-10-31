@@ -1,7 +1,7 @@
 {
   "projectId": "touchscreen-explainer",
   "fps": 30,
-  "totalFrames": 1700,
+  "totalFrames": 1728,
   "shots": [
     {
       "shotId": "shot-01-hero-intro",
@@ -29,7 +29,7 @@
         "subheadline": "RAHASIA MEDAN LISTRIK KAPASITIF"
       },
       "soundEffects": [
-        { "cue": "intro_swoosh", "triggerFrameOffset": 5, "soundFile": "assets/sfx/swoosh.wav", "volume": 0.3 }
+        { "cue": "intro_swoosh", "triggerFrameOffset": 8, "soundFile": "assets/sfx/swoosh.wav", "volume": 0.28 }
       ],
       "requiredAssets": ["SmartphoneFrame3D"],
       "transitionStrategy": "Cutaway Zoom In"
@@ -43,14 +43,14 @@
       "scenePurpose": "Bedah irisan teknis: Kaca pelindung terangkat memisahkan elektroda transparan Indium Tin Oxide (ITO).",
       "narrationSegment": "Ternyata, rahasianya ada pada medan listrik mikroskopis di bawah kaca layar. Tepat di bawah lapisan kaca pelindung, terdapat kisi-kisi elektroda transparan yang sangat tipis berbahan Indium Tin Oxide.",
       "keyVisualAction": "Exploded view vertikal: Cover glass naik ke atas, menampilkan kisi-kisi elektroda ITO emas dan sian bersilangan.",
-      "subjectAndEnvironment": "Penampang 5 lapis: Cover Glass, Driving Line (X), Dielectric Spacer, Sensing Line (Y), OLED Display.",
+      "subjectAndEnvironment": "Penampang 5 lapis: Cover Glass, Driving Line (Tx), Dielectric Spacer, Sensing Line (Rx), OLED Display.",
       "cameraShotType": "Exploded View Isometric Perspective",
       "cameraMovement": "ExplodedViewReveal",
       "cameraConfig": {
-        "startPos": [0.2, 1.2, 4.8],
-        "endPos": [0.6, 1.6, 4.2],
+        "startPos": [0.2, 1.0, 4.8],
+        "endPos": [0.5, 1.4, 4.2],
         "startLookAt": [0, 0.2, 0],
-        "endLookAt": [0, 0.4, 0],
+        "endLookAt": [0, 0.3, 0],
         "fov": 40
       },
       "primaryAnimation": "Pemisahan lapisan (exploded translation sepanjang sumbu Z) dengan label teknis.",
@@ -58,10 +58,22 @@
       "textOverlay": {
         "headline": "ANATOMI LAYAR KAPASITIF",
         "subheadline": "INDIUM TIN OXIDE (ITO) TRANSPARAN",
-        "technicalBadge": "TEBAL ELEKTRODA < 100 NANOMETER"
+        "technicalBadge": "TEBAL LAPISAN ITO ~20-100 NM"
       },
+      "callouts": [
+        {
+          "id": "callout-ito",
+          "fromFrame": 320,
+          "toFrame": 580,
+          "label": "Indium Tin Oxide (ITO)",
+          "sublabel": "Tebal ~20-100 nm, Transparansi > 90%",
+          "x": 320,
+          "y": 780,
+          "accentColor": "#f59e0b"
+        }
+      ],
       "soundEffects": [
-        { "cue": "cutaway_pop", "triggerFrameOffset": 10, "soundFile": "assets/sfx/pop.wav", "volume": 0.35 }
+        { "cue": "cutaway_pop", "triggerFrameOffset": 9, "soundFile": "assets/sfx/pop.wav", "volume": 0.35 }
       ],
       "requiredAssets": ["CapacitiveSensorGrid3D"],
       "transitionStrategy": "Smooth Macro Pan"
@@ -72,15 +84,15 @@
       "startFrame": 612,
       "endFrame": 971,
       "durationFrames": 359,
-      "scenePurpose": "Visualisasi sains medan elektrostatik: Muatan listrik mengalir seimbang di antara persimpangan X dan Y.",
+      "scenePurpose": "Visualisasi sains medan elektrostatik: Muatan listrik mengalir seimbang di antara persimpangan Tx dan Rx.",
       "narrationSegment": "Kisi-kisi ini disusun bersilangan membentuk sumbu X dan Y. Saat HP menyala, arus listrik mengalir di persimpangannya, menciptakan medan muatan elektrostatis yang stabil dan tak terlihat.",
       "keyVisualAction": "Pemandangan makro dekat persimpangan grid; partikel listrik sian dan amber berdenyut dalam keharmonisan sempurna.",
       "subjectAndEnvironment": "Persimpangan matriks kapasitansi mutual dengan partikel elektron berpendar.",
       "cameraShotType": "Extreme Macro Top-Down Tilt",
       "cameraMovement": "MacroPushIn",
       "cameraConfig": {
-        "startPos": [0.1, 0.4, 3.6],
-        "endPos": [-0.1, 0.2, 3.0],
+        "startPos": [0.1, 0.3, 3.6],
+        "endPos": [-0.1, 0.1, 2.9],
         "startLookAt": [0, 0.1, 0],
         "endLookAt": [0, 0.1, 0],
         "fov": 38
@@ -89,10 +101,10 @@
       "lightingRig": "MacroTechnicalLighting",
       "textOverlay": {
         "headline": "MEDAN ELEKTROSTATIK STABIL",
-        "subheadline": "MUTUAL CAPACITANCE MATRIX"
+        "subheadline": "KISI-KISI MATRIKS SUMBU X & Y"
       },
       "soundEffects": [
-        { "cue": "riser_tension", "triggerFrameOffset": 20, "soundFile": "assets/sfx/riser.wav", "volume": 0.25 }
+        { "cue": "riser_tension", "triggerFrameOffset": 8, "soundFile": "assets/sfx/riser.wav", "volume": 0.22 }
       ],
       "requiredAssets": ["ElectricFieldArc3D"],
       "transitionStrategy": "Direct Action Cut"
@@ -110,8 +122,8 @@
       "cameraShotType": "Cinematic 3/4 Action Shot",
       "cameraMovement": "TrackingShot",
       "cameraConfig": {
-        "startPos": [0.4, 0.6, 3.4],
-        "endPos": [0.2, 0.3, 3.1],
+        "startPos": [0.3, 0.5, 3.3],
+        "endPos": [0.15, 0.25, 3.0],
         "startLookAt": [0, 0, 0.1],
         "endLookAt": [0, 0, 0.1],
         "fov": 42
@@ -120,11 +132,22 @@
       "lightingRig": "MacroTechnicalLighting",
       "textOverlay": {
         "headline": "DISTORSI MEDAN LISTRIK",
-        "subheadline": "KAPASITANSI TURUN DI TITIK SENTUH",
-        "technicalBadge": "DELTA C = -3.8%"
+        "subheadline": "JARI MANUSIA MENYRAP MUATAN"
       },
+      "callouts": [
+        {
+          "id": "callout-delta",
+          "fromFrame": 1040,
+          "toFrame": 1280,
+          "label": "Reduksi Kapasitansi (ΔC)",
+          "sublabel": "Penurunan Muatan Lokal ~1–5%",
+          "x": 340,
+          "y": 720,
+          "accentColor": "#38bdf8"
+        }
+      ],
       "soundEffects": [
-        { "cue": "touch_impact", "triggerFrameOffset": 15, "soundFile": "assets/sfx/impact.wav", "volume": 0.4 }
+        { "cue": "touch_impact", "triggerFrameOffset": 59, "soundFile": "assets/sfx/impact.wav", "volume": 0.42 }
       ],
       "requiredAssets": ["HumanTouchFinger3D", "ChargeFlowParticles3D"],
       "transitionStrategy": "Smooth Dolly Out"
@@ -133,8 +156,8 @@
       "shotId": "shot-05-controller-outro",
       "shotIndex": 5,
       "startFrame": 1320,
-      "endFrame": 1700,
-      "durationFrames": 380,
+      "endFrame": 1728,
+      "durationFrames": 408,
       "scenePurpose": "Resolusi & Takeaway: Mikrokontroler memetakan koordinat; penjelasan mengapa kuku atau bahan isolator gagal.",
       "narrationSegment": "Mikrokontroler mendeteksi penurunan kapasitansi ini ratusan kali per detik dan langsung memetakan koordinat sentuhanmu. Dan itulah kenapa kuku atau plastik gagal: mereka adalah isolator yang tidak bisa menyerap muatan listrik layar!",
       "keyVisualAction": "Peta koordinat X/Y terkunci pada titik sentuh dengan crosshair holografik; kamera zoom out ke tampilan smartphone utuh.",
@@ -142,24 +165,36 @@
       "cameraShotType": "Full Overview Outro",
       "cameraMovement": "DollyOut",
       "cameraConfig": {
-        "startPos": [0.1, 0.2, 3.8],
+        "startPos": [0.1, 0.2, 3.6],
         "endPos": [0.0, 0.0, 5.4],
         "startLookAt": [0, 0, 0],
         "endLookAt": [0, 0, 0],
         "fov": 45
       },
-      "primaryAnimation": "Kunci koordinat grid (X=540, Y=960) dan zoom out stabil.",
+      "primaryAnimation": "Kunci koordinat grid dan zoom out stabil.",
       "lightingRig": "StudioSoftboxLighting",
       "textOverlay": {
-        "headline": "KOORDINAT TERKUNCI (X, Y)",
+        "headline": "PEMETAAN KOORDINAT SENTUHAN",
         "subheadline": "KUKU & PLASTIK = ISOLATOR TANPA MUATAN"
       },
+      "callouts": [
+        {
+          "id": "callout-coords",
+          "fromFrame": 1360,
+          "toFrame": 1600,
+          "label": "Sampling Rate (120–240 Hz)",
+          "sublabel": "Memetakan Koordinat Sentuhan (X, Y)",
+          "x": 340,
+          "y": 740,
+          "accentColor": "#34d399"
+        }
+      ],
       "soundEffects": [
-        { "cue": "outro_ding", "triggerFrameOffset": 10, "soundFile": "assets/sfx/ding.wav", "volume": 0.3 }
+        { "cue": "coord_tick", "triggerFrameOffset": 20, "soundFile": "assets/sfx/tick.wav", "volume": 0.3 },
+        { "cue": "outro_ding", "triggerFrameOffset": 300, "soundFile": "assets/sfx/ding.wav", "volume": 0.32 }
       ],
       "requiredAssets": ["SmartphoneFrame3D"],
       "transitionStrategy": "Fade to Black"
     }
   ]
 }
-

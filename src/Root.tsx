@@ -6,6 +6,7 @@ import { VoiceOverDemo } from "./VoiceOverDemo";
 import { FridgeExplainer } from "./FridgeExplainer";
 import { AsphaltPotholeExplainer } from "./AsphaltPotholeExplainer";
 import { BrakeFadeExplainer } from "./BrakeFadeExplainer";
+import { BrakeFadeExplainerV2 } from "./BrakeFadeExplainerV2";
 import { TouchscreenExplainer } from "./TouchscreenExplainer";
 import { AssetShowcase } from "./AssetShowcase";
 import voiceData from "../public/voice.json";
@@ -95,9 +96,18 @@ export const RemotionRoot: React.FC = () => {
       />
 
       <Composition
+        id="BrakeFadeExplainerV2"
+        component={BrakeFadeExplainerV2}
+        durationInFrames={1754}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+
+      <Composition
         id="TouchscreenExplainer"
         component={TouchscreenExplainer}
-        durationInFrames={1700}
+        durationInFrames={1728}
         fps={30}
         width={1080}
         height={1920}

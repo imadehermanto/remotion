@@ -1,38 +1,32 @@
 {
-  "topic": "Cara Kerja Layar Sentuh Smartphone (Projected Capacitive Touchscreen)",
-  "coreEducationalQuestion": "Mengapa layar smartphone hanya merespons sentuhan kulit jari atau stylus khusus, tetapi tidak bereaksi terhadap kuku atau sarung tangan tebal?",
+  "topic": "Cara Kerja Layar Sentuh Smartphone (Projected Capacitive Touchscreen / PCAP)",
+  "coreEducationalQuestion": "Mengapa layar smartphone modern hanya merespons sentuhan kulit jari atau stylus kapasitif, tetapi tidak bereaksi terhadap kuku, kayu, atau sarung tangan tebal?",
   "scientificPrinciples": [
-    "Kapasitansi elektrik (kemampuan menyimpan muatan elektrostatik)",
-    "Indium Tin Oxide (ITO) - elektroda transparan konduktif",
-    "Mutual Capacitance Grid (persimpangan elektroda baris X dan kolom Y)",
-    "Konduktivitas bioelektrik tubuh manusia (kandungan ion dan air)",
-    "Pengukuran perubahan delta kapasitansi dan interpolasi koordinat mikrokontroler"
+    "Projected Capacitive Technology (PCAP) dengan arsitektur Mutual Capacitance.",
+    "Indium Tin Oxide (ITO): Oksida semikonduktor transparan dengan resistansi rendah dan transparansi optik > 85–90% pada spektrum cahaya tampak.",
+    "Matriks elektroda ortogonal: Jalur transmisi pemicu (Tx / Driving Lines) dan jalur penerima sensor (Rx / Sensing Lines) dipisahkan oleh lapisan dielektrik (kaca/OCA).",
+    "Kopling kapasitansi tubuh manusia: Tubuh manusia bertindak sebagai konduktor dielektrik besar yang terhubung secara virtual ke ground bumi, dengan kapasitansi diri rata-rata ~100–150 pF.",
+    "Reduksi kapasitansi mutual (ΔC): Saat jari konduktif memasuki medan listrik melengkung (fringing electric field), jari menyerap sebagian garis gaya elektrostatik ke ground, menurunkan kapasitansi mutual sebesar ~1–5% di titik persimpangan lokal.",
+    "Scanning dan interpolasi koordinat mikrokontroler: Controller IC memindai matriks elektroda pada frekuensi 120–240 Hz (hingga 480 Hz pada display flagship) untuk menghitung pusat massa koordinat (X, Y)."
   ],
   "confirmedFacts": [
-    "Layar smartphone modern menggunakan Projected Capacitive Touchscreen (PCAP), bukan resistive touchscreen seperti perangkat GPS kuno.",
-    "Elektroda transparan ITO ditata dalam pola berlian atau grid ortogonal pada kaca ultra tipis.",
-    "Saat disentuh jari, tubuh manusia menyerap sebagian muatan elektrostatis lokal, menyebabkan penurunan kapasitansi lokal sebesar 1-5%.",
-    "Kuku tersusun dari keratin mati dan tidak mengandung cukup air bebas atau elektrolit untuk menyerap muatan listrik yang terdeteksi."
+    "Layar smartphone tidak menggunakan sensor panas (termal) atau sensor inframerah.",
+    "Layar smartphone tidak menggunakan teknologi resistif lama yang membutuhkan tekanan mekanis dua lapis plastik lentur.",
+    "Kuku tersusun dari keratin padat berpori sangat rendah dan tidak memiliki kelembapan konduktif atau ion bebas yang cukup untuk mengalihkan medan elektrostatik.",
+    "Air hujan pada layar dapat menyebabkan sentuhan palsu (phantom touch) karena air adalah cairan berpolaritas tinggi yang mendistorsi medan kapasitif."
   ],
-  "commonMisconceptions": [
-    "Mitos: Layar HP bekerja mendeteksi panas tubuh (SALAH: layar bekerja murni mendeteksi medan listrik kapasitif, bukan inframerah atau suhu).",
-    "Mitos: Layar bekerja karena ditekan fisik (SALAH: itu teknologi resistif lama yang membutuhkan penekanan mekanis dua layer fleksibel)."
-  ],
-  "analogies": [
-    "Grid sensor seperti jaring pengaman tak terlihat berisi muatan listrik seimbang; saat jari manusia mendekat, jari bertindak seperti spons listrik kecil yang menyedot muatan di titik persimpangan tersebut."
-  ],
+  "conceptualVsPhysicalClarification": "Secara fisik, lapisan ITO dan perekat optik (OCA) hanya berketebalan beberapa puluh mikrometer hingga nanometer di balik kaca Gorilla Glass 0.5–0.8 mm. Animasi exploded view 3D sengaja meregangkan lapisan secara vertikal sebagai representasi didaktik agar mata manusia dapat memahami urutan lapisan yang secara fisik mikroskopis.",
   "citationsAndSources": [
     {
-      "title": "Projected Capacitive Touch Technology Overview",
-      "source": "IEEE Transactions on Consumer Electronics",
-      "notes": "Menjelaskan arsitektur mutual capacitance dan scanning frekuensi sinyal drive line."
+      "title": "Projected-Capacitive Touchscreen Technology",
+      "source": "Information Display Journal (Society for Information Display / SID)",
+      "notes": "Menjelaskan prinsip mutual vs self-capacitance, pola ITO diamond dan grid baris-kolom."
     },
     {
-      "title": "Human Body Capacitance and Impedance in Touch Sensing",
-      "source": "Journal of Applied Physics",
-      "notes": "Data rata-rata kapasitansi tubuh manusia (100-200 pF) terhadap ground."
+      "title": "Capacitive Sensors: Design and Applications",
+      "source": "IEEE Press, Larry K. Baxter",
+      "notes": "Persamaan dasar fringing electric field dan pengaruh konduktivitas biologis manusia terhadap medan elektrostatik."
     }
   ],
   "technicalVerificationNotes": "Semua visualisasi harus membedakan secara tegas antara medan listrik stabil sebelum disentuh (panah medan tegak lurus seimbang) dan distorsi medan saat disentuh jari (garis medan melengkung ke arah jari)."
 }
-
