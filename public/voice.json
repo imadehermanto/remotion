@@ -1,0 +1,163 @@
+{
+  "voice": "id-ID-GadisNeural",
+  "text": "Halo teman-teman! Selamat datang di Remotion. Suara ini dihasilkan menggunakan Edge TTS bahasa Indonesia berkualitas tinggi.",
+  "fps": 30,
+  "totalDurationMs": 10926,
+  "totalDurationFrames": 328,
+  "sentences": [
+    {
+      "text": "Halo teman-teman!",
+      "startMs": 100,
+      "endMs": 2388,
+      "durationMs": 2288,
+      "startFrame": 3,
+      "endFrame": 72
+    },
+    {
+      "text": "Selamat datang di Remotion.",
+      "startMs": 2338,
+      "endMs": 5338,
+      "durationMs": 3000,
+      "startFrame": 70,
+      "endFrame": 160
+    },
+    {
+      "text": "Suara ini dihasilkan menggunakan Edge TTS bahasa Indonesia berkualitas tinggi.",
+      "startMs": 5338,
+      "endMs": 11763,
+      "durationMs": 6425,
+      "startFrame": 160,
+      "endFrame": 353
+    }
+  ],
+  "words": [
+    {
+      "word": "Halo",
+      "startMs": 100,
+      "endMs": 563,
+      "durationMs": 463,
+      "startFrame": 3,
+      "endFrame": 17
+    },
+    {
+      "word": "teman-teman",
+      "startMs": 563,
+      "endMs": 1501,
+      "durationMs": 938,
+      "startFrame": 17,
+      "endFrame": 45
+    },
+    {
+      "word": "Selamat",
+      "startMs": 2338,
+      "endMs": 2913,
+      "durationMs": 575,
+      "startFrame": 70,
+      "endFrame": 87
+    },
+    {
+      "word": "datang",
+      "startMs": 2913,
+      "endMs": 3376,
+      "durationMs": 463,
+      "startFrame": 87,
+      "endFrame": 101
+    },
+    {
+      "word": "di",
+      "startMs": 3375,
+      "endMs": 3575,
+      "durationMs": 200,
+      "startFrame": 101,
+      "endFrame": 107
+    },
+    {
+      "word": "Remotion",
+      "startMs": 3575,
+      "endMs": 4500,
+      "durationMs": 925,
+      "startFrame": 107,
+      "endFrame": 135
+    },
+    {
+      "word": "Suara",
+      "startMs": 5338,
+      "endMs": 5776,
+      "durationMs": 438,
+      "startFrame": 160,
+      "endFrame": 173
+    },
+    {
+      "word": "ini",
+      "startMs": 5775,
+      "endMs": 6113,
+      "durationMs": 338,
+      "startFrame": 173,
+      "endFrame": 183
+    },
+    {
+      "word": "dihasilkan",
+      "startMs": 6113,
+      "endMs": 6776,
+      "durationMs": 663,
+      "startFrame": 183,
+      "endFrame": 203
+    },
+    {
+      "word": "menggunakan",
+      "startMs": 6775,
+      "endMs": 7350,
+      "durationMs": 575,
+      "startFrame": 203,
+      "endFrame": 221
+    },
+    {
+      "word": "Edge",
+      "startMs": 7350,
+      "endMs": 7663,
+      "durationMs": 313,
+      "startFrame": 221,
+      "endFrame": 230
+    },
+    {
+      "word": "TTS",
+      "startMs": 7663,
+      "endMs": 8338,
+      "durationMs": 675,
+      "startFrame": 230,
+      "endFrame": 250
+    },
+    {
+      "word": "bahasa",
+      "startMs": 8338,
+      "endMs": 8776,
+      "durationMs": 438,
+      "startFrame": 250,
+      "endFrame": 263
+    },
+    {
+      "word": "Indonesia",
+      "startMs": 8775,
+      "endMs": 9488,
+      "durationMs": 713,
+      "startFrame": 263,
+      "endFrame": 285
+    },
+    {
+      "word": "berkualitas",
+      "startMs": 9488,
+      "endMs": 10288,
+      "durationMs": 800,
+      "startFrame": 285,
+      "endFrame": 309
+    },
+    {
+      "word": "tinggi",
+      "startMs": 10288,
+      "endMs": 10926,
+      "durationMs": 638,
+      "startFrame": 309,
+      "endFrame": 328
+    }
+  ]
+}

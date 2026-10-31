@@ -2,6 +2,10 @@ import { Composition, Folder } from "remotion";
 import { HelloWorld } from "./HelloWorld";
 import { Logo } from "./HelloWorld/Logo";
 import { Title } from "./HelloWorld/Title";
+import { VoiceOverDemo } from "./VoiceOverDemo";
+import { FridgeExplainer } from "./FridgeExplainer";
+import { AssetShowcase } from "./AssetShowcase";
+import voiceData from "../public/voice.json";
 
 // Each <Composition> is an entry in the sidebar!
 
@@ -51,6 +55,32 @@ export const RemotionRoot: React.FC = () => {
         }}
       />
 
+      <Composition
+        id="VoiceOverDemo"
+        component={VoiceOverDemo}
+        durationInFrames={voiceData.totalDurationFrames || 330}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      <Composition
+        id="FridgeExplainer"
+        component={FridgeExplainer}
+        durationInFrames={1530}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+
+      <Composition
+        id="AssetShowcase"
+        component={AssetShowcase}
+        durationInFrames={360}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
     </>
   );
 };

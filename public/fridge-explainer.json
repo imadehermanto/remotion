@@ -1,0 +1,1027 @@
+{
+  "voice": "id-ID-ArdiNeural",
+  "text": "Pernah sadar nggak, kenapa bodi luar kulkas rasanya hangat, padahal di dalamnya dingin banget? Ternyata, kulkas itu nggak menciptakan hawa dingin. Kulkas justru mencuri panas dari makananmu, lalu membuangnya ke luar! Pertama, pipa evaporator di dalam kulkas menyerap panas dari makanan. Kedua, gas yang sudah membawa panas tadi dipompa oleh kompresor hingga suhunya melonjak tinggi, lalu dialirkan ke pipa kondensator di dinding belakang. Nah, itulah alasan kenapa bodi luar kulkas selalu terasa hangat saat disentuh! Ketiga, cairan dipaksa melewati celah sempit bernama katup ekspansi. Saat tekanannya turun tiba-tiba, suhunya langsung anjlok jadi sedingin es, dan siap menyerap panas lagi. Dan itulah alasan kenapa kita pantang memasukkan makanan panas langsung ke kulkas, karena kompresornya bakal dipaksa kerja ekstra keras!",
+  "fps": 30,
+  "totalDurationMs": 50225,
+  "totalDurationFrames": 1507,
+  "sentences": [
+    {
+      "text": "Pernah sadar nggak, kenapa bodi luar kulkas rasanya hangat, padahal di dalamnya dingin banget?",
+      "startMs": 100,
+      "endMs": 5775,
+      "durationMs": 5675,
+      "startFrame": 3,
+      "endFrame": 173
+    },
+    {
+      "text": "Ternyata, kulkas itu nggak menciptakan hawa dingin.",
+      "startMs": 5725,
+      "endMs": 9413,
+      "durationMs": 3688,
+      "startFrame": 172,
+      "endFrame": 282
+    },
+    {
+      "text": "Kulkas justru mencuri panas dari makananmu, lalu membuangnya ke luar!",
+      "startMs": 9413,
+      "endMs": 13863,
+      "durationMs": 4450,
+      "startFrame": 282,
+      "endFrame": 416
+    },
+    {
+      "text": "Pertama, pipa evaporator di dalam kulkas menyerap panas dari makanan.",
+      "startMs": 13863,
+      "endMs": 18688,
+      "durationMs": 4825,
+      "startFrame": 416,
+      "endFrame": 561
+    },
+    {
+      "text": "Kedua, gas yang sudah membawa panas tadi dipompa oleh kompresor hingga suhunya melonjak tinggi, lalu dialirkan ke pipa kondensator di dinding belakang.",
+      "startMs": 18688,
+      "endMs": 27376,
+      "durationMs": 8688,
+      "startFrame": 561,
+      "endFrame": 821
+    },
+    {
+      "text": "Nah, itulah alasan kenapa bodi luar kulkas selalu terasa hangat saat disentuh!",
+      "startMs": 27375,
+      "endMs": 32363,
+      "durationMs": 4988,
+      "startFrame": 821,
+      "endFrame": 971
+    },
+    {
+      "text": "Ketiga, cairan dipaksa melewati celah sempit bernama katup ekspansi.",
+      "startMs": 32363,
+      "endMs": 37301,
+      "durationMs": 4938,
+      "startFrame": 971,
+      "endFrame": 1119
+    },
+    {
+      "text": "Saat tekanannya turun tiba-tiba, suhunya langsung anjlok jadi sedingin es, dan siap menyerap panas lagi.",
+      "startMs": 37300,
+      "endMs": 43750,
+      "durationMs": 6450,
+      "startFrame": 1119,
+      "endFrame": 1313
+    },
+    {
+      "text": "Dan itulah alasan kenapa kita pantang memasukkan makanan panas langsung ke kulkas, karena kompresornya bakal dipaksa kerja ekstra keras!",
+      "startMs": 43750,
+      "endMs": 51013,
+      "durationMs": 7263,
+      "startFrame": 1313,
+      "endFrame": 1530
+    }
+  ],
+  "words": [
+    {
+      "word": "Pernah",
+      "startMs": 100,
+      "endMs": 375,
+      "durationMs": 275,
+      "startFrame": 3,
+      "endFrame": 11
+    },
+    {
+      "word": "sadar",
+      "startMs": 375,
+      "endMs": 638,
+      "durationMs": 263,
+      "startFrame": 11,
+      "endFrame": 19
+    },
+    {
+      "word": "nggak",
+      "startMs": 638,
+      "endMs": 1013,
+      "durationMs": 375,
+      "startFrame": 19,
+      "endFrame": 30
+    },
+    {
+      "word": "kenapa",
+      "startMs": 1250,
+      "endMs": 1550,
+      "durationMs": 300,
+      "startFrame": 38,
+      "endFrame": 47
+    },
+    {
+      "word": "bodi",
+      "startMs": 1550,
+      "endMs": 1763,
+      "durationMs": 213,
+      "startFrame": 47,
+      "endFrame": 53
+    },
+    {
+      "word": "luar",
+      "startMs": 1763,
+      "endMs": 1963,
+      "durationMs": 200,
+      "startFrame": 53,
+      "endFrame": 59
+    },
+    {
+      "word": "kulkas",
+      "startMs": 1963,
+      "endMs": 2288,
+      "durationMs": 325,
+      "startFrame": 59,
+      "endFrame": 69
+    },
+    {
+      "word": "rasanya",
+      "startMs": 2288,
+      "endMs": 2613,
+      "durationMs": 325,
+      "startFrame": 69,
+      "endFrame": 78
+    },
+    {
+      "word": "hangat",
+      "startMs": 2613,
+      "endMs": 3113,
+      "durationMs": 500,
+      "startFrame": 78,
+      "endFrame": 93
+    },
+    {
+      "word": "padahal",
+      "startMs": 3363,
+      "endMs": 3738,
+      "durationMs": 375,
+      "startFrame": 101,
+      "endFrame": 112
+    },
+    {
+      "word": "di",
+      "startMs": 3738,
+      "endMs": 3813,
+      "durationMs": 75,
+      "startFrame": 112,
+      "endFrame": 114
+    },
+    {
+      "word": "dalamnya",
+      "startMs": 3813,
+      "endMs": 4151,
+      "durationMs": 338,
+      "startFrame": 114,
+      "endFrame": 125
+    },
+    {
+      "word": "dingin",
+      "startMs": 4150,
+      "endMs": 4375,
+      "durationMs": 225,
+      "startFrame": 125,
+      "endFrame": 131
+    },
+    {
+      "word": "banget",
+      "startMs": 4375,
+      "endMs": 4913,
+      "durationMs": 538,
+      "startFrame": 131,
+      "endFrame": 147
+    },
+    {
+      "word": "Ternyata",
+      "startMs": 5750,
+      "endMs": 6463,
+      "durationMs": 713,
+      "startFrame": 173,
+      "endFrame": 194
+    },
+    {
+      "word": "kulkas",
+      "startMs": 6750,
+      "endMs": 7050,
+      "durationMs": 300,
+      "startFrame": 203,
+      "endFrame": 212
+    },
+    {
+      "word": "itu",
+      "startMs": 7050,
+      "endMs": 7250,
+      "durationMs": 200,
+      "startFrame": 212,
+      "endFrame": 218
+    },
+    {
+      "word": "nggak",
+      "startMs": 7250,
+      "endMs": 7375,
+      "durationMs": 125,
+      "startFrame": 218,
+      "endFrame": 221
+    },
+    {
+      "word": "menciptakan",
+      "startMs": 7375,
+      "endMs": 7888,
+      "durationMs": 513,
+      "startFrame": 221,
+      "endFrame": 237
+    },
+    {
+      "word": "hawa",
+      "startMs": 7888,
+      "endMs": 8101,
+      "durationMs": 213,
+      "startFrame": 237,
+      "endFrame": 243
+    },
+    {
+      "word": "dingin",
+      "startMs": 8100,
+      "endMs": 8600,
+      "durationMs": 500,
+      "startFrame": 243,
+      "endFrame": 258
+    },
+    {
+      "word": "Kulkas",
+      "startMs": 9450,
+      "endMs": 9800,
+      "durationMs": 350,
+      "startFrame": 284,
+      "endFrame": 294
+    },
+    {
+      "word": "justru",
+      "startMs": 9800,
+      "endMs": 10138,
+      "durationMs": 338,
+      "startFrame": 294,
+      "endFrame": 304
+    },
+    {
+      "word": "mencuri",
+      "startMs": 10138,
+      "endMs": 10413,
+      "durationMs": 275,
+      "startFrame": 304,
+      "endFrame": 312
+    },
+    {
+      "word": "panas",
+      "startMs": 10413,
+      "endMs": 10751,
+      "durationMs": 338,
+      "startFrame": 312,
+      "endFrame": 323
+    },
+    {
+      "word": "dari",
+      "startMs": 10750,
+      "endMs": 10888,
+      "durationMs": 138,
+      "startFrame": 323,
+      "endFrame": 327
+    },
+    {
+      "word": "makananmu",
+      "startMs": 10888,
+      "endMs": 11576,
+      "durationMs": 688,
+      "startFrame": 327,
+      "endFrame": 347
+    },
+    {
+      "word": "lalu",
+      "startMs": 11863,
+      "endMs": 12126,
+      "durationMs": 263,
+      "startFrame": 356,
+      "endFrame": 364
+    },
+    {
+      "word": "membuangnya",
+      "startMs": 12125,
+      "endMs": 12513,
+      "durationMs": 388,
+      "startFrame": 364,
+      "endFrame": 375
+    },
+    {
+      "word": "ke",
+      "startMs": 12513,
+      "endMs": 12588,
+      "durationMs": 75,
+      "startFrame": 375,
+      "endFrame": 378
+    },
+    {
+      "word": "luar",
+      "startMs": 12588,
+      "endMs": 13076,
+      "durationMs": 488,
+      "startFrame": 378,
+      "endFrame": 392
+    },
+    {
+      "word": "Pertama",
+      "startMs": 13925,
+      "endMs": 14575,
+      "durationMs": 650,
+      "startFrame": 418,
+      "endFrame": 437
+    },
+    {
+      "word": "pipa",
+      "startMs": 14888,
+      "endMs": 15138,
+      "durationMs": 250,
+      "startFrame": 447,
+      "endFrame": 454
+    },
+    {
+      "word": "evaporator",
+      "startMs": 15138,
+      "endMs": 15751,
+      "durationMs": 613,
+      "startFrame": 454,
+      "endFrame": 473
+    },
+    {
+      "word": "di",
+      "startMs": 15750,
+      "endMs": 15850,
+      "durationMs": 100,
+      "startFrame": 473,
+      "endFrame": 476
+    },
+    {
+      "word": "dalam",
+      "startMs": 15850,
+      "endMs": 16075,
+      "durationMs": 225,
+      "startFrame": 476,
+      "endFrame": 482
+    },
+    {
+      "word": "kulkas",
+      "startMs": 16075,
+      "endMs": 16463,
+      "durationMs": 388,
+      "startFrame": 482,
+      "endFrame": 494
+    },
+    {
+      "word": "menyerap",
+      "startMs": 16463,
+      "endMs": 16751,
+      "durationMs": 288,
+      "startFrame": 494,
+      "endFrame": 503
+    },
+    {
+      "word": "panas",
+      "startMs": 16750,
+      "endMs": 17113,
+      "durationMs": 363,
+      "startFrame": 503,
+      "endFrame": 513
+    },
+    {
+      "word": "dari",
+      "startMs": 17113,
+      "endMs": 17276,
+      "durationMs": 163,
+      "startFrame": 513,
+      "endFrame": 518
+    },
+    {
+      "word": "makanan",
+      "startMs": 17275,
+      "endMs": 17900,
+      "durationMs": 625,
+      "startFrame": 518,
+      "endFrame": 537
+    },
+    {
+      "word": "Kedua",
+      "startMs": 18750,
+      "endMs": 19313,
+      "durationMs": 563,
+      "startFrame": 563,
+      "endFrame": 579
+    },
+    {
+      "word": "gas",
+      "startMs": 19600,
+      "endMs": 19875,
+      "durationMs": 275,
+      "startFrame": 588,
+      "endFrame": 596
+    },
+    {
+      "word": "yang",
+      "startMs": 19875,
+      "endMs": 19963,
+      "durationMs": 88,
+      "startFrame": 596,
+      "endFrame": 599
+    },
+    {
+      "word": "sudah",
+      "startMs": 19963,
+      "endMs": 20188,
+      "durationMs": 225,
+      "startFrame": 599,
+      "endFrame": 606
+    },
+    {
+      "word": "membawa",
+      "startMs": 20188,
+      "endMs": 20488,
+      "durationMs": 300,
+      "startFrame": 606,
+      "endFrame": 615
+    },
+    {
+      "word": "panas",
+      "startMs": 20488,
+      "endMs": 20751,
+      "durationMs": 263,
+      "startFrame": 615,
+      "endFrame": 623
+    },
+    {
+      "word": "tadi",
+      "startMs": 20750,
+      "endMs": 21013,
+      "durationMs": 263,
+      "startFrame": 623,
+      "endFrame": 630
+    },
+    {
+      "word": "dipompa",
+      "startMs": 21013,
+      "endMs": 21388,
+      "durationMs": 375,
+      "startFrame": 630,
+      "endFrame": 642
+    },
+    {
+      "word": "oleh",
+      "startMs": 21388,
+      "endMs": 21551,
+      "durationMs": 163,
+      "startFrame": 642,
+      "endFrame": 647
+    },
+    {
+      "word": "kompresor",
+      "startMs": 21550,
+      "endMs": 22050,
+      "durationMs": 500,
+      "startFrame": 647,
+      "endFrame": 662
+    },
+    {
+      "word": "hingga",
+      "startMs": 22050,
+      "endMs": 22313,
+      "durationMs": 263,
+      "startFrame": 662,
+      "endFrame": 669
+    },
+    {
+      "word": "suhunya",
+      "startMs": 22313,
+      "endMs": 22663,
+      "durationMs": 350,
+      "startFrame": 669,
+      "endFrame": 680
+    },
+    {
+      "word": "melonjak",
+      "startMs": 22663,
+      "endMs": 23038,
+      "durationMs": 375,
+      "startFrame": 680,
+      "endFrame": 691
+    },
+    {
+      "word": "tinggi",
+      "startMs": 23038,
+      "endMs": 23526,
+      "durationMs": 488,
+      "startFrame": 691,
+      "endFrame": 706
+    },
+    {
+      "word": "lalu",
+      "startMs": 23838,
+      "endMs": 24101,
+      "durationMs": 263,
+      "startFrame": 715,
+      "endFrame": 723
+    },
+    {
+      "word": "dialirkan",
+      "startMs": 24100,
+      "endMs": 24613,
+      "durationMs": 513,
+      "startFrame": 723,
+      "endFrame": 738
+    },
+    {
+      "word": "ke",
+      "startMs": 24613,
+      "endMs": 24688,
+      "durationMs": 75,
+      "startFrame": 738,
+      "endFrame": 741
+    },
+    {
+      "word": "pipa",
+      "startMs": 24688,
+      "endMs": 24913,
+      "durationMs": 225,
+      "startFrame": 741,
+      "endFrame": 747
+    },
+    {
+      "word": "kondensator",
+      "startMs": 24913,
+      "endMs": 25563,
+      "durationMs": 650,
+      "startFrame": 747,
+      "endFrame": 767
+    },
+    {
+      "word": "di",
+      "startMs": 25563,
+      "endMs": 25688,
+      "durationMs": 125,
+      "startFrame": 767,
+      "endFrame": 771
+    },
+    {
+      "word": "dinding",
+      "startMs": 25688,
+      "endMs": 26001,
+      "durationMs": 313,
+      "startFrame": 771,
+      "endFrame": 780
+    },
+    {
+      "word": "belakang",
+      "startMs": 26000,
+      "endMs": 26588,
+      "durationMs": 588,
+      "startFrame": 780,
+      "endFrame": 798
+    },
+    {
+      "word": "Nah",
+      "startMs": 27425,
+      "endMs": 27900,
+      "durationMs": 475,
+      "startFrame": 823,
+      "endFrame": 837
+    },
+    {
+      "word": "itulah",
+      "startMs": 28150,
+      "endMs": 28450,
+      "durationMs": 300,
+      "startFrame": 845,
+      "endFrame": 854
+    },
+    {
+      "word": "alasan",
+      "startMs": 28450,
+      "endMs": 28788,
+      "durationMs": 338,
+      "startFrame": 854,
+      "endFrame": 864
+    },
+    {
+      "word": "kenapa",
+      "startMs": 28788,
+      "endMs": 29051,
+      "durationMs": 263,
+      "startFrame": 864,
+      "endFrame": 872
+    },
+    {
+      "word": "bodi",
+      "startMs": 29050,
+      "endMs": 29275,
+      "durationMs": 225,
+      "startFrame": 872,
+      "endFrame": 878
+    },
+    {
+      "word": "luar",
+      "startMs": 29275,
+      "endMs": 29463,
+      "durationMs": 188,
+      "startFrame": 878,
+      "endFrame": 884
+    },
+    {
+      "word": "kulkas",
+      "startMs": 29463,
+      "endMs": 29863,
+      "durationMs": 400,
+      "startFrame": 884,
+      "endFrame": 896
+    },
+    {
+      "word": "selalu",
+      "startMs": 29863,
+      "endMs": 30138,
+      "durationMs": 275,
+      "startFrame": 896,
+      "endFrame": 904
+    },
+    {
+      "word": "terasa",
+      "startMs": 30138,
+      "endMs": 30426,
+      "durationMs": 288,
+      "startFrame": 904,
+      "endFrame": 913
+    },
+    {
+      "word": "hangat",
+      "startMs": 30425,
+      "endMs": 30750,
+      "durationMs": 325,
+      "startFrame": 913,
+      "endFrame": 923
+    },
+    {
+      "word": "saat",
+      "startMs": 30750,
+      "endMs": 30938,
+      "durationMs": 188,
+      "startFrame": 923,
+      "endFrame": 928
+    },
+    {
+      "word": "disentuh",
+      "startMs": 30938,
+      "endMs": 31551,
+      "durationMs": 613,
+      "startFrame": 928,
+      "endFrame": 947
+    },
+    {
+      "word": "Ketiga",
+      "startMs": 32388,
+      "endMs": 33051,
+      "durationMs": 663,
+      "startFrame": 972,
+      "endFrame": 992
+    },
+    {
+      "word": "cairan",
+      "startMs": 33375,
+      "endMs": 33713,
+      "durationMs": 338,
+      "startFrame": 1001,
+      "endFrame": 1011
+    },
+    {
+      "word": "dipaksa",
+      "startMs": 33713,
+      "endMs": 34063,
+      "durationMs": 350,
+      "startFrame": 1011,
+      "endFrame": 1022
+    },
+    {
+      "word": "melewati",
+      "startMs": 34063,
+      "endMs": 34526,
+      "durationMs": 463,
+      "startFrame": 1022,
+      "endFrame": 1036
+    },
+    {
+      "word": "celah",
+      "startMs": 34525,
+      "endMs": 34738,
+      "durationMs": 213,
+      "startFrame": 1036,
+      "endFrame": 1042
+    },
+    {
+      "word": "sempit",
+      "startMs": 34738,
+      "endMs": 35063,
+      "durationMs": 325,
+      "startFrame": 1042,
+      "endFrame": 1052
+    },
+    {
+      "word": "bernama",
+      "startMs": 35063,
+      "endMs": 35426,
+      "durationMs": 363,
+      "startFrame": 1052,
+      "endFrame": 1063
+    },
+    {
+      "word": "katup",
+      "startMs": 35425,
+      "endMs": 35725,
+      "durationMs": 300,
+      "startFrame": 1063,
+      "endFrame": 1072
+    },
+    {
+      "word": "ekspansi",
+      "startMs": 35725,
+      "endMs": 36488,
+      "durationMs": 763,
+      "startFrame": 1072,
+      "endFrame": 1095
+    },
+    {
+      "word": "Saat",
+      "startMs": 37338,
+      "endMs": 37601,
+      "durationMs": 263,
+      "startFrame": 1120,
+      "endFrame": 1128
+    },
+    {
+      "word": "tekanannya",
+      "startMs": 37600,
+      "endMs": 38000,
+      "durationMs": 400,
+      "startFrame": 1128,
+      "endFrame": 1140
+    },
+    {
+      "word": "turun",
+      "startMs": 38000,
+      "endMs": 38225,
+      "durationMs": 225,
+      "startFrame": 1140,
+      "endFrame": 1147
+    },
+    {
+      "word": "tiba-tiba",
+      "startMs": 38225,
+      "endMs": 38938,
+      "durationMs": 713,
+      "startFrame": 1147,
+      "endFrame": 1168
+    },
+    {
+      "word": "suhunya",
+      "startMs": 39225,
+      "endMs": 39625,
+      "durationMs": 400,
+      "startFrame": 1177,
+      "endFrame": 1189
+    },
+    {
+      "word": "langsung",
+      "startMs": 39625,
+      "endMs": 39913,
+      "durationMs": 288,
+      "startFrame": 1189,
+      "endFrame": 1197
+    },
+    {
+      "word": "anjlok",
+      "startMs": 39913,
+      "endMs": 40288,
+      "durationMs": 375,
+      "startFrame": 1197,
+      "endFrame": 1209
+    },
+    {
+      "word": "jadi",
+      "startMs": 40288,
+      "endMs": 40488,
+      "durationMs": 200,
+      "startFrame": 1209,
+      "endFrame": 1215
+    },
+    {
+      "word": "sedingin",
+      "startMs": 40488,
+      "endMs": 40813,
+      "durationMs": 325,
+      "startFrame": 1215,
+      "endFrame": 1224
+    },
+    {
+      "word": "es",
+      "startMs": 40813,
+      "endMs": 41238,
+      "durationMs": 425,
+      "startFrame": 1224,
+      "endFrame": 1237
+    },
+    {
+      "word": "dan",
+      "startMs": 41463,
+      "endMs": 41663,
+      "durationMs": 200,
+      "startFrame": 1244,
+      "endFrame": 1250
+    },
+    {
+      "word": "siap",
+      "startMs": 41663,
+      "endMs": 41926,
+      "durationMs": 263,
+      "startFrame": 1250,
+      "endFrame": 1258
+    },
+    {
+      "word": "menyerap",
+      "startMs": 41925,
+      "endMs": 42213,
+      "durationMs": 288,
+      "startFrame": 1258,
+      "endFrame": 1266
+    },
+    {
+      "word": "panas",
+      "startMs": 42213,
+      "endMs": 42488,
+      "durationMs": 275,
+      "startFrame": 1266,
+      "endFrame": 1275
+    },
+    {
+      "word": "lagi",
+      "startMs": 42488,
+      "endMs": 42963,
+      "durationMs": 475,
+      "startFrame": 1275,
+      "endFrame": 1289
+    },
+    {
+      "word": "Dan",
+      "startMs": 43813,
+      "endMs": 44001,
+      "durationMs": 188,
+      "startFrame": 1314,
+      "endFrame": 1320
+    },
+    {
+      "word": "itulah",
+      "startMs": 44000,
+      "endMs": 44288,
+      "durationMs": 288,
+      "startFrame": 1320,
+      "endFrame": 1329
+    },
+    {
+      "word": "alasan",
+      "startMs": 44288,
+      "endMs": 44638,
+      "durationMs": 350,
+      "startFrame": 1329,
+      "endFrame": 1339
+    },
+    {
+      "word": "kenapa",
+      "startMs": 44638,
+      "endMs": 44913,
+      "durationMs": 275,
+      "startFrame": 1339,
+      "endFrame": 1347
+    },
+    {
+      "word": "kita",
+      "startMs": 44913,
+      "endMs": 45101,
+      "durationMs": 188,
+      "startFrame": 1347,
+      "endFrame": 1353
+    },
+    {
+      "word": "pantang",
+      "startMs": 45100,
+      "endMs": 45413,
+      "durationMs": 313,
+      "startFrame": 1353,
+      "endFrame": 1362
+    },
+    {
+      "word": "memasukkan",
+      "startMs": 45413,
+      "endMs": 45863,
+      "durationMs": 450,
+      "startFrame": 1362,
+      "endFrame": 1376
+    },
+    {
+      "word": "makanan",
+      "startMs": 45863,
+      "endMs": 46201,
+      "durationMs": 338,
+      "startFrame": 1376,
+      "endFrame": 1386
+    },
+    {
+      "word": "panas",
+      "startMs": 46200,
+      "endMs": 46488,
+      "durationMs": 288,
+      "startFrame": 1386,
+      "endFrame": 1395
+    },
+    {
+      "word": "langsung",
+      "startMs": 46488,
+      "endMs": 46776,
+      "durationMs": 288,
+      "startFrame": 1395,
+      "endFrame": 1403
+    },
+    {
+      "word": "ke",
+      "startMs": 46775,
+      "endMs": 46850,
+      "durationMs": 75,
+      "startFrame": 1403,
+      "endFrame": 1406
+    },
+    {
+      "word": "kulkas",
+      "startMs": 46850,
+      "endMs": 47425,
+      "durationMs": 575,
+      "startFrame": 1406,
+      "endFrame": 1423
+    },
+    {
+      "word": "karena",
+      "startMs": 47688,
+      "endMs": 47938,
+      "durationMs": 250,
+      "startFrame": 1431,
+      "endFrame": 1438
+    },
+    {
+      "word": "kompresornya",
+      "startMs": 47938,
+      "endMs": 48538,
+      "durationMs": 600,
+      "startFrame": 1438,
+      "endFrame": 1456
+    },
+    {
+      "word": "bakal",
+      "startMs": 48538,
+      "endMs": 48776,
+      "durationMs": 238,
+      "startFrame": 1456,
+      "endFrame": 1463
+    },
+    {
+      "word": "dipaksa",
+      "startMs": 48775,
+      "endMs": 49125,
+      "durationMs": 350,
+      "startFrame": 1463,
+      "endFrame": 1474
+    },
+    {
+      "word": "kerja",
+      "startMs": 49125,
+      "endMs": 49425,
+      "durationMs": 300,
+      "startFrame": 1474,
+      "endFrame": 1483
+    },
+    {
+      "word": "ekstra",
+      "startMs": 49425,
+      "endMs": 49725,
+      "durationMs": 300,
+      "startFrame": 1483,
+      "endFrame": 1492
+    },
+    {
+      "word": "keras",
+      "startMs": 49725,
+      "endMs": 50225,
+      "durationMs": 500,
+      "startFrame": 1492,
+      "endFrame": 1507
+    }
+  ]
+}

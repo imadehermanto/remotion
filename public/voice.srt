@@ -1,0 +1,12 @@
+1
+00:00:00,100 --> 00:00:02,388
+Halo teman-teman!
+
+2
+00:00:02,338 --> 00:00:05,338
+Selamat datang di Remotion.
+
+3
+00:00:05,338 --> 00:00:11,763
+Suara ini dihasilkan menggunakan Edge TTS bahasa Indonesia berkualitas tinggi.
+

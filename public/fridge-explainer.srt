@@ -1,0 +1,36 @@
+1
+00:00:00,100 --> 00:00:05,775
+Pernah sadar nggak, kenapa bodi luar kulkas rasanya hangat, padahal di dalamnya dingin banget?
+
+2
+00:00:05,725 --> 00:00:09,413
+Ternyata, kulkas itu nggak menciptakan hawa dingin.
+
+3
+00:00:09,413 --> 00:00:13,863
+Kulkas justru mencuri panas dari makananmu, lalu membuangnya ke luar!
+
+4
+00:00:13,863 --> 00:00:18,688
+Pertama, pipa evaporator di dalam kulkas menyerap panas dari makanan.
+
+5
+00:00:18,688 --> 00:00:27,376
+Kedua, gas yang sudah membawa panas tadi dipompa oleh kompresor hingga suhunya melonjak tinggi, lalu dialirkan ke pipa kondensator di dinding belakang.
+
+6
+00:00:27,375 --> 00:00:32,363
+Nah, itulah alasan kenapa bodi luar kulkas selalu terasa hangat saat disentuh!
+
+7
+00:00:32,363 --> 00:00:37,301
+Ketiga, cairan dipaksa melewati celah sempit bernama katup ekspansi.
+
+8
+00:00:37,300 --> 00:00:43,750
+Saat tekanannya turun tiba-tiba, suhunya langsung anjlok jadi sedingin es, dan siap menyerap panas lagi.
+
+9
+00:00:43,750 --> 00:00:51,013
+Dan itulah alasan kenapa kita pantang memasukkan makanan panas langsung ke kulkas, karena kompresornya bakal dipaksa kerja ekstra keras!
+

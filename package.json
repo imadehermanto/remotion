@@ -9,11 +9,24 @@
   },
   "private": true,
   "dependencies": {
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.2",
+    "@remotion/animated-emoji": "4.0.539",
     "@remotion/cli": "4.0.539",
+    "@remotion/google-fonts": "4.0.539",
+    "@remotion/motion-blur": "4.0.539",
+    "@remotion/paths": "4.0.539",
+    "@remotion/shapes": "4.0.539",
+    "@remotion/three": "^4.0.539",
+    "@remotion/transitions": "4.0.539",
     "@remotion/zod-types": "4.0.539",
+    "@types/three": "^0.187.0",
+    "msedge-tts": "^2.1.1",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "remotion": "4.0.539",
+    "three": "^0.187.0",
+    "three-stdlib": "^2.36.1",
     "zod": "4.5.4"
   },
   "devDependencies": {
@@ -28,7 +41,10 @@
     "dev": "remotion studio",
     "build": "remotion bundle",
     "upgrade": "remotion upgrade",
-    "lint": "eslint src && tsc"
+    "lint": "eslint src && tsc",
+    "voice": "node scripts/generate-voice.mjs",
+    "assets": "node scripts/assets3d.mjs",
+    "gltf": "npx gltfjsx"
   },
   "allowScripts": {
     "esbuild": false
