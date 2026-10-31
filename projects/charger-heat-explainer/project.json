@@ -83,10 +83,9 @@
     },
     "render": {
       "status": "completed",
-      "updatedAt": "2026-10-31T10:43:18.315Z",
-      "error": "Command failed: npx remotion render ChargerHeatExplainer /Users/imadehermanto/remotion/out/ChargerHeatExplainer.mp4",
+      "updatedAt": "2026-10-31T11:09:50.000Z",
       "mp4Path": "out/ChargerHeatExplainer.mp4",
-      "sizeMb": 12.5
+      "sizeMb": 14.6
     }
   }
 }

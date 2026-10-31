@@ -1,36 +1,52 @@
 1
-00:00:00,100 --> 00:00:05,700
-Pernah merasa cemas saat memegang kepala charger HP yang terasa hangat atau bahkan cukup panas saat dipakai?
+00:00:00,100 --> 00:00:05,775
+Pernah pegang kepala charger HP dan kaget karena suhunya panas banget, apalagi waktu fast charging?
 
 2
-00:00:05,650 --> 00:00:11,150
-Tenang, ini bukan berarti chargermu rusak, melainkan hukum fisika yang sedang bekerja!
+00:00:05,725 --> 00:00:12,038
+Tenang, ini bukan berarti chargermu rusak atau mau meledak, melainkan hukum fisika yang sedang bekerja keras!
 
 3
-00:00:11,150 --> 00:00:16,625
-Listrik dari stopkontak dinding memiliki tegangan tinggi 220 volt arus bolak-balik.
+00:00:12,038 --> 00:00:17,963
+Bayangkan, listrik dari colokan dinding itu 220 volt arus bolak-balik dengan daya liar.
 
 4
-00:00:16,625 --> 00:00:22,213
-Sementara baterai smartphone kita hanya membutuhkan tegangan searah sekitar 5 hingga 9 volt.
+00:00:17,963 --> 00:00:23,188
+Padahal baterai smartphone cuma sanggup menerima arus searah sekitar 5 sampai 9 volt.
 
 5
-00:00:22,213 --> 00:00:31,763
-Di dalam adaptor sekecil ini, terdapat transformator mikro dan transistor sakelar super cepat yang memutus arus ratusan ribu kali per detik untuk memangkas voltase secara efisien.
+00:00:23,188 --> 00:00:28,088
+Menurunkan tegangan sebesar ini dalam kotak sekecil ini adalah tugas yang sangat berat!
 
 6
-00:00:31,763 --> 00:00:36,951
-Namun, tidak ada konversi energi di dunia yang efisiensinya seratus persen.
+00:00:28,088 --> 00:00:35,776
+Di dalamnya, transistor sakelar modern berbahan Gallium Nitride atau GaN memutus dan menyambung arus hingga ratusan ribu kali per detik.
 
 7
-00:00:36,950 --> 00:00:44,963
-Sekitar 10 hingga 15 persen energi niscaya terbuang menjadi panas akibat hambatan listrik alami pada komponen tembaga dan semikonduktor.
+00:00:35,775 --> 00:00:41,613
+Bersama trafo mikro, sistem ini memeras energi secara efisien hingga 90 persen.
 
 8
-00:00:44,963 --> 00:00:50,726
-Panas di bodi luar justru membuktikan adaptor berhasil membuang kalor agar chip internal tidak meleleh.
+00:00:41,613 --> 00:00:44,263
+Namun tidak ada mesin yang sempurna!
 
 9
-00:00:50,725 --> 00:00:59,750
-Suhu 40 hingga 55 derajat Celsius adalah normal saat fast charging, tapi jika tercium bau gosong dan tembus 65 derajat, segera cabut!
+00:00:44,263 --> 00:00:49,101
+Sisa 10 persen energi niscaya terbuang menjadi panas lewat hambatan Joule.
+
+10
+00:00:49,100 --> 00:00:57,000
+Makanya saat baterai masih kosong dan menyedot daya puncak, charger terasa paling panas, lalu mendingin sendiri saat baterai mendekati penuh.
+
+11
+00:00:57,000 --> 00:01:02,250
+Bodi charger sengaja dirancang membuang panas keluar agar komponen di dalam tidak terbakar.
+
+12
+00:01:02,250 --> 00:01:06,263
+Suhu 40 hingga 55 derajat itu sangat wajar.
+
+13
+00:01:06,263 --> 00:01:13,813
+Tapi ingat: jangan pernah ngecas di atas kasur atau bantal, dan cabut jika tercium bau hangus atau menembus 65 derajat!
 

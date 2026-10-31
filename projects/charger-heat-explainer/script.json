@@ -1,53 +1,52 @@
 {
   "projectId": "charger-heat-explainer",
-  "title": "Rahasia Mengapa Charger HP Terasa Panas",
+  "title": "Rahasia Ilmiah Mengapa Charger HP Panas",
   "targetVoice": "id-ID-ArdiNeural",
-  "hook": "Pernah merasa cemas saat memegang kepala charger HP yang terasa hangat atau bahkan cukup panas saat dipakai?",
+  "hook": "Pernah pegang kepala charger HP dan kaget karena suhunya panas banget, apalagi waktu fast charging?",
   "sections": [
     {
       "id": "sec-1-hook",
       "title": "Hook Fenomena Panas di Tangan",
-      "narrationText": "Pernah merasa cemas saat memegang kepala charger HP yang terasa hangat atau bahkan cukup panas saat dipakai? Tenang, ini bukan berarti chargermu rusak, melainkan hukum fisika yang sedang bekerja!",
-      "estimatedSeconds": 10,
+      "narrationText": "Pernah pegang kepala charger HP dan kaget karena suhunya panas banget, apalagi waktu fast charging? Tenang, ini bukan berarti chargermu rusak atau mau meledak, melainkan hukum fisika yang sedang bekerja keras!",
+      "estimatedSeconds": 10.5,
       "targetMood": "Menenangkan & Mengundang Rasa Ingin Tahu",
-      "visualCue": "Adaptor charger 3D berputar anggun di studio gelap, gelombang pendaran panas tipis menyelimuti bodinya."
+      "visualCue": "Charger ceramic white elegan di atas meja kayu modern dengan latar kamar estetik dan lampu hangat."
     },
     {
       "id": "sec-2-voltage-drop",
-      "title": "Konversi 220V AC ke 5V-9V DC",
-      "narrationText": "Listrik dari stopkontak dinding memiliki tegangan tinggi 220 volt arus bolak-balik. Sementara baterai smartphone kita hanya membutuhkan tegangan searah sekitar 5 hingga 9 volt.",
-      "estimatedSeconds": 10,
+      "title": "Tantangan Konversi Ekstrem 220V ke 5V-9V",
+      "narrationText": "Bayangkan, listrik dari colokan dinding itu 220 volt arus bolak-balik dengan daya liar. Padahal baterai smartphone cuma sanggup menerima arus searah sekitar 5 sampai 9 volt. Menurunkan tegangan sebesar ini dalam kotak sekecil ini adalah tugas yang sangat berat!",
+      "estimatedSeconds": 11.5,
       "targetMood": "Teknis & Komparatif",
-      "visualCue": "Kamera zoom in ke pin steker adaptor, memperlihatkan lonjakan gelombang sinus listrik 220V biru yang masuk."
+      "visualCue": "Kamera zoom in ke pin steker perak mengilap, memperlihatkan aliran gelombang sinus AC 220V yang masuk."
     },
     {
       "id": "sec-3-smps-switching",
-      "title": "Anatomi Trafo & Transistor Switching",
-      "narrationText": "Di dalam adaptor sekecil ini, terdapat transformator mikro dan transistor sakelar super cepat yang memutus arus ratusan ribu kali per detik untuk memangkas voltase secara efisien.",
-      "estimatedSeconds": 11,
+      "title": "Teknologi Chip GaN & Sakelar Super Cepat",
+      "narrationText": "Di dalamnya, transistor sakelar modern berbahan Gallium Nitride atau GaN memutus dan menyambung arus hingga ratusan ribu kali per detik. Bersama trafo mikro, sistem ini memeras energi secara efisien hingga 90 persen.",
+      "estimatedSeconds": 11.0,
       "targetMood": "Kagum & Detail Mikroskopis",
-      "visualCue": "Casing luar membelah vertikal (exploded cutaway) mengungkap trafo kumparan tembaga berpendar dan chip switching GaN di atas papan PCB hijau."
+      "visualCue": "Casing putih terangkat exploded view mengungkap trafo kumparan tembaga, heatsink sirip, dan chip GaN MOSFET."
     },
     {
       "id": "sec-4-joule-losses",
-      "title": "Hukum Termodinamika & Disipasi Termal",
-      "narrationText": "Namun, tidak ada konversi energi di dunia yang efisiensinya seratus persen. Sekitar 10 hingga 15 persen energi niscaya terbuang menjadi panas akibat hambatan listrik alami pada komponen tembaga dan semikonduktor.",
-      "estimatedSeconds": 12,
-      "targetMood": "Ilmiah & Membuka Pikiran",
-      "visualCue": "Partikel kalor inframerah oranye dan merah terpancar dari kumparan trafo dan chip, mengalir keluar ke pelat peredam panas."
+      "title": "Hukum Termodinamika & Fase Panas Maksimal",
+      "narrationText": "Namun tidak ada mesin yang sempurna! Sisa 10 persen energi niscaya terbuang menjadi panas lewat hambatan Joule. Makanya saat baterai masih kosong dan menyedot daya puncak, charger terasa paling panas, lalu mendingin sendiri saat baterai mendekati penuh.",
+      "estimatedSeconds": 12.0,
+      "targetMood": "Ilmiah & Menjawab Tuntas",
+      "visualCue": "Pendaran kalor termal oranye-merah memancar dari trafo dan chip GaN, disertai partikel panas yang naik ke udara."
     },
     {
       "id": "sec-5-safety-outro",
-      "title": "Batas Suhu Aman vs Indikator Bahaya",
-      "narrationText": "Panas di bodi luar justru membuktikan adaptor berhasil membuang kalor agar chip internal tidak meleleh. Suhu 40 hingga 55 derajat Celsius adalah normal saat fast charging, tapi jika tercium bau gosong dan tembus 65 derajat, segera cabut!",
-      "estimatedSeconds": 12,
+      "title": "Bodi Sebagai Pembuang Kalor & Tips Aman",
+      "narrationText": "Bodi charger sengaja dirancang membuang panas keluar agar komponen di dalam tidak terbakar. Suhu 40 hingga 55 derajat itu sangat wajar. Tapi ingat: jangan pernah ngecas di atas kasur atau bantal, dan cabut jika tercium bau hangus atau menembus 65 derajat!",
+      "estimatedSeconds": 13.0,
       "targetMood": "Edukasi Praktis & Waspada",
-      "visualCue": "Grafik termometer digital 3D menunjukkan zona aman hijau-oranye 45°C vs zona bahaya merah >65°C, kamera zoom out kembali ke charger utuh."
+      "visualCue": "Charger kembali utuh di atas meja kayu dengan gauge suhu 3D digital interaktif menunjukkan rentang aman vs bahaya."
     }
   ],
-  "fullNarrationText": "Pernah merasa cemas saat memegang kepala charger HP yang terasa hangat atau bahkan cukup panas saat dipakai? Tenang, ini bukan berarti chargermu rusak, melainkan hukum fisika yang sedang bekerja! Listrik dari stopkontak dinding memiliki tegangan tinggi 220 volt arus bolak-balik. Sementara baterai smartphone kita hanya membutuhkan tegangan searah sekitar 5 hingga 9 volt. Di dalam adaptor sekecil ini, terdapat transformator mikro dan transistor sakelar super cepat yang memutus arus ratusan ribu kali per detik untuk memangkas voltase secara efisien. Namun, tidak ada konversi energi di dunia yang efisiensinya seratus persen. Sekitar 10 hingga 15 persen energi niscaya terbuang menjadi panas akibat hambatan listrik alami pada komponen tembaga dan semikonduktor. Panas di bodi luar justru membuktikan adaptor berhasil membuang kalor agar chip internal tidak meleleh. Suhu 40 hingga 55 derajat Celsius adalah normal saat fast charging, tapi jika tercium bau gosong dan tembus 65 derajat, segera cabut!",
-  "estimatedTotalWords": 146,
-  "estimatedDurationSeconds": 55,
-  "closingTakeaway": "Panas pada charger adalah hasil alami disipasi energi konversi daya, normal pada kisaran 40°C - 55°C selama fast charging."
+  "fullNarrationText": "Pernah pegang kepala charger HP dan kaget karena suhunya panas banget, apalagi waktu fast charging? Tenang, ini bukan berarti chargermu rusak atau mau meledak, melainkan hukum fisika yang sedang bekerja keras! Bayangkan, listrik dari colokan dinding itu 220 volt arus bolak-balik dengan daya liar. Padahal baterai smartphone cuma sanggup menerima arus searah sekitar 5 sampai 9 volt. Menurunkan tegangan sebesar ini dalam kotak sekecil ini adalah tugas yang sangat berat! Di dalamnya, transistor sakelar modern berbahan Gallium Nitride atau GaN memutus dan menyambung arus hingga ratusan ribu kali per detik. Bersama trafo mikro, sistem ini memeras energi secara efisien hingga 90 persen. Namun tidak ada mesin yang sempurna! Sisa 10 persen energi niscaya terbuang menjadi panas lewat hambatan Joule. Makanya saat baterai masih kosong dan menyedot daya puncak, charger terasa paling panas, lalu mendingin sendiri saat baterai mendekati penuh. Bodi charger sengaja dirancang membuang panas keluar agar komponen di dalam tidak terbakar. Suhu 40 hingga 55 derajat itu sangat wajar. Tapi ingat: jangan pernah ngecas di atas kasur atau bantal, dan cabut jika tercium bau hangus atau menembus 65 derajat!",
+  "estimatedTotalWords": 178,
+  "estimatedDurationSeconds": 58,
+  "closingTakeaway": "Panas pada charger adalah hasil alami konversi energi 220V ke 5V; puncaknya terjadi saat baterai kosong. Suhu 40°C–55°C normal, hindari mengecas di atas kasur/bantal!"
 }
-
