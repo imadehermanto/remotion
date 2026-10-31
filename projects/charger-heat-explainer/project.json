@@ -10,7 +10,7 @@
   "narrativeStructure": "StepByStepMechanism",
   "visualStyle": "CinematicTechnicalExplainer",
   "createdAt": "2026-10-31T09:30:00.000Z",
-  "updatedAt": "2026-10-31T10:38:39.088Z",
+  "updatedAt": "2026-10-31T10:43:18.317Z",
   "currentStage": "render",
   "stages": {
     "init": {
@@ -82,9 +82,11 @@
       "reportPath": "out/qa/ChargerHeatExplainer/qa-report.json"
     },
     "render": {
-      "status": "running",
-      "updatedAt": "2026-10-31T10:38:39.088Z",
-      "error": "Command failed: npx remotion render ChargerHeatExplainer /Users/imadehermanto/remotion/out/ChargerHeatExplainer.mp4"
+      "status": "completed",
+      "updatedAt": "2026-10-31T10:43:18.315Z",
+      "error": "Command failed: npx remotion render ChargerHeatExplainer /Users/imadehermanto/remotion/out/ChargerHeatExplainer.mp4",
+      "mp4Path": "out/ChargerHeatExplainer.mp4",
+      "sizeMb": 12.5
     }
   }
 }
